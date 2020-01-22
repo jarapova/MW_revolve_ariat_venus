@@ -1,0 +1,322 @@
+{
+  "uid" : "5dfa61fe5303bde8",
+  "name" : "[Venus] User can see large image view by taping + icon on product image",
+  "fullName" : "As a customer, I can tap on a \"+\" icon on product image to see a larger view and allow for pinch/zoom/pan.: [Venus] User can see large image view by taping + icon on product image",
+  "historyId" : "8e1e0d94543d9f9578d2da918b843366",
+  "time" : {
+    "start" : 1578861444770,
+    "stop" : 1578861504853,
+    "duration" : 60083
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Image_Magnify.feature:36",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Image_Magnify.feature:36",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578861444770,
+      "stop" : 1578861444771,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578861444771,
+      "stop" : 1578861444771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578861444771,
+      "stop" : 1578861444771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Image_Magnify.feature:36",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Image_Magnify.feature:36",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on \"item_1\" product_page",
+      "time" : {
+        "start" : 1578861444771,
+        "stop" : 1578861448152,
+        "duration" : 3381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1578861448152,
+        "stop" : 1578861453159,
+        "duration" : 5007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1578861453160,
+        "stop" : 1578861463043,
+        "duration" : 9883
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see main_product_image on product_page",
+      "time" : {
+        "start" : 1578861463043,
+        "stop" : 1578861463106,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click image_zoom_button on product_page",
+      "time" : {
+        "start" : 1578861463106,
+        "stop" : 1578861463644,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see main_product_image_zoomed on product_page",
+      "time" : {
+        "start" : 1578861463644,
+        "stop" : 1578861463720,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"all_images\" from item_image_galary on product_page",
+      "time" : {
+        "start" : 1578861463720,
+        "stop" : 1578861468396,
+        "duration" : 4676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see main_product_image_zoomed on product_page",
+      "time" : {
+        "start" : 1578861468396,
+        "stop" : 1578861468467,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click close_zoomed_image on product_page",
+      "time" : {
+        "start" : 1578861468467,
+        "stop" : 1578861468673,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see zoomed_image_closed on product_page",
+      "time" : {
+        "start" : 1578861468673,
+        "stop" : 1578861504722,
+        "duration" : 36049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578861504722,
+      "stop" : 1578861504722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578861504722,
+      "stop" : 1578861504722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578861504722,
+      "stop" : 1578861504853,
+      "duration" : 131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can tap on a \"+\" icon on product image to see a larger view and allow for pinch/zoom/pan."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can tap on a \"+\" icon on product image to see a larger view and allow for pinch/zoom/pan."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can tap on a \"+\" icon on product image to see a larger view and allow for pinch/zoom/pan."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] User can see large image view by taping + icon on product image"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] User can see large image view by taping + icon on product image"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "5dfa61fe5303bde8.json",
+  "parameterValues" : [ ]
+}

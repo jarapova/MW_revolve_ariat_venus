@@ -1,0 +1,3 @@
+content_locators:
+  welcome_back_title: "//div[contains(.,'Welcome Back') and contains (@class, 'block title needSpaceBelow mw-main-title mw-text-content')]"
+  sign_in_or_create_an_account_button: "//a[text()='SIGN IN / CREATE AN ACCOUNT']"

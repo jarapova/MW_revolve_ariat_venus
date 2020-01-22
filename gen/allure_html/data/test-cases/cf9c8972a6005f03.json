@@ -1,0 +1,277 @@
+{
+  "uid" : "cf9c8972a6005f03",
+  "name" : "[Venus] As user I want see Product price with/without sale",
+  "fullName" : "As a customer, I can see all the standard product details:: [Venus] As user I want see Product price with/without sale",
+  "historyId" : "1874b88cfc688ecd60705745581c5730",
+  "time" : {
+    "start" : 1578861290747,
+    "stop" : 1578861332850,
+    "duration" : 42103
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Details.feature:85",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Details.feature:85",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578861290748,
+      "stop" : 1578861290748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578861290748,
+      "stop" : 1578861290748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578861290748,
+      "stop" : 1578861290748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Details.feature:85",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_Details.feature:85",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on home_page",
+      "time" : {
+        "start" : 1578861290748,
+        "stop" : 1578861293799,
+        "duration" : 3051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"Sale\" on main_navigation_carousel",
+      "time" : {
+        "start" : 1578861293799,
+        "stop" : 1578861295223,
+        "duration" : 1424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user select \"Jewelry\" from subcategory_filter on category_page",
+      "time" : {
+        "start" : 1578861295223,
+        "stop" : 1578861298414,
+        "duration" : 3191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"random_item_name\" on subcategory_page",
+      "time" : {
+        "start" : 1578861298415,
+        "stop" : 1578861298634,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1578861298634,
+        "stop" : 1578861303643,
+        "duration" : 5009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1578861303643,
+        "stop" : 1578861325184,
+        "duration" : 21541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"price_with_sale\" on product_page",
+      "time" : {
+        "start" : 1578861325184,
+        "stop" : 1578861332722,
+        "duration" : 7538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578861332722,
+      "stop" : 1578861332723,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578861332723,
+      "stop" : 1578861332723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578861332723,
+      "stop" : 1578861332849,
+      "duration" : 126
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can see all the standard product details:"
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can see all the standard product details:"
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can see all the standard product details:"
+  }, {
+    "name" : "story",
+    "value" : "[Venus] As user I want see Product price with/without sale"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] As user I want see Product price with/without sale"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "cf9c8972a6005f03.json",
+  "parameterValues" : [ ]
+}

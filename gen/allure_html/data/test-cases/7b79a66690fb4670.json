@@ -1,0 +1,352 @@
+{
+  "uid" : "7b79a66690fb4670",
+  "name" : "[Venus] User can remove any products from cart by taping \"remove\" CTA",
+  "fullName" : "As a customer, I can click on the \"remove\" link next to a product and remove it from my cart.: [Venus] User can remove any products from cart by taping \"remove\" CTA",
+  "historyId" : "1f219f3fb63e4dcae9b37deaf57142f1",
+  "time" : {
+    "start" : 1578864154888,
+    "stop" : 1578864210876,
+    "duration" : 55988
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_RemoveProduct.feature:43",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_RemoveProduct.feature:43",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578864154888,
+      "stop" : 1578864154889,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578864154889,
+      "stop" : 1578864154889,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578864154889,
+      "stop" : 1578864154889,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_RemoveProduct.feature:43",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_RemoveProduct.feature:43",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on \"item_1\" product_page",
+      "time" : {
+        "start" : 1578864154889,
+        "stop" : 1578864157590,
+        "duration" : 2701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1578864157590,
+        "stop" : 1578864162698,
+        "duration" : 5108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1578864162698,
+        "stop" : 1578864172526,
+        "duration" : 9828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"available_size_button\" on product_page",
+      "time" : {
+        "start" : 1578864172526,
+        "stop" : 1578864185822,
+        "duration" : 13296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user set \"product_qty\" with value \"2\" on product_page",
+      "time" : {
+        "start" : 1578864185822,
+        "stop" : 1578864189184,
+        "duration" : 3362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user remember \"test_item_1\" product parameters on product_page",
+      "time" : {
+        "start" : 1578864189184,
+        "stop" : 1578864189389,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click add_to_bag_button on product_page",
+      "time" : {
+        "start" : 1578864189389,
+        "stop" : 1578864189569,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click view_bag_button on add_to_bag_popup",
+      "time" : {
+        "start" : 1578864189569,
+        "stop" : 1578864193194,
+        "duration" : 3625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"cart_page_content\" on cart_page",
+      "time" : {
+        "start" : 1578864193194,
+        "stop" : 1578864208373,
+        "duration" : 15179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"test_item_1_hash\" on cart_page",
+      "time" : {
+        "start" : 1578864208373,
+        "stop" : 1578864208515,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user clear cart_page",
+      "time" : {
+        "start" : 1578864208515,
+        "stop" : 1578864210706,
+        "duration" : 2191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"cart_page_content\" on cart_page",
+      "time" : {
+        "start" : 1578864210706,
+        "stop" : 1578864210768,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578864210768,
+      "stop" : 1578864210768,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578864210768,
+      "stop" : 1578864210768,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578864210768,
+      "stop" : 1578864210876,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can click on the \"remove\" link next to a product and remove it from my cart."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can click on the \"remove\" link next to a product and remove it from my cart."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can click on the \"remove\" link next to a product and remove it from my cart."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] User can remove any products from cart by taping \"remove\" CTA"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] User can remove any products from cart by taping \"remove\" CTA"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "7b79a66690fb4670.json",
+  "parameterValues" : [ ]
+}

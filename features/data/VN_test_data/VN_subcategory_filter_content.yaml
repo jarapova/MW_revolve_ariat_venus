@@ -1,0 +1,85 @@
+lingerie:
+  bras: "Bras"
+  strapless_backless_bras: 'Strapless & backless bras'
+  bralettes: 'Bralettes'
+  push_up_bras: 'Push up bras'
+  perfect_coverage_bras: 'Perfect coverage bras'
+  sports_bras: 'Sports bras'
+  panties: 'Panties'
+  cheeky_panties: 'Cheeky panties'
+  hipster_panties: 'Hipster panties'
+  bikini_panties: 'Bikini panties'
+  thong_panties: 'Thong panties'
+  sexy_lingerie: 'Sexy lingerie'
+  bodysuits: 'Bodysuits'
+  shapewear: 'Shapewear'
+  sale: 'Sale'
+  clearance: 'Clearance'
+swimwear:
+  tankini_tops: 'Tankini tops'
+clothing:
+  clothing: "CLOTHING"
+  dresses: "DRESSES"
+  cocktail_and_party_dresses: "Cocktail And Party Dresses"
+  bodycon_dresses: "Bodycon Dresses"
+  sweater_dresses: "Sweater Dresses"
+  little_black_dresses: "Little Black Dresses"
+  maxi_dresses: "Maxi Dresses"
+  casual_dresses: "Casual Dresses"
+  little_white_dresses: "Little White Dresses"
+  hold_u_in_dresses: "Hold U In Dresses"
+  trending_dresses: "Trending Dresses"
+  tops: "Tops"
+  sleeveless: "Sleeveless"
+  short_sleeve: "Short Sleeve"
+  long_sleeve: "Long Sleeve"
+  cold_shoulder: "Cold Shoulder"
+  trending_tops: "Trending Tops"
+  fashion_bodysuits: "Fashion Bodysuits"
+  sweaters: "SWEATERS"
+  cardigans_dusters: "Cardigans & Dusters"
+  trending_sweaters: "Trending Sweaters"
+  jumpsuits_rompers: "JUMPSUITS & ROMPERS"
+  trending_jumpsuits_and_rompers: "Trending Jumpsuits And Rompers"
+  jeans: "JEANS"
+  capri: "Capri"
+  pants: "PANTS"
+  casual: "Casual"
+  leggings: "Leggings"
+  trending_pants: "Trending Pants"
+  skirts_shorts: "SKIRTS & SHORTS"
+  shorts: "Shorts"
+  skirts: "Skirts"
+  maxi_skirts: "Maxi Skirts"
+  trending_shorts_and_skirts: "Trending Shorts And Skirts"
+  jackets_coats: "JACKETS & COATS"
+  blazers: "Blazers"
+  denim: "Denim"
+  jackets: "Jackets"
+  coats: "Coats"
+  trending_jackets: "Trending Jackets"
+  loungewear: "LOUNGEWEAR"
+  dresses_jumpsuits: "Dresses & Jumpsuits"
+  bottoms: "Bottoms"
+  shoes_boots: "SHOES & BOOTS"
+  heels: "Heels"
+  boots: "Boots"
+  sandals: "Sandals"
+  sneakers: "Sneakers"
+  steve_madden: "Steve Madden"
+  chinese_laundry: "Chinese Laundry"
+  jessica_simpson: "Jessica Simpson"
+  accessories_handbags: "ACCESSORIES & HANDBAGS"
+  handbags: "Handbags"
+  belts: "Belts"
+  hats: "Hats"
+  scarves: "Scarves"
+  jewelry: "JEWELRY"
+  bracelets: "Bracelets"
+  necklaces: "Necklaces"
+  earrings: "Earrings"
+  sale: "SALE"
+  clearance: "CLEARANCE"
+
+
+

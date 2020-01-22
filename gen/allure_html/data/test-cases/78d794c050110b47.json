@@ -1,0 +1,337 @@
+{
+  "uid" : "78d794c050110b47",
+  "name" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page",
+  "fullName" : "As a customer, I can proceed to checkout by clicking an appropriate button.: [Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page",
+  "historyId" : "2fff509d43af416eabc2425282f6710f",
+  "time" : {
+    "start" : 1578863503393,
+    "stop" : 1578863610828,
+    "duration" : 107435
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_ClickToCheckout.feature:172",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_ClickToCheckout.feature:172",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578863503394,
+      "stop" : 1578863503394,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578863503394,
+      "stop" : 1578863503394,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578863503394,
+      "stop" : 1578863503395,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_ClickToCheckout.feature:172",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Shopping bag/ShopBag_ClickToCheckout.feature:172",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user make login as \"user1\"",
+      "time" : {
+        "start" : 1578863503395,
+        "stop" : 1578863512676,
+        "duration" : 9281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user is on \"Color_skinny_jeans\" product_page",
+      "time" : {
+        "start" : 1578863512676,
+        "stop" : 1578863515930,
+        "duration" : 3254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scroll page",
+      "time" : {
+        "start" : 1578863515930,
+        "stop" : 1578863520985,
+        "duration" : 5055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"available_waist_size_button\" on product_page",
+      "time" : {
+        "start" : 1578863520985,
+        "stop" : 1578863533162,
+        "duration" : 12177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"item_color_BLACK DENIM(BKDE)\" on product_page",
+      "time" : {
+        "start" : 1578863533162,
+        "stop" : 1578863546463,
+        "duration" : 13301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"inseam_size_button_regular\" on product_page",
+      "time" : {
+        "start" : 1578863546463,
+        "stop" : 1578863559695,
+        "duration" : 13232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"is_in_stock_text\" on product_page",
+      "time" : {
+        "start" : 1578863559695,
+        "stop" : 1578863566898,
+        "duration" : 7203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click add_to_bag_button on product_page",
+      "time" : {
+        "start" : 1578863566898,
+        "stop" : 1578863567073,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click view_bag_button on add_to_bag_popup",
+      "time" : {
+        "start" : 1578863567073,
+        "stop" : 1578863574386,
+        "duration" : 7313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"checkout_page_content\" on checkout_page",
+      "time" : {
+        "start" : 1578863574386,
+        "stop" : 1578863610711,
+        "duration" : 36325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"color_skinny_jeans\" on checkout_page",
+      "time" : {
+        "start" : 1578863610711,
+        "stop" : 1578863610711,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578863610712,
+      "stop" : 1578863610712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578863610712,
+      "stop" : 1578863610712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578863610712,
+      "stop" : 1578863610828,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can proceed to checkout by clicking an appropriate button."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can proceed to checkout by clicking an appropriate button."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can proceed to checkout by clicking an appropriate button."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "78d794c050110b47.json",
+  "parameterValues" : [ ]
+}

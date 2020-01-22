@@ -1,0 +1,292 @@
+{
+  "uid" : "c404ce0d48801b1c",
+  "name" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items",
+  "fullName" : "As a customer, I can see custom header or footer call to actions in the hamburger menu above the main menu items.: [Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items",
+  "historyId" : "0a690d65eccb3092a2427e6b75cdeb5a",
+  "time" : {
+    "start" : 1578860149199,
+    "stop" : 1578860175642,
+    "duration" : 26443
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Navigation Menu/NAVI_Header_Links.feature:51",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Navigation Menu/NAVI_Header_Links.feature:51",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578860149199,
+      "stop" : 1578860149200,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578860149200,
+      "stop" : 1578860149200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578860149200,
+      "stop" : 1578860149200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Navigation Menu/NAVI_Header_Links.feature:51",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/Navigation Menu/NAVI_Header_Links.feature:51",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on home_page",
+      "time" : {
+        "start" : 1578860149200,
+        "stop" : 1578860151312,
+        "duration" : 2112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click hamburger_menu_icon on header",
+      "time" : {
+        "start" : 1578860151312,
+        "stop" : 1578860151481,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"request_a_catalog_on_first_page\" on hamburger_menu",
+      "time" : {
+        "start" : 1578860151481,
+        "stop" : 1578860161044,
+        "duration" : 9563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"request_a_catalog_page_content\" on request_a_catalog_page",
+      "time" : {
+        "start" : 1578860161044,
+        "stop" : 1578860161242,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user is on home_page",
+      "time" : {
+        "start" : 1578860161242,
+        "stop" : 1578860163733,
+        "duration" : 2491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click hamburger_menu_icon on header",
+      "time" : {
+        "start" : 1578860163733,
+        "stop" : 1578860163935,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"gift_cards_on_first_page\" on hamburger_menu",
+      "time" : {
+        "start" : 1578860163935,
+        "stop" : 1578860175427,
+        "duration" : 11492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"gift_cards_page_content\" on gift_cards_page",
+      "time" : {
+        "start" : 1578860175427,
+        "stop" : 1578860175556,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578860175556,
+      "stop" : 1578860175556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578860175556,
+      "stop" : 1578860175556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578860175556,
+      "stop" : 1578860175642,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can see custom header or footer call to actions in the hamburger menu above the main menu items."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can see custom header or footer call to actions in the hamburger menu above the main menu items."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can see custom header or footer call to actions in the hamburger menu above the main menu items."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "c404ce0d48801b1c.json",
+  "parameterValues" : [ ]
+}

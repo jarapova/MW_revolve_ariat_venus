@@ -1,0 +1,29 @@
+header_elements:
+  hamburger_icon: "//button[@aria-label='Menu']"
+  search_icon: "//button[@aria-label='Search']"
+  logo_button: "//span[text()='Revolve, Apparel & Fashion' or text()='Forward by elyse walker1']/parent::a"
+  favorites_button: "//button[@aria-label='favorites']"
+  cart_icon: "//button[@aria-label='cart'] | //*[@id='tr_top_bag_mhp']"
+base_search_modal_locators:
+  close_button: "//form//button[@variant='contained']"
+  search_field: "//form//input[@placeholder and @type='text']"
+suggested_search_locators:
+  clear_text_button: "//form//input[@placeholder and @type='text']//following-sibling::button"
+  find_button: "//form//input[@placeholder and @type='text']/../following-sibling::button"
+  results_list: "//form//following-sibling::div//ul"
+multiple_search_locators:
+  suggested_search_items: "(//form//following-sibling::div//ul//li)"
+  suggested_search_items_texts: "(//form//following-sibling::div//ul//li//*[text()]/..)"
+navigation_bar:
+  new_tab: "//div[not(@class) and not(@id)]//button[contains(., 'New')]"
+  categories_tab: "//div[not(@class) and not(@id)]//button[contains(., 'Categories')]"
+  designers_tab: "//div[not(@class) and not(@id)]//button[contains(., 'Designers')]"
+  sale_tab: "//div[not(@class) and not(@id)]//button[contains(., 'Sale')] | //*[@*='nav__item']//a[text()='Sale']"
+categories_text:
+  clothing: "Clothing"
+  dresses: "Dresses"
+  shoes: "Shoes"
+  beauty: "Beauty"
+  bags: "Bags"
+  jewelry_and_accesories: "Jewelry & Accessories"
+  gift_certificates: "Gift Certificates"

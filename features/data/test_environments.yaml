@@ -1,0 +1,22 @@
+venus:
+  prod: "https://venus.com"
+  preprod: "https://venus-preprod.moovweb.cloud"
+  stage: "https://venus-stage.moovweb.cloud"
+  qa: "https://venus-qa.moovweb.cloud"
+  dev: "https://venus-dev.moovweb.cloud"
+  moov_app_origin: "https://moov-app-origin.venus.com"
+  app: "https://venus-app.moovweb.cloud"
+revolve:
+  pwa: "https://revolve-pwa.moovweb.cloud/mobile/"
+  moov_pwa: "https://moov-revolve-pwa.moovweb.cloud/mobile/"
+  moov_xdn: "https://moov-revolve-pwa.xdn.moovweb.net/"
+stage:
+  uat: "https://stageuat.moovweb.cloud"
+  dev: "https://stagedev.moovweb.cloud"
+  prod: "https://www.stage.com"
+shoecarnival:
+  dev: "https://dev.shoecarnival.com/"
+  stage: "https://staging.shoecarnival.com/"
+ariat:
+  dev: "https://ariat-dev.moovweb.cloud/"
+  mw_dev: "https://mw-dev.ariat.com/"

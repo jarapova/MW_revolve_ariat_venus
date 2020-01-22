@@ -1,0 +1,292 @@
+{
+  "uid" : "6c42c17fb98fb73a",
+  "name" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA",
+  "fullName" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart.: [Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA",
+  "historyId" : "cc84d6fcb6d3dd1f1834e839da8a2a51",
+  "time" : {
+    "start" : 1578860431893,
+    "stop" : 1578860496225,
+    "duration" : 64332
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_ATB.feature:184",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_ATB.feature:184",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578860431894,
+      "stop" : 1578860431894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578860431894,
+      "stop" : 1578860431894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578860431894,
+      "stop" : 1578860431894,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_ATB.feature:184",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PDP Product Details Page/PDP_ATB.feature:184",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on \"jumpsuit_and_rompers\" subcategory_page",
+      "time" : {
+        "start" : 1578860431894,
+        "stop" : 1578860437880,
+        "duration" : 5986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_list_page_content\" on subcategory_page",
+      "time" : {
+        "start" : 1578860437880,
+        "stop" : 1578860452291,
+        "duration" : 14411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click \"random_item_image\" on subcategory_page",
+      "time" : {
+        "start" : 1578860452291,
+        "stop" : 1578860452560,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user can see \"product_page_content\" on product_page",
+      "time" : {
+        "start" : 1578860452560,
+        "stop" : 1578860462624,
+        "duration" : 10064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user click \"available_size_button\" on product_page",
+      "time" : {
+        "start" : 1578860462624,
+        "stop" : 1578860475963,
+        "duration" : 13339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click add_to_bag_button on product_page",
+      "time" : {
+        "start" : 1578860475963,
+        "stop" : 1578860476165,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user click cart_icon on header",
+      "time" : {
+        "start" : 1578860476165,
+        "stop" : 1578860495887,
+        "duration" : 19722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"cart_page_with_items_content\" on cart_page",
+      "time" : {
+        "start" : 1578860495887,
+        "stop" : 1578860496120,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578860496120,
+      "stop" : 1578860496121,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578860496121,
+      "stop" : 1578860496121,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578860496121,
+      "stop" : 1578860496225,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA"
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA"
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "6c42c17fb98fb73a.json",
+  "parameterValues" : [ ]
+}

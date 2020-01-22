@@ -1,0 +1,110 @@
+base_pdp_locators:
+  main_text: "(//div[@data-page='Product']//h1)"
+  brand_name: "(//div[@data-page='Product']//h1)//following-sibling::a//*[text()]"
+  default_price: "(//div[@data-page='Product']//h1)/..//following-sibling::div//p[contains(text(), '$')][2]"
+  favorites_button: "//div[@data-page='Product']//button[@aria-label='Favorites']"
+  main_image: "(//div[@data-page='Product']//button[@aria-label='Favorites']/following-sibling::div//div[@aria-hidden='false'])"
+  image_zoom_button: "//*[@width='100' and @height='100']"
+  selected_image_tab: "(//div[@data-page='Product']//button[@aria-label='Favorites']/following-sibling::div//div[@role='tablist']//button[@aria-selected='true'])"
+  color_logo: "//div[@data-page='Product']//button[@aria-label='Favorites']//following-sibling::div//p[text()='Color']"
+  default_color: "//div[contains(@amp-bind, 'color.selected.text')]"
+  size_logo: "//div[@data-page='Product']//button[@aria-label='Favorites']//following-sibling::div//p[text()='Size']"
+#  qty_logo: "//div[@data-page='Product']//button[@aria-label='Favorites']//following-sibling::div//div[text()='Quantity']"
+#  qty_plus_button: "//button[@aria-label='subtract one quantity']"
+#  qty_minus_button: "//button[@aria-label='add one quantity']"
+#  qty_current_value: "//input[@aria-label='quantity']"
+  free_shipping_and_returns_accordion: "//*[text()='Free Shipping & Returns']"
+  add_to_bag_button: "//button[contains(., 'Add') or contains(.,'PREORDER')]"
+
+description_tabs_locators:
+  description_tab: "//*[contains(text(), 'Product Details')]"
+  size_and_fit_tab: "//*[contains(text(), 'Size & Fit')]"
+
+description_info_locators:
+  description_info_elements: "//*[contains(text(), 'Product Details')]/../../following-sibling::div//*[ul]"
+  size_and_fit_info: "//button[contains(.,'View')]/following-sibling::*[contains(.,text())]"
+  size_and_fit_button: "//button[contains(.,'View')]"
+
+optional_locators:
+  reviews_text: "//div[@data-page='Product']//*[text()='Ratings & Reviews']"
+  reviews_rating: "//*[contains(text(), 'out of 5 stars')]"
+  sale_price: "//h1/..//following-sibling::div//p[contains(text(), '$')][1]"
+  about_brand_tab: "//*[contains(text(), 'About')]"
+  about_brand_info: "//*[contains(text(), 'Shop All')]"
+  shop_all_brand_button: "//*[contains(text(), 'Shop All')]/parent::*//following-sibling::*[text()] | //*[contains(text(), 'Shop All')]/parent::*//preceding-sibling::*[text()]"
+  one_size: "//button[contains(.,'One Size')]"
+  view_full_shipping_details: "//*[contains(text(), 'view full details')]"
+  estimated_delivery_text: "//*[contains(text(), 'Estimated Delivery')]"
+  buy_now_button: "//*[contains(text(),'Buy')]"
+  afterpay_question_button: "//*[contains(text(), 'installments')]//following-sibling::button"
+  close_view_bag_modal_button: "(//*[@role='document' and contains(.,'Item Added To Bag')]//button)[1]"
+
+multiple_locators:
+  item_images_tabs: "(//div[@data-page='Product']//button[@aria-label='Favorites']/following-sibling::div//div[@role='tablist']//button[@role='tab'])"
+  item_colors: "(//p[text()='Color']//following-sibling::div//div[@amp-bind]/button[@type='button' and @aria-label])"
+  zoomed_images: "(//div[contains(@class, 'mui-fixed') and @aria-hidden]//following-sibling::div//button[@role='tab'])"
+  available_sizes: "(//p[text()='Size']//following-sibling::div//div[@amp-bind]/button[not(@disabled)])"
+  recently_viewed_multiple_locators:
+    recently_viewed_products_names: "((//*[contains(text(), 'Recently ')])//following-sibling::div//a//*[text()][1])"
+    recently_viewed_products_images: "(((//*[contains(text(), 'Recently ')]))//following-sibling::div//a//img[@src and @alt])"
+    recently_viewed_products_brands: "((//*[contains(text(), 'Recently ')])//following-sibling::div//a//*[text()][2])"
+    recently_viewed_products_prices: "((//*[contains(text(), 'Recently ')])//following-sibling::div//a//*[text()][last()])"
+
+similar_items_multiple_locators:
+  similar_items_names: "(//*[contains(text(), 'Similar ')]//following-sibling::div//a//*[text()][1])"
+  similar_items_images: "(//*[contains(text(), 'Similar ')]//following-sibling::div//a//img[@src and @alt])"
+  similar_items_brands: "(//*[contains(text(), 'Similar ')]//following-sibling::div//a//*[text()][2])"
+  similar_items_prices: "(//*[contains(text(), 'Similar ')]//following-sibling::div//a//*[text()][last()])"
+
+size_and_fit_modal:
+  measurement_modal_locators:
+    size_modeled_header: "//div[contains(@class, 'sizeguide_header')]//*[contains(text(), 'Modeled')]"
+    mode_measurements: "//div[contains(@class, 'sizeguide_header')]//*[contains(text(), 'Model Meas')]"
+    measurement_guide_button: "//a[text()='Measurement Guide']"
+    size_conversion_button: "//a[text()='Size Conversion']"
+    size_image: "//div[@class='sizeguide_diagram']//img[@src]"
+
+  multiple_locators:
+    size_guide_markers: "//div[@class='sizeguide_diagram']//*[contains(@class, 'sizeguide_diagram_marker') and text()]"
+
+  size_conversion_modal:
+    tabs_text:
+      us: "US"
+      uk: "UK"
+      eur: "EUR"
+      rus: "RUS"
+      chn: "CHN"
+      jpn: "JPN"
+      aus: "AUS"
+      bra: "BRA"
+      kor: "KOR"
+
+ratings_and_reviews_locators:
+  rr_section_logo: "//*[contains(text(),'Ratings & Reviews')]"
+  reviewed_revolvers: "//*[contains(text(),'Ratings & Reviews')]//following::*[contains(text(), 'Revolvers')]"
+  fit_rating_label: "//*[contains(text(),'Ratings & Reviews')]//following::*[contains(text(), 'Fit Ra')]"
+  fit_rating_value: "//*[contains(text(),'Ratings & Reviews')]//following::*[contains(text(), 'Fit Ra')]//following-sibling::*[contains(., 'Reviews')]"
+  stars_text_rating: "//*[contains(text(),'Ratings & Reviews')]//following::*[contains(text(), 'out of 5 stars')]"
+  size_rating_main_text: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')]//preceding-sibling::*[text()])[1]"
+  size_rating_main_value: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')])[1]"
+  runs_small_text: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')]//preceding-sibling::*[text()])[2]"
+  runs_small_value: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')])[2]"
+  true_to_size_text: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')]//preceding-sibling::*[text()])[3]"
+  true_to_size_value: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')])[3]"
+  runs_large_text: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')]//preceding-sibling::*[text()])[4]"
+  runs_large_value: "(//*[contains(text(),'Ratings & Reviews')]//following-sibling::div/div/*[contains(.,'%')])[4]"
+
+complete_the_look_multiple_locators:
+  item_names: "(//*[contains(text(), 'Complete The Look')]//following-sibling::div//*[text()][1])"
+  item_images: "(//*[contains(text(), 'Complete The Look')]//following-sibling::div//img[@src])"
+  item_brands: "(//*[contains(text(), 'Complete The Look')]//following-sibling::div//*[text()][2])"
+  item_default_prices: "(//*[contains(text(), 'Complete The Look')]//following-sibling::div//*[text()][last()])"
+pop_up_modal_locators:
+  modal_text: "//*[contains(text(),'Item Added To Bag')]"
+  item_image: "//*[@role='document' and contains(.,'Item Added To Bag')]//img[@src]"
+  item_name: "(//*[@role='document' and contains(.,'Item Added To Bag')]//*[text()])[2]"
+  item_brand: "(//*[@role='document' and contains(.,'Item Added To Bag')]//*[text()])[3]"
+  item_price: "(//*[@role='document' and contains(.,'Item Added To Bag')]//*[text()])[4]"
+  view_cart_button: "//*[contains(text(), 'View cart')] | //*[contains(text(), 'View Cart')]"
+  checkout_button: "//*[contains(text(), 'Checkout')]"
+  continue_shopping: "//*[contains(text(), 'Continue') and contains(text(), 'hopping')]"

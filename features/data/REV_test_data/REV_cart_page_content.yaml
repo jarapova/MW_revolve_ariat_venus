@@ -1,0 +1,96 @@
+empty_cart_page_locators:
+  empty_shopping_bag_info: "//*[contains(text(), 'Your shopping bag is empty')]"
+  sign_in_link: "//a[contains(text(), 'Sign In')]"
+  shop_womens_button: "//a[contains(text(), 'SHOP WOMENS')]"
+  shop_mens_button: "//a[contains(text(), 'Shop Mens')]"
+guest_cart_page_locators:
+  my_bag_header: "//*[text()='My Bag']"
+  checkout_button_1: &ch "(//*[contains(text(),'Proceed to')])[1]"
+  shipping_text: &sh_t "//div[@data-page='Cart']//*[contains(text(), 'hipping')]"
+  shipping_options: &sh_o "//div[@data-page='Cart']//*[contains(text(), 'hipping')]//following::a[contains(text(), 'options')]"
+  shipping_value: &sh_v "//div[@data-page='Cart']//*[contains(text(), 'hipping')]/parent::div/following-sibling::*[text()]"
+  estimated_text: &est_t "//div[@data-page='Cart']//*[contains(text(), 'Estimated ')]"
+  estimated_value: &est_v "//div[@data-page='Cart']//*[contains(text(), 'Estimated ')]/parent::div/following-sibling::*[text()]"
+  checkout_as_guest_button: "//*[contains(text(), 'CHECKOUT')]"
+  sign_in_button: "//*[contains(text(), 'Sign in for')]"
+  sign_in_link: "//*[contains(text(), 'Sign In')]"
+subtotal_locators:
+  subtotal_1_text: "(//*[text()='Subtotal'])[1]"
+  subtotal_1_value: "(//*[text()='Subtotal'])[1]//following-sibling::*[text()]"
+  subtotal_2_text: "(//*[text()='Subtotal'])[2]"
+  subtotal_2_value: "(//*[text()='Subtotal'])[2]//following-sibling::*[text()]"
+preorder_locators:
+  preorder_1_text: "(//*[contains(text(), 'Preorder')])[1]"
+  preorder_1_value: "(//*[text()='Preorder'])[1]//following-sibling::*[text()]"
+  preorder_2_text: "(//*[contains(text(), 'Preorder')])[2]"
+  preorder_2_value: "(//*[text()='Preorder'])[2]//following-sibling::*[text()]"
+items_locators:
+  item_name: &it_nm "(//div[@data-page='Cart']//following-sibling::img[@src]/../../../../..//*[text() and parent::a])"
+  item_image: &it_img "(//*[@style='padding-top: 200%;']//following-sibling::img[@src])"
+  item_brand: &it_brd "(//div[@data-page='Cart']//following-sibling::img[@src]/../../../../..//h6/../following-sibling::p[1])"
+  item_style_text: &it_st_txt "((//*[@data-page='Cart']//*[contains(text(), 'Style No.')]) | (//*[@data-page='cart']//*[contains(text(), 'Style No.')]))"
+  item_style_value: &it_st_vl "((//*[@data-page='Cart']//*[contains(text(), 'Style No.')]//following-sibling::*[text()]) | (//*[@data-page='cart']//*[contains(text(), 'Style No.')]//following-sibling::*[text()]))"
+  item_price_value: &it_pr_vl "(//a[@data-moov-link and *[text()]]//following-sibling::*[contains(text(), '$')][1] | (//a[@data-moov-link and *[text()]]//following-sibling::*//*[contains(text(), '$')][1]))"
+  item_color: &it_cl "(//div[@data-page='Cart']//*[contains(text(), 'Color')])"
+  item_qty_dropdown: &it_qt_dr "(//div[@data-page='Cart']//*[text()='Qty']//following-sibling::*//*[@aria-pressed='false'] )"
+  item_size_dropdown: &it_sz_dr "(//div[@data-page='Cart']//*[text()='Size']//following-sibling::*//*[@aria-pressed='false'] )"
+  item_remove_button: &it_rm_brn "(//button[contains(. , 'Remove')])"
+logged_items_locators:
+  item_name: *it_nm
+  item_image: *it_img
+  item_brand: *it_brd
+  item_style_text: *it_st_txt
+  item_style_value: *it_st_vl
+  item_price_value: *it_pr_vl
+  item_color: *it_cl
+  item_qty_dropdown: *it_qt_dr
+  item_size_dropdown: *it_sz_dr
+  item_remove_button: *it_rm_brn
+  item_move_to_favorites_button: "(//button[contains(. , 'Move To')])"
+revivew_bag_banner:
+  banner_main_text: "//*[contains(text(), 'PLEASE REVIEW YOUR SHOPPING BAG')]"
+  banner_text: "//*[contains(text(), 'You have')]"
+  close_banner_button: "//*[contains(text(), 'PLEASE REVIEW YOUR SHOPPING BAG')]//following-sibling::button"
+logged_in_cart_page_locators:
+  my_bag_header: "//*[text()='My Bag']"
+  checkout_button_1: *ch
+  checkout_button_2: "(//*[contains(text(),'Proceed to')])[2]"
+  shipping_text: *sh_t
+  shipping_options: *sh_o
+  shipping_value: *sh_v
+  estimated_text: *est_t
+  estimated_value: *est_v
+afterpay_locators:
+  afterpay_text: "//*[contains(text(), 'installments')]"
+  afterpay_question_button: "//*[contains(text(), 'installments')]//following-sibling::button"
+afterpay_modal_locators:
+  afterpay_installments_by_text: "//*[contains(text(), 'Installments by')]"
+  shop_now_pay_later_text: "//*[contains(text(), 'pay later')]"
+  installments_text: "//*[contains(text(), 'equal install')]"
+  payment_card_text: "//*[contains(text(), 'Use your existing payment card')]"
+  complete_your_checkout_text: "//*[contains(text(), 'Complete your checkout')]"
+  no_long_forms_text: "//*[contains(text(), 'No long forms, approval decision online')]"
+  pay_over_text: "//*[contains(text(), 'Pay over')]"
+  pay_every_text: "//*[contains(text(), 'Pay every')]"
+  purchase_agreement_link: "//*[contains(text(), 'Agreement')] | //*[contains(text(), 'agreement')]"
+  age_text: "//*[contains(text(), 'over 18')]"
+  complete_terms_link: "//*[contains(text(), 'complete terms')]"
+  close_button: "//*[contains(text(), 'Installments by')]/../button"
+shipping_and_delivery_text:
+  accordions:
+    processing_time: "Processing Time"
+    tracking_my_order: "TRACKING MY ORDER"
+    shipping_restrictions: "SHIPPING RESTRICTIONS"
+    duties_and_taxes: "DUTIES & TAXES"
+returns_and_exchanges:
+  accordions:
+    how_to_send_return: "HOW TO SEND IN YOUR RETURN/EXCHANGE"
+    policy: "POLICY"
+    conditions: "CONDITIONS"
+    tracking_my_return: "TRACKING MY RETURN"
+    refunds: "REFUNDS"
+    exceptions: "EXCEPTIONS"
+    damaged_items: "DAMAGED ITEMS"
+    authenticity_warranty: "AUTHENTICITY/WARRANTY"
+optional_items_locators:
+  item_regular_price: "(//a[@data-moov-link and h6]//following-sibling::*[contains(text(), '$')][2] | (//a[@data-moov-link and h6]//following-sibling::*//*[contains(text(), '$')][2]))"

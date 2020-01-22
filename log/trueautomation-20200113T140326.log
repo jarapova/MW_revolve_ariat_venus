@@ -1,0 +1,157 @@
+2020-01-13T12:03:27.669Z [info] 	TrueAutomation.IO Client is listening on port 9515
+2020-01-13T12:03:28.816Z [info] 	Starting TrueAutomation.IO client
+2020-01-13T12:03:28.816Z [info] 	API key: 8ceb34cf-4ee4-46dd-8ccb-9f733013341a
+2020-01-13T12:03:28.816Z [info] 	Project name: newnewnew
+2020-01-13T12:03:28.816Z [info] 	Cloud server: http://app-dev.trueautomation.io
+2020-01-13T12:03:28.816Z [info] 	Starting chromeDriver /Users/juliaarapova/.trueautomation/chromedriver/chromedriver_mac64_79.0.3945.36 on port 9516...
+2020-01-13T12:03:31.094Z [info] 	1 Create session response: {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"79.0.3945.117","chrome":{"chromedriverVersion":"79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})","userDataDir":"/var/folders/vv/_x0x6cds6_l48m8ntvvw30sw0000gn/T/.com.google.Chrome.hpZgZ9"},"goog:chromeOptions":{"debuggerAddress":"localhost:54166"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"mac os x","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"f6eb208cf3f3990d9f8e7d0535430682"}}
+2020-01-13T12:03:31.110Z [info] 	1 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/url:  {"url":"https://mw-dev.ariat.com/"}
+2020-01-13T12:03:32.036Z [info] 	2 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.0);","args":[]}
+2020-01-13T12:03:32.547Z [info] 	3 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.1);","args":[]}
+2020-01-13T12:03:33.062Z [info] 	4 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.2);","args":[]}
+2020-01-13T12:03:33.572Z [info] 	5 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.3);","args":[]}
+2020-01-13T12:03:34.085Z [info] 	6 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.4);","args":[]}
+2020-01-13T12:03:34.597Z [info] 	7 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.5);","args":[]}
+2020-01-13T12:03:35.114Z [info] 	8 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.6);","args":[]}
+2020-01-13T12:03:35.743Z [info] 	9 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.7);","args":[]}
+2020-01-13T12:03:36.257Z [info] 	10 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.8);","args":[]}
+2020-01-13T12:03:36.769Z [info] 	11 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*0.9);","args":[]}
+2020-01-13T12:03:37.285Z [info] 	12 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/execute/sync:  {"script":"window.scrollTo(0,document.body.scrollHeight*1.0);","args":[]}
+2020-01-13T12:03:37.803Z [info] 	14 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:37.806Z [info] 	14 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:38.064Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:38.084Z [info] 	15 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:38.086Z [info] 	15 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:38.343Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:38.360Z [info] 	16 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:38.362Z [info] 	16 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:38.615Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:38.633Z [info] 	17 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:38.635Z [info] 	17 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:38.892Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:38.913Z [info] 	18 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:38.914Z [info] 	18 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:39.169Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:39.187Z [info] 	19 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:39.189Z [info] 	19 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:39.446Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:39.463Z [info] 	20 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:39.465Z [info] 	20 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:39.722Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:39.741Z [info] 	21 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:39.743Z [info] 	21 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:40.001Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:40.020Z [info] 	22 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:40.022Z [info] 	22 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:40.296Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:40.315Z [info] 	23 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:40.316Z [info] 	23 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:40.586Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:40.629Z [info] 	24 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:40.631Z [info] 	24 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:41.114Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:41.130Z [info] 	25 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:41.132Z [info] 	25 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:41.361Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:41.378Z [info] 	26 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:41.380Z [info] 	26 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:41.589Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:41.607Z [info] 	27 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:41.609Z [info] 	27 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:41.858Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:41.877Z [info] 	28 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:41.879Z [info] 	28 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:42.131Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:42.149Z [info] 	29 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:42.151Z [info] 	29 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:42.404Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:42.421Z [info] 	30 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:42.423Z [info] 	30 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:42.677Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:42.695Z [info] 	31 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:42.696Z [info] 	31 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:42.948Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:42.964Z [info] 	32 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:42.965Z [info] 	32 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:43.220Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:43.239Z [info] 	33 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:43.240Z [info] 	33 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:43.499Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:43.518Z [info] 	34 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:43.520Z [info] 	34 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:43.773Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:43.791Z [info] 	35 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:43.794Z [info] 	35 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:44.051Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:44.069Z [info] 	36 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:44.072Z [info] 	36 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:44.325Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:44.344Z [info] 	37 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:44.346Z [info] 	37 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:44.598Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:44.615Z [info] 	38 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:44.617Z [info] 	38 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:44.864Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:44.882Z [info] 	39 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:44.884Z [info] 	39 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:45.134Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:45.152Z [info] 	40 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:45.155Z [info] 	40 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:45.402Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:45.421Z [info] 	41 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:45.424Z [info] 	41 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:45.680Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:45.696Z [info] 	42 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:45.697Z [info] 	42 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:45.948Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:45.966Z [info] 	43 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:45.969Z [info] 	43 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:46.223Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:46.239Z [info] 	44 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:46.241Z [info] 	44 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:46.490Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:46.506Z [info] 	45 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:46.507Z [info] 	45 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:46.763Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:46.778Z [info] 	46 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:46.780Z [info] 	46 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:47.032Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:47.047Z [info] 	47 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:47.049Z [info] 	47 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:47.470Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:47.491Z [info] 	48 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:47.493Z [info] 	48 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:47.746Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:47.762Z [info] 	49 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:47.764Z [info] 	49 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:48.019Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:48.038Z [info] 	50 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:48.040Z [info] 	50 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:48.309Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:48.326Z [info] 	51 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:48.328Z [info] 	51 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:48.585Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:48.608Z [info] 	52 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:48.611Z [info] 	52 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:48.876Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:48.894Z [info] 	53 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:48.895Z [info] 	53 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:49.149Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:49.167Z [info] 	54 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:49.168Z [info] 	54 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:49.390Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:49.406Z [info] 	55 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:49.407Z [info] 	55 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:49.658Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:49.676Z [info] 	56 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"//h4[text() = 'SUPPORT']"}
+2020-01-13T12:03:49.678Z [info] 	56 Element locator: {"value":"//h4[text() = 'SUPPORT']","using":"xpath","fromTa":false}
+2020-01-13T12:03:49.926Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:49.930Z [info] 	56 Sending GET request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/screenshot:  {}
+2020-01-13T12:03:50.744Z [info] 	57 Sending GET request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/window/handles:  {}
+2020-01-13T12:03:50.749Z [info] 	58 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/window:  {"handle":"CDwindow-86A1BF4496E6294070879DBA00E4398A"}
+2020-01-13T12:03:50.754Z [info] 	59 Sending GET request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/window/handles:  {}
+2020-01-13T12:03:50.759Z [info] 	60 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/url:  {"url":"about:blank"}
+2020-01-13T12:03:50.985Z [info] 	62 Sending element request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682:  {"using":"xpath","value":"/html/body/*"}
+2020-01-13T12:03:50.987Z [info] 	62 Element locator: {"value":"/html/body/*","using":"xpath","fromTa":false}
+2020-01-13T12:03:51.239Z [info] 	Element response: {"value":[]}
+2020-01-13T12:03:51.242Z [info] 	62 Sending POST request to http://localhost:9516/session/f6eb208cf3f3990d9f8e7d0535430682/goog/cdp/execute:  {"cmd":"Storage.clearDataForOrigin","params":{"origin":"*","storageTypes":"cookies,local_storage"}}

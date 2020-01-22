@@ -1,0 +1,34 @@
+locators:
+  all_shop_now_buttons: "(//a[@class='button' and text()])"
+  email_subscription_field: "//input[@placeholder='name@yourmail.com']"
+  email_subscription_field_arrow_button: "//button[@name='submitSingupForm']"
+  banners: "(//div[@data-page='Home']//img[@class='landingImage' and @src])"
+text_content:
+#  free_shipping_over: 'FREE SHIPPING ON ORDERS OVER $75'
+#  enter_fs75_at_checkout: 'ENTER FS75 AT CHECKOUT'
+  shop_and_show: 'SHOP & SHOW OFF WHAT YOU WEAR'
+  share_your_venusfashion: 'Share your #VENUSFASHION & shop the gram'
+  find_the_perfect_look: 'Find the perfect looks for any occasion at VENUS! Discover a great selection of trendy women’s fashion & sexy bikini styles that will have you walking out the door with confidence.'
+shop_now_buttons_text:
+  shop_collection_shop_now_button:
+    button_text: "SHOP COLLECTION"
+  maxi_dresses_shop_now_button:
+    button_text: "MAXI DRESSES"
+  all_dresses_shop_now_button:
+    button_text: "ALL DRESSES"
+  all_bras_shop_now_button:
+    button_text: "ALL BRAS"
+  strapless_and_backless_shop_now_button:
+    button_text: "STRAPLESS & BACKLESS"
+  push_up_bras_shop_now_button:
+    button_text: "PUSH-UP BRAS"
+  solid_swim_sale_shop_now_button:
+    button_text: "SOLID SWIM SALE"
+  push_up_top_sale_shop_now_button:
+    button_text: "PUSH-UP TOP SALE"
+  tops_on_sale_shop_now_button:
+    button_text: "TOPS ON SALE"
+  summer_deals_shop_now_button:
+    button_text: "SUMMER DEALS"
+  clearance_shop_now_button:
+    button_text: "CLEARANCE"

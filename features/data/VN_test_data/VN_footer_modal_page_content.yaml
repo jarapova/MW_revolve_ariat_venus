@@ -1,0 +1,24 @@
+content_locators:
+  customer_care_phone_number: "//a[text()='1-888-782-2224' and contains (@href, 'tel:18887822224')]"
+  instagram_social_icon: "//a[@href='https://www.instagram.com/venus/']/*[local-name() = 'svg']"
+  facebook_social_icon: "//a[@href='http://www.facebook.com/VENUS']/*[local-name() = 'svg']"
+  twitter_social_icon: "//a[@href='http://twitter.com/venusswimwear']/*[local-name() = 'svg']"
+  pinterest_social_icon: "//a[@href='http://pinterest.com/venusfashions']/*[local-name() = 'svg']"
+  youtube_social_icon: "//a[contains(@href,'youtube')]"
+  venus_card: "//div[@class]/ul/a[contains(.,'Venus Card')]"
+  about_us: "//div[@class]/ul/a[contains(.,'About Us')]"
+  customer_care: "//div[@class]/ul/a[contains(.,'Customer Care')]"
+  order_status: "//div[@class]/ul/a[contains(.,'Order Status')]"
+  contact_us: "//div[@class]/ul/a[contains(.,'Contact Us')]"
+  request_a_catalog: "//a[text()='Request A Catalog']"
+  gift_cards: "//a[text()='Gift Cards']"
+  privacy_policy: "//a[text()='Privacy Policy']"
+  terms_of_use: "//a[text()='Terms of Use']"
+  sitemap: "//a[text()='Sitemap']"
+  copyright_information: "//a[@href='tel:18887822224']/parent::div[contains(.,'©')]"
+  download_android_app: "//h3[text()='Download the New Venus App']/parent::div//a[@href='https://app.adjust.com/xrktid'][1]"
+  download_ios_app: "//h3[text()='Download the New Venus App']/parent::div//a[@href='https://app.adjust.com/xrktid'][2]"
+
+content_text:
+
+

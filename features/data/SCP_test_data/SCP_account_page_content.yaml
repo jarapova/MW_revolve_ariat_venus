@@ -1,0 +1,4 @@
+base_locators:
+  main_text: "//h1[contains(text(), 'My Account')]"
+  personal_data_section: "//*[contains(text(), 'My Information')]/following-sibling::*//*[contains(text(), 'Personal Data')]"
+  progress: "//progress"

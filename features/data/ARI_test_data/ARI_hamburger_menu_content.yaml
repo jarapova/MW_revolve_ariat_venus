@@ -1,0 +1,2 @@
+base_locators:
+  country_button: "(//*[contains(@class, 'Country')] | //*[contains(@class, 'country')])[1]"

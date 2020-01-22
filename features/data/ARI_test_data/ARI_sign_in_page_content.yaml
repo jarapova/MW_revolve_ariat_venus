@@ -1,0 +1,10 @@
+base_locators:
+  main_header: "//h1"
+  email_input: "//input[contains(@class, 'mail')]"
+  password_input: "//input[contains(@class, 'ssw')]"
+  log_in_button: "//button[contains(text(), 'Log in')]"
+email_offers_sign_up_locators:
+  main_text: "//*[contains(text(), 'Get the email')]"
+  text_label: "//*[contains(text(), 'Be the first')]"
+  email_address_label: "//*[text() = 'Email Address']"
+  email_input: "//*[text() = 'Email Address']/following-sibling::input"

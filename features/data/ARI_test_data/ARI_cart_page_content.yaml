@@ -1,0 +1,11 @@
+empty_cart_page_content:
+  header_text: &hdr_txt "//*[contains(text(), 'My Bag')]"
+  no_items_text: "//*[contains(text(), 'no items')]"
+logged_in_cart_page_content:
+  header_text: *hdr_txt
+  checkout_button: "//a[contains(., 'heckout') and descendant::*[contains(@class, 'cart_checkout')]]"
+multiple_locators:
+  items_names: "(//*[contains(@*, 'basket_product-wrapper')]/descendant::*[text()][1])"
+pop_ups_locators:
+  close_location_pop_up: "(//a[descendant-or-self::*[contains(text(),'close')]] | //a[descendant-or-self::*[contains(text(),'Close')]])"
+  accept_cokkies_button: "//*[contains(@class, 'popupFooter')]//*[contains(text(), 'ACCEPT')]/.."

@@ -1,0 +1,31 @@
+favorites_landing_page_content:
+  base_locators:
+    first_main_text: "//h1[contains(text(), 'Where')]"
+    personalize_experience_text: "//h1[contains(text(), 'Where')]//following-sibling::p[text()]"
+    sign_in_link: "//a[text()='Sign In' and @href]"
+    save_and_view_items_button: "//a[@href and (contains(text(),'Save and') or @id='submit-hearted-products')]"
+    second_main_text: "//*[contains(text(), 'See.')]"
+  multiple_locators:
+    trending_items: "(//div[contains(@class, 'item')])"
+favorites_page_content:
+  base_locators:
+    items_count: "//div[contains(@class, 'bar')]//*[contains(text(), 'Items')]"
+    sort_by_button: "//*[contains(text(), 'Sort')]"
+    refine_button: "//*[contains(text(), 'Refine')]"
+    share_favorites_button: "//a[@id='share-button']"
+  favorites_items_multiple_locators:
+    items_images: "(//*[@class='js-plp-container grid__col u-center']//img[@src])"
+    item_name: "(//*[@class='js-plp-container grid__col u-center']//*[@class='product']//*[1])"
+    item_brand: "(//*[@class='js-plp-container grid__col u-center']//*[@class='product']//*[2])"
+    item_price: "(//*[@class='js-plp-container grid__col u-center']//*[@itemprop='price'])"
+    item_add_to_bag_button: "(//*[@class='js-plp-container grid__col u-center']//*[contains(text(), 'Add')])"
+help_us_improve_locators:
+  help_us_improve_header: "//*[contains(text(), 'Help Us Improve')]"
+  brief_survey_info: "//*[contains(text(), 'Take a brief survey about')]"
+  begin_button: "//*[contains(text(), 'Begin')]"
+shipping_address_page_locators:
+  main_text: "//h1[contains(text(), 'Shipping Address')]"
+  shipping_address_username: "//*[contains(text(), 'Viktor')]"
+  edit_button: "//*[contains(text(), 'Edit')]"
+  remove_button: "//*[contains(text(), 'Remove')]"
+  add_new_address_button: "//*[contains(text(), 'Add New Address')]"

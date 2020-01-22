@@ -1,0 +1,10 @@
+content_locators:
+  to: "//input[@id='ctl00_Body1_giftto']"
+  from: "//input[@id='ctl00_Body1_giftfrom']"
+  card_amount: "//input[@id='ctl00_Body1_giftcardamount']"
+  gift_card_number: "//input[@id='ctl00_Body1_giftcardnumber']"
+  pin: "//input[@id='ctl00_Body1_giftcardpin']"
+content_text:
+  line_2: 'Arrives in its own decorative box ready for gift giving'
+  line_3: 'Redeem online or by phone'
+  line_4: 'Purchase in any amount $25 and over'

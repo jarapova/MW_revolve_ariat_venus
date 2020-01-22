@@ -1,0 +1,2274 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "As a customer, I will be presented with an email sign-up text box, along with a brief description about what I am signing up for and receive an email that I am subscribed to the newsletter.",
+    "children" : [ {
+      "name" : "[Venus] User can subscribe to receive special offers",
+      "children" : [ {
+        "name" : "[Venus] User can subscribe to receive special offers",
+        "uid" : "d6963914f9f2d0d7",
+        "parentUid" : "deb49b0458099f0841fcf76f09c7e42c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859041908,
+          "stop" : 1578859059246,
+          "duration" : 17338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "deb49b0458099f0841fcf76f09c7e42c"
+    } ],
+    "uid" : "25504fccd734b1e14a2a62908a5bb32a"
+  }, {
+    "name" : "As a customer, I can download mobile app",
+    "children" : [ {
+      "name" : "[Venus] User can see Android and IOS app icons",
+      "children" : [ {
+        "name" : "[Venus] User can see Android and IOS app icons",
+        "uid" : "ac2a7fc08c5bac30",
+        "parentUid" : "bf0f7380b8bd91c68d29b59c3a209a8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859059248,
+          "stop" : 1578859067330,
+          "duration" : 8082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf0f7380b8bd91c68d29b59c3a209a8b"
+    } ],
+    "uid" : "de767e0982d04a5cdeebeb26cfc63fae"
+  }, {
+    "name" : "As a customer, I need have a list of quick links available on the footer.",
+    "children" : [ {
+      "name" : "[Venus] User can see a list of quick links available on the footer.",
+      "children" : [ {
+        "name" : "[Venus] User can see a list of quick links available on the footer.",
+        "uid" : "d10cb079738841d2",
+        "parentUid" : "86ad972bf72983c60d43b2cd72f07826",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859067332,
+          "stop" : 1578859168511,
+          "duration" : 101179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ad972bf72983c60d43b2cd72f07826"
+    } ],
+    "uid" : "e98117f1f84ffd899a152221fe547a42"
+  }, {
+    "name" : "As a customer, I can click on the account icon on header to see account navigation links",
+    "children" : [ {
+      "name" : "[Venus] Signed in user can click on the account icon and see modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and see modal with account navigation links",
+        "uid" : "85db6121a2b28a1",
+        "parentUid" : "be4f3f6fba47ec6622ea85bd7d0de187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859168514,
+          "stop" : 1578859204697,
+          "duration" : 36183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be4f3f6fba47ec6622ea85bd7d0de187"
+    }, {
+      "name" : "[Venus] Guest user suggested to sign-in after taping account icon in header",
+      "children" : [ {
+        "name" : "[Venus] Guest user suggested to sign-in after taping account icon in header",
+        "uid" : "9862d72e725553f6",
+        "parentUid" : "f7b6a556cfc4febbfab175be9ddca691",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859204700,
+          "stop" : 1578859212984,
+          "duration" : 8284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7b6a556cfc4febbfab175be9ddca691"
+    }, {
+      "name" : "[Venus] Signed in user can click on the account icon and navigate to Account info form modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and navigate to Account info form modal with account navigation links",
+        "uid" : "9f9e92710cae0524",
+        "parentUid" : "c95c623415ba956b4a8ec233ec50ea7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859212986,
+          "stop" : 1578859252749,
+          "duration" : 39763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c95c623415ba956b4a8ec233ec50ea7b"
+    }, {
+      "name" : "[Venus] Signed in user can click on the account icon and navigate to Order history form modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and navigate to Order history form modal with account navigation links",
+        "uid" : "bb562c1ab709a7b2",
+        "parentUid" : "3a839f3ed97d7adc4e63272ed740e4a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859252757,
+          "stop" : 1578859291025,
+          "duration" : 38268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a839f3ed97d7adc4e63272ed740e4a9"
+    }, {
+      "name" : "[Venus] Signed in user can click on the account icon and navigate to Mail options form modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and navigate to Mail options form modal with account navigation links",
+        "uid" : "503be9e3598a43b5",
+        "parentUid" : "f493c0de17976fc73098699ee557b1bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859291028,
+          "stop" : 1578859327087,
+          "duration" : 36059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f493c0de17976fc73098699ee557b1bf"
+    }, {
+      "name" : "[Venus] Signed in user can click on the account icon and navigate to Wish list form modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and navigate to Wish list form modal with account navigation links",
+        "uid" : "c22d82af08fcace8",
+        "parentUid" : "4cd583f15fb43bddd01e79298d86c909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859327091,
+          "stop" : 1578859366224,
+          "duration" : 39133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cd583f15fb43bddd01e79298d86c909"
+    }, {
+      "name" : "[Venus] Signed in user can click on the account icon and make logout form modal with account navigation links",
+      "children" : [ {
+        "name" : "[Venus] Signed in user can click on the account icon and make logout form modal with account navigation links",
+        "uid" : "35ef03e463d17553",
+        "parentUid" : "dd3e9785233525b783501af3e5cf22dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859366228,
+          "stop" : 1578859404996,
+          "duration" : 38768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd3e9785233525b783501af3e5cf22dd"
+    } ],
+    "uid" : "a073c1619df05f52391e55910d8afd23"
+  }, {
+    "name" : "As a customer, I can start entering my search query in the input field and see auto-suggest results appear after typing a single character.",
+    "children" : [ {
+      "name" : "[Venus] User can start entering or editing my search query in the input field and see auto-suggest results appear after typing a single character.",
+      "children" : [ {
+        "name" : "[Venus] User can start entering or editing my search query in the input field and see auto-suggest results appear after typing a single character.",
+        "uid" : "a4ed13fa5e15fd5c",
+        "parentUid" : "bc395d0bc72ba1e0983f704c96c68ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859405000,
+          "stop" : 1578859410212,
+          "duration" : 5212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc395d0bc72ba1e0983f704c96c68ba5"
+    } ],
+    "uid" : "6572ecc267fff839f3ec722297fbbe7c"
+  }, {
+    "name" : "As a customer, I can click on the logo to be taken to the home page.",
+    "children" : [ {
+      "name" : "[Venus] User navigated to homepage by clicking logo in header",
+      "children" : [ {
+        "name" : "[Venus] User navigated to homepage by clicking logo in header",
+        "uid" : "6ed1c1450282e12f",
+        "parentUid" : "bdfe061df79c706c5e2f54b58d706571",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859410214,
+          "stop" : 1578859433814,
+          "duration" : 23600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdfe061df79c706c5e2f54b58d706571"
+    } ],
+    "uid" : "96afe29796441163823f55c9278cb27e"
+  }, {
+    "name" : "As a customer, I should see a quick navigation bar underneath the main header which allows me to jump to relevant sections. This quick navigation bar includes the following:",
+    "children" : [ {
+      "name" : "[Venus] User can see a quick navigation bar underneath the main header which allows me to jump to relevant sections.",
+      "children" : [ {
+        "name" : "[Venus] User can see a quick navigation bar underneath the main header which allows me to jump to relevant sections.",
+        "uid" : "29dc688ebc3bf89c",
+        "parentUid" : "f4daff820a09fd8fe915ba9b541d6447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859433830,
+          "stop" : 1578859438362,
+          "duration" : 4532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4daff820a09fd8fe915ba9b541d6447"
+    }, {
+      "name" : "[Venus] User can click each item in quick navigation bar underneath the main header to be navigated to appropriate page",
+      "children" : [ {
+        "name" : "[Venus] User can click each item in quick navigation bar underneath the main header to be navigated to appropriate page",
+        "uid" : "458c85ea3d82f4a3",
+        "parentUid" : "f78c9f194d89f9120061ead584793250",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859438364,
+          "stop" : 1578859473508,
+          "duration" : 35144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f78c9f194d89f9120061ead584793250"
+    } ],
+    "uid" : "1ba041c6e041f50f1a10fc6a61864a37"
+  }, {
+    "name" : "As a customer, I can click on the search icon to display the search input field.",
+    "children" : [ {
+      "name" : "[Venus] User opening search modal by taping search icon on header",
+      "children" : [ {
+        "name" : "[Venus] User opening search modal by taping search icon on header",
+        "uid" : "91476e5b3a9249e3",
+        "parentUid" : "0485beff2e7d0e65b3fe78c39226bd9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859473516,
+          "stop" : 1578859477924,
+          "duration" : 4408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0485beff2e7d0e65b3fe78c39226bd9c"
+    }, {
+      "name" : "[Venus] User can close search modal",
+      "children" : [ {
+        "name" : "[Venus] User can close search modal",
+        "uid" : "bb722087b427beda",
+        "parentUid" : "a031eba00cd85852800dea6ba17672b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859503169,
+          "stop" : 1578859521441,
+          "duration" : 18272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a031eba00cd85852800dea6ba17672b8"
+    } ],
+    "uid" : "13eab616a7c33a26c49c738b0ec424c4"
+  }, {
+    "name" : "As a customer, I can click on the shopping bag icon and be taken to the shopping bag page.",
+    "children" : [ {
+      "name" : "[Venus] User navigated to cart page by clicking shopping bag icon on header",
+      "children" : [ {
+        "name" : "[Venus] User navigated to cart page by clicking shopping bag icon on header",
+        "uid" : "a0cbfca57345a750",
+        "parentUid" : "c7119b7a3966e2766738b5a123ae35da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859521444,
+          "stop" : 1578859609835,
+          "duration" : 88391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7119b7a3966e2766738b5a123ae35da"
+    }, {
+      "name" : "[Venus] User can see number of added to cart items near shopping bag icon on header",
+      "children" : [ {
+        "name" : "[Venus] User can see number of added to cart items near shopping bag icon on header",
+        "uid" : "a5ab7fa39e9f86f8",
+        "parentUid" : "a77fd9c17582344baf94c734c18483b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859609838,
+          "stop" : 1578859665241,
+          "duration" : 55403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a77fd9c17582344baf94c734c18483b6"
+    }, {
+      "name" : "[Venus] User navigating to empty cart page by taping empty shopping bag icon on header",
+      "children" : [ {
+        "name" : "[Venus] User navigating to empty cart page by taping empty shopping bag icon on header",
+        "uid" : "9e2cf2e58e2784b9",
+        "parentUid" : "4df15f39563bdc56ecd2685638c244ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859665245,
+          "stop" : 1578859675337,
+          "duration" : 10092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4df15f39563bdc56ecd2685638c244ae"
+    } ],
+    "uid" : "09b1b1dd0bebebf51dc8e1a37e779770"
+  }, {
+    "name" : "As a customer, I can see the number of cart items currently in my shopping cart.",
+    "children" : [ {
+      "name" : "[Venus] User does not see number of items near shopping cart in header if cart is empty",
+      "children" : [ {
+        "name" : "[Venus] User does not see number of items near shopping cart in header if cart is empty",
+        "uid" : "2b545b577c25cdb0",
+        "parentUid" : "83e8c4c650ce7329c398dfffcf242d80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859675339,
+          "stop" : 1578859677810,
+          "duration" : 2471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83e8c4c650ce7329c398dfffcf242d80"
+    }, {
+      "name" : "[Venus] User can see number of items currently in his shopping cart",
+      "children" : [ {
+        "name" : "[Venus] User can see number of items currently in his shopping cart",
+        "uid" : "7b9b841df99ac7ab",
+        "parentUid" : "7fc4c6a43038b8cfecc8d9833fd28489",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859677813,
+          "stop" : 1578859764874,
+          "duration" : 87061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fc4c6a43038b8cfecc8d9833fd28489"
+    } ],
+    "uid" : "d85fc40d339ec16612c22bbcafe01057"
+  }, {
+    "name" : "As a customer I want to see \"promo code\" or \"special offer\" recommendation information on homepage",
+    "children" : [ {
+      "name" : "[Venus] User can see \"FS75\" promo code information on homepage (promo code is changing time to time)",
+      "children" : [ {
+        "name" : "[Venus] User can see \"FS75\" promo code information on homepage (promo code is changing time to time)",
+        "uid" : "1e17668a4fb16a99",
+        "parentUid" : "ce97a56ef5a006ebe90c303f0c991313",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859764877,
+          "stop" : 1578859771902,
+          "duration" : 7025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce97a56ef5a006ebe90c303f0c991313"
+    } ],
+    "uid" : "6d873a3796d7bcb3dcc5160de1e4d8f4"
+  }, {
+    "name" : "As a customer, I can submit a search query in the input field and be taken to a search results page.",
+    "children" : [ {
+      "name" : "[Venus] User navigating to PLP search result page after submitting search query",
+      "children" : [ {
+        "name" : "[Venus] User navigating to PLP search result page after submitting search query",
+        "uid" : "cc705a81054d1dff",
+        "parentUid" : "776da4bc0167af59f3924755fe511f5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859771904,
+          "stop" : 1578859781428,
+          "duration" : 9524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "776da4bc0167af59f3924755fe511f5f"
+    }, {
+      "name" : "[Venus] User can see \"No results\" search results page if searching some crazy term",
+      "children" : [ {
+        "name" : "[Venus] User can see \"No results\" search results page if searching some crazy term",
+        "uid" : "e8ff76e2c2ebc6b4",
+        "parentUid" : "f5052498faef1577d574f154cf4d9383",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859781432,
+          "stop" : 1578859790598,
+          "duration" : 9166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5052498faef1577d574f154cf4d9383"
+    }, {
+      "name" : "[Venus] Suggested results on search modal redirect to product list page",
+      "children" : [ {
+        "name" : "[Venus] Suggested results on search modal redirect to product list page",
+        "uid" : "9f5f238b5a6a989a",
+        "parentUid" : "5cc1f6586ce007faf97b4deff7fa1f24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859790601,
+          "stop" : 1578859800497,
+          "duration" : 9896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cc1f6586ce007faf97b4deff7fa1f24"
+    }, {
+      "name" : "[Venus] User can search items up to 10 times by typing product SKU in search query",
+      "children" : [ {
+        "name" : "[Venus] User can search items up to 10 times by typing product SKU in search query",
+        "uid" : "33b078275ccf658b",
+        "parentUid" : "e4de0e698ba752f5b65d027b772628e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859800501,
+          "stop" : 1578859876708,
+          "duration" : 76207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4de0e698ba752f5b65d027b772628e7"
+    } ],
+    "uid" : "5ba69066a64949370c1ad9359e703314"
+  }, {
+    "name" : "As a customer, I should be directed onto the correct page(s) after clicking on \"CTA button(s)\" or/and \"Banner(s)\" on the home page.",
+    "children" : [ {
+      "name" : "[Venus] User can see hero images and CTAs on home page",
+      "children" : [ {
+        "name" : "[Venus] User can see hero images and CTAs on home page",
+        "uid" : "444eda2f51be342b",
+        "parentUid" : "febc0c9c898d578c88093fe21ba2d454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859876713,
+          "stop" : 1578859894251,
+          "duration" : 17538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "febc0c9c898d578c88093fe21ba2d454"
+    } ],
+    "uid" : "386e9598164d0df8445bf820447e6eb7"
+  }, {
+    "name" : "As customer I want to see 6 instagram images, and want to see 9 more by clicking + button",
+    "children" : [ {
+      "name" : "[Venus] User see 6 instagram images, and want to see 9 more by clicking + button",
+      "children" : [ {
+        "name" : "[Venus] User see 6 instagram images, and want to see 9 more by clicking + button",
+        "uid" : "58a1b058abdb4a1d",
+        "parentUid" : "cbd38cda53d2421a3b90e1c2a80fec36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859894254,
+          "stop" : 1578859958308,
+          "duration" : 64054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbd38cda53d2421a3b90e1c2a80fec36"
+    } ],
+    "uid" : "ff3a8b4541ff13254271a10aad5f4e45"
+  }, {
+    "name" : "As a customer, I need to see my current page location based on the navigation hierarchy so I can quickly go back to the previous page sections using breadcrumbs.",
+    "children" : [ {
+      "name" : "[Venus] User can see current page location based on the navigation hierarchy",
+      "children" : [ {
+        "name" : "[Venus] User can see current page location based on the navigation hierarchy",
+        "uid" : "5978816221b598d1",
+        "parentUid" : "86fb297ebb8f168a729bf80aa206dd29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859958311,
+          "stop" : 1578859979639,
+          "duration" : 21328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86fb297ebb8f168a729bf80aa206dd29"
+    }, {
+      "name" : "[Venus] User can quickly go back to the previous page sections using breadcrumbs",
+      "children" : [ {
+        "name" : "[Venus] User can quickly go back to the previous page sections using breadcrumbs",
+        "uid" : "5e6a9984670df60f",
+        "parentUid" : "22b73a9be7f6be312f881fb3a07847f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578859979643,
+          "stop" : 1578860013359,
+          "duration" : 33716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22b73a9be7f6be312f881fb3a07847f5"
+    } ],
+    "uid" : "73ea453552784d4690acdfcacc64ca85"
+  }, {
+    "name" : "As a customer, I can click on the hamburger menu to open up the mobile navigation.",
+    "children" : [ {
+      "name" : "[Venus] User can open hamburger menu by tapping appropriate CTA on header",
+      "children" : [ {
+        "name" : "[Venus] User can open hamburger menu by tapping appropriate CTA on header",
+        "uid" : "f57eae7dd514efc4",
+        "parentUid" : "c4196d13ef05d95c27953371ac3ca797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860013363,
+          "stop" : 1578860016712,
+          "duration" : 3349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4196d13ef05d95c27953371ac3ca797"
+    }, {
+      "name" : "[Venus] User can see all corresponding menu items in hamburger menu",
+      "children" : [ {
+        "name" : "[Venus] User can see all corresponding menu items in hamburger menu",
+        "uid" : "c348d5e259e4aaec",
+        "parentUid" : "474f27f980191bf1f5455fdb46faabc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860016715,
+          "stop" : 1578860071086,
+          "duration" : 54371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "474f27f980191bf1f5455fdb46faabc5"
+    }, {
+      "name" : "[Venus] User can close hamburger menu",
+      "children" : [ {
+        "name" : "[Venus] User can close hamburger menu",
+        "uid" : "7962994e8060807d",
+        "parentUid" : "870b465e02ea67de4fa496eec77ceac6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860071089,
+          "stop" : 1578860086033,
+          "duration" : 14944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "870b465e02ea67de4fa496eec77ceac6"
+    }, {
+      "name" : "[Venus] User can navigate to product list page",
+      "children" : [ {
+        "name" : "[Venus] User can navigate to product list page",
+        "uid" : "857eb7613d8718c9",
+        "parentUid" : "0c8c4d436376652f47e56e659911b00c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860086036,
+          "stop" : 1578860125477,
+          "duration" : 39441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c8c4d436376652f47e56e659911b00c"
+    } ],
+    "uid" : "4960d8b66a6be5ab78dae7c75a683b02"
+  }, {
+    "name" : "As a customer, I can see custom header or footer call to actions in the hamburger menu above the main menu items.",
+    "children" : [ {
+      "name" : "[Venus] User can see custom header or footer call to actions in the hamburger menu above the main menu items",
+      "children" : [ {
+        "name" : "[Venus] User can see custom header or footer call to actions in the hamburger menu above the main menu items",
+        "uid" : "3f1caa8a60595540",
+        "parentUid" : "01949bab9b4cfe2fb19ca9edf56a6599",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860125480,
+          "stop" : 1578860149197,
+          "duration" : 23717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01949bab9b4cfe2fb19ca9edf56a6599"
+    }, {
+      "name" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items",
+      "children" : [ {
+        "name" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items",
+        "uid" : "c404ce0d48801b1c",
+        "parentUid" : "af1b472f26d10b5fcea47f34655cf1bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860149199,
+          "stop" : 1578860175642,
+          "duration" : 26443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af1b472f26d10b5fcea47f34655cf1bf"
+    } ],
+    "uid" : "5d59c95ab7ab9047a71d6f21edf81828"
+  }, {
+    "name" : "As a customer, I can see my login status at the top of the navigation.",
+    "children" : [ {
+      "name" : "[Venus] User can see login status on header",
+      "children" : [ {
+        "name" : "[Venus] User can see login status on header",
+        "uid" : "f8ff70b33b80802",
+        "parentUid" : "918d26c07b72f2f46635c1be78629260",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860175646,
+          "stop" : 1578860211606,
+          "duration" : 35960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "918d26c07b72f2f46635c1be78629260"
+    } ],
+    "uid" : "1b084e81baa3ebe3e9cf6721d90a4160"
+  }, {
+    "name" : "As a customer, I can see all available menu items, navigate through different menu sections, and be directed to the destination page after tapping the desired item.",
+    "children" : [ {
+      "name" : "[Venus] User can navigate through the site pages by taping corresponding element on category selection pop-up",
+      "children" : [ {
+        "name" : "[Venus] User can navigate through the site pages by taping corresponding element on category selection pop-up",
+        "uid" : "717893a4655b7055",
+        "parentUid" : "49576d7c4b29aa42d252c1daee897c7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860211610,
+          "stop" : 1578860246005,
+          "duration" : 34395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49576d7c4b29aa42d252c1daee897c7c"
+    }, {
+      "name" : "[Venus] User can navigate through the site pages by taping corresponding element on hamburger menu",
+      "children" : [ {
+        "name" : "[Venus] User can navigate through the site pages by taping corresponding element on hamburger menu",
+        "uid" : "ca943519f3899d6c",
+        "parentUid" : "9c74b2cfed137079d4e7e67b62f20297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860246009,
+          "stop" : 1578860316981,
+          "duration" : 70972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c74b2cfed137079d4e7e67b62f20297"
+    } ],
+    "uid" : "717600ae79bd1cd258e2b054e229deb8"
+  }, {
+    "name" : "As a customer, I should see the top level category list underneath the carousel and can tap these category names to be directed to the appropriate screen.",
+    "children" : [ {
+      "name" : "[Venus] User can navigate through the site pages by taping corresponding element on quick navigation panel",
+      "children" : [ {
+        "name" : "[Venus] User can navigate through the site pages by taping corresponding element on quick navigation panel",
+        "uid" : "782842ffe4741e09",
+        "parentUid" : "1d1d12f8cb0a410dc9ef667dcd07bb0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860316985,
+          "stop" : 1578860345201,
+          "duration" : 28216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d1d12f8cb0a410dc9ef667dcd07bb0b"
+    } ],
+    "uid" : "5c8419aa9a53a53fc322037e65ea772c"
+  }, {
+    "name" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart.",
+    "children" : [ {
+      "name" : "[Venus] User can add to product to cart after selecting product options",
+      "children" : [ {
+        "name" : "[Venus] User can add to product to cart after selecting product options",
+        "uid" : "fcd10a3a3497198f",
+        "parentUid" : "bb6d56c470ffa37ef1a746cfb3304e52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860345207,
+          "stop" : 1578860397389,
+          "duration" : 52182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb6d56c470ffa37ef1a746cfb3304e52"
+    }, {
+      "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart, and user can navigate to cart page to see added product",
+      "children" : [ {
+        "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart, and user can navigate to cart page to see added product",
+        "uid" : "691f2d0455b4385d",
+        "parentUid" : "19e3acb6244293405da800c1e718ce87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860397392,
+          "stop" : 1578860431888,
+          "duration" : 34496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19e3acb6244293405da800c1e718ce87"
+    }, {
+      "name" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA",
+        "uid" : "6c42c17fb98fb73a",
+        "parentUid" : "9e52b2d0c7587d27575cc01eb886bc5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860431893,
+          "stop" : 1578860496225,
+          "duration" : 64332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e52b2d0c7587d27575cc01eb886bc5a"
+    }, {
+      "name" : "[Venus] User navigates to Boots sale PLP and add random product to back to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to Boots sale PLP and add random product to back to check stability of PWA",
+        "uid" : "3161940caf0401f3",
+        "parentUid" : "a5b5f6641f6858151888034bf877a073",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860496228,
+          "stop" : 1578860550333,
+          "duration" : 54105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5b5f6641f6858151888034bf877a073"
+    }, {
+      "name" : "[Venus] User navigates to Clothing Tops PLP and add random product to back to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to Clothing Tops PLP and add random product to back to check stability of PWA",
+        "uid" : "b53d4a1233a2b1d3",
+        "parentUid" : "fb34ed8b6e393f141ffb6c30423deff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860550337,
+          "stop" : 1578860604289,
+          "duration" : 53952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb34ed8b6e393f141ffb6c30423deff7"
+    }, {
+      "name" : "[Venus] User navigates to Dresses PLP and add random product to back to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to Dresses PLP and add random product to back to check stability of PWA",
+        "uid" : "9c149132c920bbcb",
+        "parentUid" : "344bf5522a9264cf4f30896c42de7232",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860604306,
+          "stop" : 1578860653617,
+          "duration" : 49311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "344bf5522a9264cf4f30896c42de7232"
+    }, {
+      "name" : "[Venus] User navigates to Pants PLP and add random product to back to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to Pants PLP and add random product to back to check stability of PWA",
+        "uid" : "185957b6d75027c6",
+        "parentUid" : "d543cf07ecb187a191e23d268d331160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860653620,
+          "stop" : 1578860712102,
+          "duration" : 58482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d543cf07ecb187a191e23d268d331160"
+    } ],
+    "uid" : "2d91b0532401041500152374bbd54c97"
+  }, {
+    "name" : "As a customer, I can add product to cart with various parameters from \"Complete the look\" section",
+    "children" : [ {
+      "name" : "[Venus] User can add item to cart from \"Complete the look\" section on PDP after selecting required product options",
+      "children" : [ {
+        "name" : "[Venus] User can add item to cart from \"Complete the look\" section on PDP after selecting required product options",
+        "uid" : "3c568a9641772226",
+        "parentUid" : "802926b79f6d585658e75836901dd18f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860712107,
+          "stop" : 1578860792917,
+          "duration" : 80810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "802926b79f6d585658e75836901dd18f"
+    } ],
+    "uid" : "b84d73de089b15641c0e9568773fcd24"
+  }, {
+    "name" : "As a customer, I can swipe the product image carousel to see more product images.",
+    "children" : [ {
+      "name" : "[Venus] User can see product images carousel and can swipe images",
+      "children" : [ {
+        "name" : "[Venus] User can see product images carousel and can swipe images",
+        "uid" : "14e3239ec8a667b9",
+        "parentUid" : "70ef03b07eb1923eeb33f52bc83f585c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860792921,
+          "stop" : 1578860816268,
+          "duration" : 23347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70ef03b07eb1923eeb33f52bc83f585c"
+    } ],
+    "uid" : "521ebc94d0d66b11a121e55080ff57e3"
+  }, {
+    "name" : "As a customer, I can select the available colors for the product.",
+    "children" : [ {
+      "name" : "[Venus] User select color on product page",
+      "children" : [ {
+        "name" : "[Venus] User select color on product page",
+        "uid" : "eb500dc086d7dceb",
+        "parentUid" : "833d56feec7189ffd90e19492a9e72b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860816272,
+          "stop" : 1578860964153,
+          "duration" : 147881
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "833d56feec7189ffd90e19492a9e72b5"
+    } ],
+    "uid" : "085d310219cd71a7a46ccd2b23899b0f"
+  }, {
+    "name" : "As a customer, I should be able to view \"Complete The Look\" section of a product as a carousel",
+    "children" : [ {
+      "name" : "[Venus] User can see \"Complete The Look\" section with list of related products",
+      "children" : [ {
+        "name" : "[Venus] User can see \"Complete The Look\" section with list of related products",
+        "uid" : "985fe34280bc44a9",
+        "parentUid" : "8b095acc00b3ad44306bdf9e474693fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860964157,
+          "stop" : 1578860997089,
+          "duration" : 32932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b095acc00b3ad44306bdf9e474693fa"
+    }, {
+      "name" : "[Venus] User can change complete the look product`s color",
+      "children" : [ {
+        "name" : "[Venus] User can change complete the look product`s color",
+        "uid" : "486e9a4ea11bdc64",
+        "parentUid" : "f20d24f8a21d4e38151f759dfcbb4642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578860997092,
+          "stop" : 1578861043415,
+          "duration" : 46323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f20d24f8a21d4e38151f759dfcbb4642"
+    }, {
+      "name" : "[Venus] User can change complete the look product`s size",
+      "children" : [ {
+        "name" : "[Venus] User can change complete the look product`s size",
+        "uid" : "b08654d9f08b0b98",
+        "parentUid" : "0d558f71e24a0bad8a198fc6421ff83c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861043417,
+          "stop" : 1578861088847,
+          "duration" : 45430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d558f71e24a0bad8a198fc6421ff83c"
+    }, {
+      "name" : "[Venus] User can change complete the look product`s qty",
+      "children" : [ {
+        "name" : "[Venus] User can change complete the look product`s qty",
+        "uid" : "dd9a4379f5d6492d",
+        "parentUid" : "248ac9d4734e89d6227d3a50c4a0076e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861088850,
+          "stop" : 1578861142164,
+          "duration" : 53314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "248ac9d4734e89d6227d3a50c4a0076e"
+    } ],
+    "uid" : "7af4c6ac996ad05282a9b2ab3f40378f"
+  }, {
+    "name" : "As a customer, I can view the product details and description content.",
+    "children" : [ {
+      "name" : "[Venus] User can see tabs of product description on PDP",
+      "children" : [ {
+        "name" : "[Venus] User can see tabs of product description on PDP",
+        "uid" : "f0f3f71595eb5ee0",
+        "parentUid" : "4da3505cae2609b69d4446cb012441d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861142167,
+          "stop" : 1578861189463,
+          "duration" : 47296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4da3505cae2609b69d4446cb012441d7"
+    }, {
+      "name" : "[Venus] User can switch between product description tabs and see description information",
+      "children" : [ {
+        "name" : "[Venus] User can switch between product description tabs and see description information",
+        "uid" : "9f8fd47ca8c0a7ff",
+        "parentUid" : "eefd30c2d953e65342378ab199edb40d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861189467,
+          "stop" : 1578861252950,
+          "duration" : 63483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eefd30c2d953e65342378ab199edb40d"
+    }, {
+      "name" : "[Venus] User can see product details content",
+      "children" : [ {
+        "name" : "[Venus] User can see product details content",
+        "uid" : "999cb1d8e0c5ca18",
+        "parentUid" : "435ddf451de86c43c76a8e375052925e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861252966,
+          "stop" : 1578861283596,
+          "duration" : 30630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "435ddf451de86c43c76a8e375052925e"
+    } ],
+    "uid" : "0ef1c7d282b78f0fe34d12b66d3a947d"
+  }, {
+    "name" : "As a customer, I can see all the standard product details:",
+    "children" : [ {
+      "name" : "[Venus] User can see product details on PDP",
+      "children" : [ {
+        "name" : "[Venus] User can see product details on PDP",
+        "uid" : "38071a07a2b3a763",
+        "parentUid" : "7b30087f108612d5f8448aee5dc9b1aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861283599,
+          "stop" : 1578861290745,
+          "duration" : 7146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b30087f108612d5f8448aee5dc9b1aa"
+    }, {
+      "name" : "[Venus] As user I want see Product price with/without sale",
+      "children" : [ {
+        "name" : "[Venus] As user I want see Product price with/without sale",
+        "uid" : "cf9c8972a6005f03",
+        "parentUid" : "e0c5d13dab9dbd85710a131a36fc3cc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861290747,
+          "stop" : 1578861332850,
+          "duration" : 42103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0c5d13dab9dbd85710a131a36fc3cc0"
+    } ],
+    "uid" : "2fb1407c0c7d03dad2226a1780d0f51c"
+  }, {
+    "name" : "As a customer, if I'm logged in, I can click on the \"favorite\" button and add to my favorite's list.",
+    "children" : [ {
+      "name" : "[Venus] Logged-in user can add item to favorites by taping \"favorites\" button on PDP",
+      "children" : [ {
+        "name" : "[Venus] Logged-in user can add item to favorites by taping \"favorites\" button on PDP",
+        "uid" : "7e441f31b16ae991",
+        "parentUid" : "80d92e9b8dea957de7ea68f9a2905fc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861332852,
+          "stop" : 1578861444766,
+          "duration" : 111914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80d92e9b8dea957de7ea68f9a2905fc8"
+    } ],
+    "uid" : "f87d91b1f3c7d6d1266e79e6b0dffa09"
+  }, {
+    "name" : "As a customer, I can tap on a \"+\" icon on product image to see a larger view and allow for pinch/zoom/pan.",
+    "children" : [ {
+      "name" : "[Venus] User can see large image view by taping + icon on product image",
+      "children" : [ {
+        "name" : "[Venus] User can see large image view by taping + icon on product image",
+        "uid" : "5dfa61fe5303bde8",
+        "parentUid" : "c23cf101c452d9c9e5469b9cde518456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861444770,
+          "stop" : 1578861504853,
+          "duration" : 60083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c23cf101c452d9c9e5469b9cde518456"
+    } ],
+    "uid" : "60c2c242aa221fa57b97caa56214a4c9"
+  }, {
+    "name" : "As a customer, I should be able to view \"Recommended For You\" section of a product as a carousel",
+    "children" : [ {
+      "name" : "[Venus] User can see \"Recommended for you\" product carousel",
+      "children" : [ {
+        "name" : "[Venus] User can see \"Recommended for you\" product carousel",
+        "uid" : "49a36d9767835ff1",
+        "parentUid" : "78c0e6c69e201b6f6ba26726e2238455",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861504858,
+          "stop" : 1578861544135,
+          "duration" : 39277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78c0e6c69e201b6f6ba26726e2238455"
+    }, {
+      "name" : "[Venus] User can swipe \"Recommended for you\" product carousel and be navigated to related PDP by taping on product image",
+      "children" : [ {
+        "name" : "[Venus] User can swipe \"Recommended for you\" product carousel and be navigated to related PDP by taping on product image",
+        "uid" : "400841c8b61109c",
+        "parentUid" : "462eb33e08c6280c9aafe02a44d01572",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861544152,
+          "stop" : 1578861596854,
+          "duration" : 52702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "462eb33e08c6280c9aafe02a44d01572"
+    }, {
+      "name" : "[Venus] User navigates to PDP from \"Recommended for you\" section up to 10 times to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User navigates to PDP from \"Recommended for you\" section up to 10 times to check stability of PWA",
+        "uid" : "be1fbf29056d2f57",
+        "parentUid" : "67a55bfd8aa9e838c3f603f6b7bb60fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861596858,
+          "stop" : 1578861782593,
+          "duration" : 185735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67a55bfd8aa9e838c3f603f6b7bb60fc"
+    } ],
+    "uid" : "1973d29a4782a6947e55076ee3c034b0"
+  }, {
+    "name" : "As a customer, when I'm selecting required product fields, I should see availability message.",
+    "children" : [ {
+      "name" : "[Venus] User can see availability message after selecting required options of product",
+      "children" : [ {
+        "name" : "[Venus] User can see availability message after selecting required options of product",
+        "uid" : "ee6d8de7058ded47",
+        "parentUid" : "0472cb2dc3a75f19c7f920b4fa0dbd96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861782600,
+          "stop" : 1578861821104,
+          "duration" : 38504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0472cb2dc3a75f19c7f920b4fa0dbd96"
+    } ],
+    "uid" : "f874a68a1fa56d28b5ca166ea48b8ca8"
+  }, {
+    "name" : "As a customer, I can create, view, sort, and rate product reviews.",
+    "children" : [ {
+      "name" : "[Venus] User can see product reviews on PDP",
+      "children" : [ {
+        "name" : "[Venus] User can see product reviews on PDP",
+        "uid" : "75df17af564272f2",
+        "parentUid" : "956f296f07b8c14a2589632741756cb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861821108,
+          "stop" : 1578861863669,
+          "duration" : 42561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "956f296f07b8c14a2589632741756cb1"
+    } ],
+    "uid" : "9e722fe88dcdebead06ff0918506d6a3"
+  }, {
+    "name" : "As a customer, I can select qty of the product.",
+    "children" : [ {
+      "name" : "[Venus] User can select select qty of the product",
+      "children" : [ {
+        "name" : "[Venus] User can select select qty of the product",
+        "uid" : "d755b33e856cbc56",
+        "parentUid" : "845bdfdcdf46015217f280f965c666e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861863672,
+          "stop" : 1578861929595,
+          "duration" : 65923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845bdfdcdf46015217f280f965c666e0"
+    } ],
+    "uid" : "0f42d93f876accb10311622a3f431825"
+  }, {
+    "name" : "As a customer, I should be able to view \"Recently Viewed\" section of a product",
+    "children" : [ {
+      "name" : "[Venus] User can see \"Recently viewed\" carousel with products recently viewed",
+      "children" : [ {
+        "name" : "[Venus] User can see \"Recently viewed\" carousel with products recently viewed",
+        "uid" : "faa22f01e92329e7",
+        "parentUid" : "f0d86285c176eaa99b0f022edf6e4e5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861929600,
+          "stop" : 1578861976673,
+          "duration" : 47073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0d86285c176eaa99b0f022edf6e4e5f"
+    }, {
+      "name" : "[Venus] User can click \"Recently Viewed\" tab and navigate to product page",
+      "children" : [ {
+        "name" : "[Venus] User can click \"Recently Viewed\" tab and navigate to product page",
+        "uid" : "74a35d17cd5d39da",
+        "parentUid" : "d72fbfded6512dcc538f6162ff24ea2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578861976678,
+          "stop" : 1578862052921,
+          "duration" : 76243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d72fbfded6512dcc538f6162ff24ea2f"
+    } ],
+    "uid" : "5f773191658cb5b534a824e343e7f301"
+  }, {
+    "name" : "As a customer, I can select the size and width of the product.",
+    "children" : [ {
+      "name" : "[Venus] User can select product size on product page",
+      "children" : [ {
+        "name" : "[Venus] User can select product size on product page",
+        "uid" : "6e7b66b4b8ec33eb",
+        "parentUid" : "3b642ab53d324ea2bb42f0c25bac044e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862052926,
+          "stop" : 1578862084165,
+          "duration" : 31239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b642ab53d324ea2bb42f0c25bac044e"
+    }, {
+      "name" : "[Venus] User can select Waist Size on special product page",
+      "children" : [ {
+        "name" : "[Venus] User can select Waist Size on special product page",
+        "uid" : "bb84e99fea19de8a",
+        "parentUid" : "cf72db7409aa9ce8e30f67cf7848bc57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862084168,
+          "stop" : 1578862138349,
+          "duration" : 54181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf72db7409aa9ce8e30f67cf7848bc57"
+    }, {
+      "name" : "[Venus] User can select Inseam size on special product page",
+      "children" : [ {
+        "name" : "[Venus] User can select Inseam size on special product page",
+        "uid" : "fcf30ec84490d3b9",
+        "parentUid" : "01b422ac319d8a0d1232209505795a0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862138353,
+          "stop" : 1578862193254,
+          "duration" : 54901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01b422ac319d8a0d1232209505795a0a"
+    }, {
+      "name" : "[Venus] User can select Band size on special product page",
+      "children" : [ {
+        "name" : "[Venus] User can select Band size on special product page",
+        "uid" : "379c8b141068cb2a",
+        "parentUid" : "41caebfaf5b6d82468231b7a69f271f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862193258,
+          "stop" : 1578862260558,
+          "duration" : 67300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41caebfaf5b6d82468231b7a69f271f5"
+    } ],
+    "uid" : "df0e729926b9638242cd71149cff374a"
+  }, {
+    "name" : "As a customer, I will be suggested to sign-in when I attempt to favorite a product without signing in on PDP.",
+    "children" : [ {
+      "name" : "[Venus] Guest user is suggested to sign-in after taping on \"favorites\" button on PDP page",
+      "children" : [ {
+        "name" : "[Venus] Guest user is suggested to sign-in after taping on \"favorites\" button on PDP page",
+        "uid" : "1444cbe5b2621ab7",
+        "parentUid" : "5762114341ea66338f269d739c61fb9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862260573,
+          "stop" : 1578862307747,
+          "duration" : 47174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5762114341ea66338f269d739c61fb9a"
+    } ],
+    "uid" : "c4e7d54d1049647b56ce1de656955604"
+  }, {
+    "name" : "As a customer, I can view a \"Size Guide/Size Chart\" page",
+    "children" : [ {
+      "name" : "[Venus] User can see \"Size Guide/Size Chart\" CTA on PDP page",
+      "children" : [ {
+        "name" : "[Venus] User can see \"Size Guide/Size Chart\" CTA on PDP page",
+        "uid" : "9bd10d100379f5a9",
+        "parentUid" : "c78114e55bc6c03bf2292cbc0f03a119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862307753,
+          "stop" : 1578862333021,
+          "duration" : 25268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c78114e55bc6c03bf2292cbc0f03a119"
+    }, {
+      "name" : "[Venus] User can tap on \"Size Guide/Size Chart\" CTA and be navigated to \"Size Guide/Size Chart\" spreadsheet",
+      "children" : [ {
+        "name" : "[Venus] User can tap on \"Size Guide/Size Chart\" CTA and be navigated to \"Size Guide/Size Chart\" spreadsheet",
+        "uid" : "11b38d8921e641d",
+        "parentUid" : "4b931a1e8aebcb73dba7e57c9aeb14f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862333025,
+          "stop" : 1578862363630,
+          "duration" : 30605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b931a1e8aebcb73dba7e57c9aeb14f1"
+    }, {
+      "name" : "[Venus] User can navigate back to product from \"Size Guide/Size Chart\" spreadsheets",
+      "children" : [ {
+        "name" : "[Venus] User can navigate back to product from \"Size Guide/Size Chart\" spreadsheets",
+        "uid" : "a995423af227a203",
+        "parentUid" : "72f6c5b74bf03e7f962c4a071f50be10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862363633,
+          "stop" : 1578862408941,
+          "duration" : 45308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72f6c5b74bf03e7f962c4a071f50be10"
+    } ],
+    "uid" : "dc5bdb8feabdaa5c194710c1c8d56fce"
+  }, {
+    "name" : "As a customer, I can filter search result product listing by all available options.",
+    "children" : [ {
+      "name" : "[Venus] User can filter search result product listing by multiple available options.",
+      "children" : [ {
+        "name" : "[Venus] User can filter search result product listing by multiple available options.",
+        "uid" : "6b07d38c6398196c",
+        "parentUid" : "db8ef3f4d1fe1475368ff24d48bae05f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862439006,
+          "stop" : 1578862519942,
+          "duration" : 80936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db8ef3f4d1fe1475368ff24d48bae05f"
+    }, {
+      "name" : "[Venus] User can filter search result product listing by size option",
+      "children" : [ {
+        "name" : "[Venus] User can filter search result product listing by size option",
+        "uid" : "fff47f5ec978c851",
+        "parentUid" : "8a9f7a25ff498007034d825afc36a754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862519948,
+          "stop" : 1578862599209,
+          "duration" : 79261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a9f7a25ff498007034d825afc36a754"
+    }, {
+      "name" : "[Venus] User can filter the product listing by multiple available options.",
+      "children" : [ {
+        "name" : "[Venus] User can filter the product listing by multiple available options.",
+        "uid" : "449a6b5cd3b6cee9",
+        "parentUid" : "aaae5e698b6a37d1b9728cd9d89d3c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862599216,
+          "stop" : 1578862681767,
+          "duration" : 82551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aaae5e698b6a37d1b9728cd9d89d3c67"
+    }, {
+      "name" : "[Venus] User can filter the product listing by size option",
+      "children" : [ {
+        "name" : "[Venus] User can filter the product listing by size option",
+        "uid" : "606195b956644d23",
+        "parentUid" : "a139ff63def6b65225243f72d14ae276",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862681772,
+          "stop" : 1578862731908,
+          "duration" : 50136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a139ff63def6b65225243f72d14ae276"
+    } ],
+    "uid" : "35728786a6339d896a69a087cb00033e"
+  }, {
+    "name" : "As a customer, I can navigate through the total product results through pagination links",
+    "children" : [ {
+      "name" : "[Venus] User can navigate through the total product results through pagination links",
+      "children" : [ {
+        "name" : "[Venus] User can navigate through the total product results through pagination links",
+        "uid" : "2679ca47ed2d8bf3",
+        "parentUid" : "a9f1fc1f80956253f5ba0ba7f8d3052c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862731912,
+          "stop" : 1578862761306,
+          "duration" : 29394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9f1fc1f80956253f5ba0ba7f8d3052c"
+    }, {
+      "name" : "[Venus] User see additional list of unique items after tapping pagination link. Items are different then in previous list",
+      "children" : [ {
+        "name" : "[Venus] User see additional list of unique items after tapping pagination link. Items are different then in previous list",
+        "uid" : "3bcf43cde2b33701",
+        "parentUid" : "1e4079bc49b26419063110584c64002a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862761312,
+          "stop" : 1578862832964,
+          "duration" : 71652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e4079bc49b26419063110584c64002a"
+    }, {
+      "name" : "[Venus] User see additional list of unique items after tapping pagination link on search result PLP. Items are different then in previous list",
+      "children" : [ {
+        "name" : "[Venus] User see additional list of unique items after tapping pagination link on search result PLP. Items are different then in previous list",
+        "uid" : "11b21e735c5d71ed",
+        "parentUid" : "2bd9fc3e7d024ab10367316807fdd9a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578862832968,
+          "stop" : 1578863058728,
+          "duration" : 225760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bd9fc3e7d024ab10367316807fdd9a6"
+    } ],
+    "uid" : "3121d4b4bc78dd392c48ee70e313f47e"
+  }, {
+    "name" : "As a customer, clicking on any of the products should bring me to the destination screen extremely fast.",
+    "children" : [ {
+      "name" : "[Venus] Clicking on any of the products should bring me to the destination screen extremely fast.",
+      "children" : [ {
+        "name" : "[Venus] Clicking on any of the products should bring me to the destination screen extremely fast.",
+        "uid" : "7b5d86acaed290fd",
+        "parentUid" : "5d9eb742ddcc41d0fa3da0d763f91871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863058734,
+          "stop" : 1578863091433,
+          "duration" : 32699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d9eb742ddcc41d0fa3da0d763f91871"
+    }, {
+      "name" : "[Venus] User choose new PLP and then navigates to PDP up to 10 times to check stability of PWA",
+      "children" : [ {
+        "name" : "[Venus] User choose new PLP and then navigates to PDP up to 10 times to check stability of PWA",
+        "uid" : "3647ba17fa10ce5",
+        "parentUid" : "b83bdcd0f07032eabf1eb8f7fac2ee58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863091439,
+          "stop" : 1578863314819,
+          "duration" : 223380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b83bdcd0f07032eabf1eb8f7fac2ee58"
+    } ],
+    "uid" : "4b8f392a497508534c28dc18c6da0211"
+  }, {
+    "name" : "As a customer, I can see a list of products containing the following information:",
+    "children" : [ {
+      "name" : "[Venus] User can see a list of product with related information",
+      "children" : [ {
+        "name" : "[Venus] User can see a list of product with related information",
+        "uid" : "7b2e515522fb6bbb",
+        "parentUid" : "2cd07a38ce4c06f833d08abddb95bbe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863314829,
+          "stop" : 1578863321114,
+          "duration" : 6285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cd07a38ce4c06f833d08abddb95bbe8"
+    } ],
+    "uid" : "00b15da656dd5f7d21e0fdc5870bdc10"
+  }, {
+    "name" : "As a customer, I will need to select different sub-categories under a parent product listing page as applicable.",
+    "children" : [ {
+      "name" : "[Venus] User can see different sub-categories under a parent product listing page as applicable",
+      "children" : [ {
+        "name" : "[Venus] User can see different sub-categories under a parent product listing page as applicable",
+        "uid" : "90e80f65d1f22173",
+        "parentUid" : "84f1297953d1dd0def07a8366251925d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863321119,
+          "stop" : 1578863351797,
+          "duration" : 30678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84f1297953d1dd0def07a8366251925d"
+    }, {
+      "name" : "[Venus] User can click different sub-categories under a parent product listing page to navigate to expected PLP",
+      "children" : [ {
+        "name" : "[Venus] User can click different sub-categories under a parent product listing page to navigate to expected PLP",
+        "uid" : "4701ac188b704280",
+        "parentUid" : "ecd6d7b10d3566056813379b3d1ed99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863351803,
+          "stop" : 1578863375056,
+          "duration" : 23253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecd6d7b10d3566056813379b3d1ed99f"
+    } ],
+    "uid" : "9474e49707e9519b1234b37195d48f44"
+  }, {
+    "name" : "As a customer, I can see a total count of all products represented by this product listing page. This should read \"## ITEMS\" where \"##\" represents the total count.",
+    "children" : [ {
+      "name" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count.",
+      "children" : [ {
+        "name" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count.",
+        "uid" : "8d1ab831e7042f64",
+        "parentUid" : "6f514dba16ec120e3e0812d4d8a77af0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863375061,
+          "stop" : 1578863381803,
+          "duration" : 6742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f514dba16ec120e3e0812d4d8a77af0"
+    } ],
+    "uid" : "fe0247f60984c250b7f85f2121fb4997"
+  }, {
+    "name" : "As a customer, I can proceed to checkout by clicking an appropriate button.",
+    "children" : [ {
+      "name" : "[Venus] User can proceed to checkout with item in cart by taping appropriate CTA button",
+      "children" : [ {
+        "name" : "[Venus] User can proceed to checkout with item in cart by taping appropriate CTA button",
+        "uid" : "2d6d6b1009b08e3",
+        "parentUid" : "4d8612144861ef1721d8977ac26b5209",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863381820,
+          "stop" : 1578863447664,
+          "duration" : 65844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d8612144861ef1721d8977ac26b5209"
+    }, {
+      "name" : "[Venus] User can navigate back to cart page from checkout",
+      "children" : [ {
+        "name" : "[Venus] User can navigate back to cart page from checkout",
+        "uid" : "bc7a8fcccea2f773",
+        "parentUid" : "eb31cfd0e8eda6c69b60c10150f54e98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863447669,
+          "stop" : 1578863503388,
+          "duration" : 55719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb31cfd0e8eda6c69b60c10150f54e98"
+    }, {
+      "name" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page",
+      "children" : [ {
+        "name" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page",
+        "uid" : "78d794c050110b47",
+        "parentUid" : "417bddbf17708f3b57f3b3c05d665b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863503393,
+          "stop" : 1578863610828,
+          "duration" : 107435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "417bddbf17708f3b57f3b3c05d665b09"
+    } ],
+    "uid" : "fe3ee85415a0dbdaf9b9d75305228830"
+  }, {
+    "name" : "As a customer, I should be able to see the cost summary on the page with the following info:",
+    "children" : [ {
+      "name" : "[Venus] User can see cost summary of added to cart items",
+      "children" : [ {
+        "name" : "[Venus] User can see cost summary of added to cart items",
+        "uid" : "673637cf62e4f730",
+        "parentUid" : "bc761d5be279b07879a747b07f69eb6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863610833,
+          "stop" : 1578863673200,
+          "duration" : 62367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc761d5be279b07879a747b07f69eb6a"
+    }, {
+      "name" : "[Venus] User can see summary cost is changing if user change items quantity or removing items from cart",
+      "children" : [ {
+        "name" : "[Venus] User can see summary cost is changing if user change items quantity or removing items from cart",
+        "uid" : "17acb8ceba85e9ef",
+        "parentUid" : "430f22ebf003ff050c8168a5b8120751",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863673205,
+          "stop" : 1578863800289,
+          "duration" : 127084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "430f22ebf003ff050c8168a5b8120751"
+    } ],
+    "uid" : "4d65a8f3c1c36a837e8cb85b3327f07b"
+  }, {
+    "name" : "As a customer, I want to see appropriate content on empty cart page",
+    "children" : [ {
+      "name" : "[Venus] User can see appropriate content on empty cart page",
+      "children" : [ {
+        "name" : "[Venus] User can see appropriate content on empty cart page",
+        "uid" : "7cd59813a8e91a4b",
+        "parentUid" : "10ae20117bb300189208c9b5d474c6b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863800294,
+          "stop" : 1578863822505,
+          "duration" : 22211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10ae20117bb300189208c9b5d474c6b2"
+    }, {
+      "name" : "[Venus] \"Continue shopping\" button navigates to home page",
+      "children" : [ {
+        "name" : "[Venus] \"Continue shopping\" button navigates to home page",
+        "uid" : "904d01159ed5e1af",
+        "parentUid" : "bd42d6387b1969a261efbe68884e7ec8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863822508,
+          "stop" : 1578863847605,
+          "duration" : 25097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd42d6387b1969a261efbe68884e7ec8"
+    } ],
+    "uid" : "93fb80c2ce8945b0cd9b3ce1970a5243"
+  }, {
+    "name" : "As a customer, I want to click on item and be taken to appropriate PDP",
+    "children" : [ {
+      "name" : "[Venus] User click on item image to navigate to item PDP",
+      "children" : [ {
+        "name" : "[Venus] User click on item image to navigate to item PDP",
+        "uid" : "fb1e52c614807dee",
+        "parentUid" : "9a982e76b94485a73103a62b336316e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863847611,
+          "stop" : 1578863916518,
+          "duration" : 68907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a982e76b94485a73103a62b336316e4"
+    } ],
+    "uid" : "469bb801512977defa1823700ee45d7b"
+  }, {
+    "name" : "As a customer, I should be able to see a list of products with:",
+    "children" : [ {
+      "name" : "[Venus] User can see list of added to cart products with corresponding information",
+      "children" : [ {
+        "name" : "[Venus] User can see list of added to cart products with corresponding information",
+        "uid" : "2c39c816c1efcb72",
+        "parentUid" : "9285d7eea1b0c1937a8526a3fb5c3b5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578863916523,
+          "stop" : 1578864012065,
+          "duration" : 95542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9285d7eea1b0c1937a8526a3fb5c3b5d"
+    } ],
+    "uid" : "649984266b8c36c3a9132e55cb8309bb"
+  }, {
+    "name" : "As a customer, I can adjust the quantity of a product from 0 to 10 from a dropdown list. Item quantity will be updated right after selection has been made.",
+    "children" : [ {
+      "name" : "[Venus] User can change quantity of a product from 1 to 10",
+      "children" : [ {
+        "name" : "[Venus] User can change quantity of a product from 1 to 10",
+        "uid" : "5da5cd151edc71a9",
+        "parentUid" : "111d366e799b2b0bee7b89ccef790938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864082147,
+          "stop" : 1578864154882,
+          "duration" : 72735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "111d366e799b2b0bee7b89ccef790938"
+    } ],
+    "uid" : "dea2c959822ac92d93a37bf1b33643ca"
+  }, {
+    "name" : "As a customer, I can click on the \"remove\" link next to a product and remove it from my cart.",
+    "children" : [ {
+      "name" : "[Venus] User can remove any products from cart by taping \"remove\" CTA",
+      "children" : [ {
+        "name" : "[Venus] User can remove any products from cart by taping \"remove\" CTA",
+        "uid" : "7b79a66690fb4670",
+        "parentUid" : "25010f8d6c276228c8d3bfb79ffaea57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864154888,
+          "stop" : 1578864210876,
+          "duration" : 55988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25010f8d6c276228c8d3bfb79ffaea57"
+    } ],
+    "uid" : "46ef4bd792e1152057b822c365d319c8"
+  }, {
+    "name" : "As user I want to see product landing page and interact with elements on this page",
+    "children" : [ {
+      "name" : "[Venus] User can add to product to cart after selecting product options on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can add to product to cart after selecting product options on product landing page",
+        "uid" : "2b27b19be4c3778b",
+        "parentUid" : "6638382c8ca26992b23ec4baaac2fe39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864210882,
+          "stop" : 1578864248699,
+          "duration" : 37817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6638382c8ca26992b23ec4baaac2fe39"
+    }, {
+      "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart from product landing page, and user can navigate to cart page to see added product",
+      "children" : [ {
+        "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart from product landing page, and user can navigate to cart page to see added product",
+        "uid" : "66e2e73555561b60",
+        "parentUid" : "79b9fc3bbaa67976b0f230869e3cf7ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864248704,
+          "stop" : 1578864264545,
+          "duration" : 15841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79b9fc3bbaa67976b0f230869e3cf7ff"
+    }, {
+      "name" : "[Venus] User can see product images carousel and can swipe images on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can see product images carousel and can swipe images on product landing page",
+        "uid" : "649cacb96c9e5fa4",
+        "parentUid" : "1521dfd2583252cee0fe600f8c3c8fae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864264549,
+          "stop" : 1578864279707,
+          "duration" : 15158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1521dfd2583252cee0fe600f8c3c8fae"
+    }, {
+      "name" : "[Venus] User select color on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User select color on product landing page",
+        "uid" : "d63a3852cc4fe2cc",
+        "parentUid" : "ea1eed25460b8614aa2dd9700d98c05b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864279713,
+          "stop" : 1578864354479,
+          "duration" : 74766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea1eed25460b8614aa2dd9700d98c05b"
+    }, {
+      "name" : "[Venus] User can see product details on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can see product details on product landing page",
+        "uid" : "87549020f602605d",
+        "parentUid" : "3687422c8266d0c27ed8cec6a3a86c23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864354487,
+          "stop" : 1578864366924,
+          "duration" : 12437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3687422c8266d0c27ed8cec6a3a86c23"
+    }, {
+      "name" : "[Venus] As user I want see Product price with/without sale on product landing page",
+      "children" : [ {
+        "name" : "[Venus] As user I want see Product price with/without sale on product landing page",
+        "uid" : "b9aca399cef87bb4",
+        "parentUid" : "6336a543bfd9b32f6268caf2db5cfea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864366928,
+          "stop" : 1578864398300,
+          "duration" : 31372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6336a543bfd9b32f6268caf2db5cfea6"
+    }, {
+      "name" : "[Venus] User can see large image view by taping + icon on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can see large image view by taping + icon on product landing page",
+        "uid" : "b722d118fcab6e2e",
+        "parentUid" : "23f9a32cda13b73fd82e135ab2320453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864398305,
+          "stop" : 1578864449234,
+          "duration" : 50929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23f9a32cda13b73fd82e135ab2320453"
+    }, {
+      "name" : "[Venus] User can see availability message after selecting required options of product on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can see availability message after selecting required options of product on product landing page",
+        "uid" : "f86cf88a4ebe532f",
+        "parentUid" : "8893549d03dbdcb6f52412bcb53256f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864449238,
+          "stop" : 1578864463430,
+          "duration" : 14192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8893549d03dbdcb6f52412bcb53256f9"
+    }, {
+      "name" : "[Venus] User can select select qty of the product on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can select select qty of the product on product landing page",
+        "uid" : "ec697ff741807ca6",
+        "parentUid" : "975070ad4033ea6c243675e7c3dd95ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864463434,
+          "stop" : 1578864503439,
+          "duration" : 40005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "975070ad4033ea6c243675e7c3dd95ad"
+    }, {
+      "name" : "[Venus] User can select product size on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can select product size on product landing page",
+        "uid" : "478ac740eda3c5fb",
+        "parentUid" : "1194d7bad9e966f98fea3158ae3e3baa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864503444,
+          "stop" : 1578864513545,
+          "duration" : 10101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1194d7bad9e966f98fea3158ae3e3baa"
+    }, {
+      "name" : "[Venus] User can select Waist Size on special product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can select Waist Size on special product landing page",
+        "uid" : "93d6588160174af0",
+        "parentUid" : "8bf8db12baa220ed8b1aa19f5015c94d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864513548,
+          "stop" : 1578864557864,
+          "duration" : 44316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8bf8db12baa220ed8b1aa19f5015c94d"
+    }, {
+      "name" : "[Venus] User can select Inseam size on special product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can select Inseam size on special product landing page",
+        "uid" : "8273db9f2ceebda0",
+        "parentUid" : "4d0ccd75ddd9a57c42c0ea20343b68ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864557868,
+          "stop" : 1578864600201,
+          "duration" : 42333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d0ccd75ddd9a57c42c0ea20343b68ef"
+    }, {
+      "name" : "[Venus] User can select Band size on special product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can select Band size on special product landing page",
+        "uid" : "57b0129be1d9a728",
+        "parentUid" : "edc586cdefc64d0992b478549583d4a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864600219,
+          "stop" : 1578864644786,
+          "duration" : 44567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edc586cdefc64d0992b478549583d4a5"
+    }, {
+      "name" : "[Venus] User can navigate to full PDP by click on \"View More Details\" CTA on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can navigate to full PDP by click on \"View More Details\" CTA on product landing page",
+        "uid" : "6a30e475d8b840cf",
+        "parentUid" : "e9a9bbec53b657d21c7057d1ce547d33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864644790,
+          "stop" : 1578864690576,
+          "duration" : 45786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9a9bbec53b657d21c7057d1ce547d33"
+    }, {
+      "name" : "[Venus] User can see products with correct info in \"Related products\" section on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can see products with correct info in \"Related products\" section on product landing page",
+        "uid" : "b85b7b92466ceec6",
+        "parentUid" : "aec62e53b454bbc2fda52fb32fa6bd87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864690580,
+          "stop" : 1578864712470,
+          "duration" : 21890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aec62e53b454bbc2fda52fb32fa6bd87"
+    }, {
+      "name" : "[Venus] User can navigate to expected PDP by click on item from \"Related products\" section on product landing page",
+      "children" : [ {
+        "name" : "[Venus] User can navigate to expected PDP by click on item from \"Related products\" section on product landing page",
+        "uid" : "c0a59ef55b6719b6",
+        "parentUid" : "a6aac733f03692947a41da78e68bb68f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864712476,
+          "stop" : 1578864757750,
+          "duration" : 45274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6aac733f03692947a41da78e68bb68f"
+    } ],
+    "uid" : "81c29a9913658ef5b79a60e7c6ccdc8b"
+  }, {
+    "name" : "As user I want shop items by color",
+    "children" : [ {
+      "name" : "[Venus] ’Show all...’ Button redirects to correct PLP",
+      "children" : [ {
+        "name" : "[Venus] ’Show all...’ Button redirects to correct PLP",
+        "uid" : "19bd3f35eaaf9762",
+        "parentUid" : "289f08f401bcc9fd9ff90220798de7a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864757755,
+          "stop" : 1578864808545,
+          "duration" : 50790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "289f08f401bcc9fd9ff90220798de7a6"
+    }, {
+      "name" : "[Venus] User can click on color image to navigate to expected PLP",
+      "children" : [ {
+        "name" : "[Venus] User can click on color image to navigate to expected PLP",
+        "uid" : "5254114e2f715746",
+        "parentUid" : "0f8ef660a3b5bdd806752a9fc319be50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864808550,
+          "stop" : 1578864834801,
+          "duration" : 26251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f8ef660a3b5bdd806752a9fc319be50"
+    } ],
+    "uid" : "0dcb3288cd2be2da813058fdbc0109dd"
+  }, {
+    "name" : "As user I want to shop items by style",
+    "children" : [ {
+      "name" : "[Venus] User can navigate to expected PLP from Shop by Style page",
+      "children" : [ {
+        "name" : "[Venus] User can navigate to expected PLP from Shop by Style page",
+        "uid" : "7b4b305907e01097",
+        "parentUid" : "d06b3ff7b8faef47a1471810e826e828",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864834806,
+          "stop" : 1578864863738,
+          "duration" : 28932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d06b3ff7b8faef47a1471810e826e828"
+    }, {
+      "name" : "[Venus] Subcategory filter navigates to expected PLP",
+      "children" : [ {
+        "name" : "[Venus] Subcategory filter navigates to expected PLP",
+        "uid" : "dcecd63aa47ae229",
+        "parentUid" : "fa2978c1655e336b28819fa5df1d917f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578864863743,
+          "stop" : 1578864889658,
+          "duration" : 25915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa2978c1655e336b28819fa5df1d917f"
+    } ],
+    "uid" : "fec77b98eaab4b49843c72627ddcf58c"
+  } ]
+}

@@ -1,0 +1,32 @@
+contact_us_page_content:
+  contact_us_header: "//h1[contains(text(), 'Contact Us')]"
+  report_a_bug_text: "//*[contains(text(), 'Want to')]"
+  email_label: "//h3/descendant-or-self::*[contains(text(), 'EMAIL')] | //h3/descendant-or-self::*[contains(text(), 'Email')]"
+payment_page_content:
+  contact_us_header: "//h1[contains(text(), 'Payment')]"
+  credit_cards_header: "//*[contains(text(), 'Credit Cards')]"
+  paypal_header: "//*[text() = 'PayPal']"
+  payment_security_accordion: "//*[contains(text(), 'PAYMENT SECURITY')]"
+your_orders_page_content:
+  your_orders_header: "//h1[contains(text(), 'Your Orders')]"
+  order_history_and_status: "//*[contains(text(), 'ORDER HISTORY AND STATUS')]"
+  track_your_order_label: "//*[contains(text(), 'Track Your Order')]"
+size_guide_page_content:
+  sizes_guide_header: "//h1[contains(text(), 'Size Guide')]"
+  size_guide_info: "//*[contains(text(), 'These guides')]"
+  clothing_accordion: "//*[contains(text(), 'clothing') and not(self::script)]"
+gifting_revolve_page_content:
+  gift_revolve_header: "//h1[contains(text(), 'Gift REVOLVE')] | //h1[contains(text(), 'Gift Revolve')]"
+  gift_certificates_accordion: "//*[contains(text(), 'GIFT C') and not(self::script)]"
+why_revolve_page_content:
+  why_revolve_header: "//h1[contains(text(), 'Why REVOLVE')] | //h1[contains(text(), 'Why Revolve')]"
+  free_shipping_accordion: "//*[contains(text(),'FREE SHIPPING &')]"
+feedback_page_content:
+  survey_header: "//*[contains(text(),'Survey') and not(self::script)]"
+  question_label: "//*[contains(text(),'What was the') and not(self::script)]"
+privacy_policy_page_content:
+  security_and_privacy_header: "//h1[contains(text(), 'Security & Privacy')]"
+  privacy_policy: "//*[contains(text(), 'Privacy Policy')]"
+terms_of_use_page_content:
+  terms_of_use_header: "//h1[contains(text(), 'Terms of Use')]"
+  terms_label: "//*[contains(text(), 'Terms of Service')]"

@@ -1,0 +1,20 @@
+random_subcategory:
+  item_more_colors: "more colors available"
+  prise: "$"
+  view_details: "view detail"
+bras:
+  item_name_contain: "bra"
+  item_more_colors: "more colors available"
+  prise: "$"
+  view_details: "view detail"
+dress:
+  item_name_contain: "dress"
+  item_more_colors: "more colors available"
+  prise: "$"
+  view_details: "view detail"
+jewelry:
+  item_name_contain: "necklace"
+  item_name_contain_1: "earrings"
+  item_more_colors: "more colors available"
+  prise: "$"
+  view_details: "view detail"

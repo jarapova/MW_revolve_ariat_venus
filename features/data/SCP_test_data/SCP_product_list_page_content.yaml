@@ -1,0 +1,37 @@
+base_locators:
+  main_text: "(//h1)[1]"
+  breadcrumbs_block: "(//*[@data-page='Subcategory']//*[contains(text(),'Home')]/../..)"
+  all_items_button: "//*[contains(text(), 'ALL ITEMS') and not(self::script)]"
+  shop_my_store_button: "//*[contains(text(), 'SHOP MY') and not(self::script)]"
+  items_results_label_1: "(//*[@data-page='Subcategory']//*[contains(text(), 'SHOP MY STORE')]/../following-sibling::*[1]//*[text()])[1]"
+  refine_by_selector: "(//*[@data-page='Subcategory']//*[contains(text(), 'Refine by')])"
+  sort_by_selector: "(//*[@data-page='Subcategory']//*[contains(text(), 'Sort by')])[1]"
+  items_results_label_2: "//ul[li//*[contains(@id, 'item-')]]/../following-sibling::*[text()]"
+empty_search_page_content:
+  refine_search_text:
+    womens: "Womens"
+    mens: "Mens"
+    kids: "Kids"
+    accessories: "Accessories"
+    brands: "Brands"
+    bootshop: "Boot Shop"
+    dily_deals: "Daily deal"
+  text:
+    1: "Try your search again using these tips"
+    2: "Double check the spelling. Try varying the spelling"
+    3: "Limit the search to one or two words"
+    4: "Be less specific in the choice of your search terms"
+    5: "Try a new search"
+    6: "REFINE SEARCH"
+  locators:
+    main_text: "//*[contains(text(), 'We') and contains(text(), 're sorry, no products were found')]"
+    new_search_input: "//*[@data-page='Subcategory']//input[@type='text']"
+    new_search_button: "//*[@data-page='Subcategory']//input[@type='text']//following-sibling::*"
+
+multiple_locators:
+  all_items_locator: "(//*[contains(@id, 'item-')])"
+  items_multiple_locators:
+    items_name: "(//a[@data-th='product-link']/*/*[2]//*[text()])"
+    item_image: "(//a[@data-th='product-link']//img[@src])"
+    item_deault_price: "(//a[@data-th='product-link']/*/*[3]//*[text()])"
+    item_rating_stars: "(//a[@data-th='product-link']/*/*[4])"

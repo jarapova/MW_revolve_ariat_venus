@@ -1,0 +1,34 @@
+base_locators:
+  main_text: "//h1"
+  product_count: "//h1/following-sibling::*[text()][1]"
+  category_filter: "//*[contains(text(), 'Categories') and not(self::script)]/ancestor::a"
+  filter_button: "(//*[contains(text(), 'Filter')])"
+  sort_button: "(//*[contains(text(), 'Sort')])[1]"
+multiple_locators:
+  items_color_count: "((//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[contains(@id, 'item-')]//*[contains(text(), 'Color')])"
+  items_image: "((//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[contains(@id, 'item-')]//img[@src and @alt])"
+  item_name: "((//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[contains(@id, 'item-')]//*[text()][2])"
+  item_price: "((//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[contains(@id, 'item-')]/descendant::*[text()][3])"
+optional_locators:
+  close_sort_popup_button: "//*[@role='document']//*[contains(text(), 'Sort')]/following-sibling::*[@type='button']"
+  subcategory_filter: "//*[contains(text(), 'Categories') and not(self::script)]"
+  filter_text: "(//*[contains(text(), 'Filter')])[1]//following-sibling::*[text()]"
+  sort_text: "(//*[contains(text(), 'Sort')])[1]//following-sibling::*[text()]"
+  show_more_button: "//*[contains(text(), 'Show More')]"
+  item_sale_price: "(//*[contains(@id, 'item-')]//*[text()][4])"
+  actual_item_price: "((//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[contains(@id, 'item-')]/descendant::*[text()][last()])"
+empty_search_result_content:
+  text_info: "//*[contains(text(), 'Your search')]"
+  header_text: "//*[contains(text(), 'Results')]"
+  new_search_text: "//*[contains(text(), 'ry a new')]"
+  new_search_input: "(//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//input"
+  search_button: "(//*[@data-page='Subcategory'] | //*[@data-page='subcategory'])//*[*[contains(@rel, 'search')]]"
+filter_modal_locators:
+  close_filter_button: "//div[@role='presentation' and contains(.,'Filter')]//*[contains(text(), 'Filter')]/../../following-sibling::*[@type='button']"
+  clear_filters_button: "//div[@role='presentation' and contains(.,'Filter')]//*[contains(text(), 'lear')]"
+  apply_filter_button: "//div[@role='presentation' and contains(.,'Filter')]//*[contains(text(), 'pply')]"
+subcategory_filter_modal_locators:
+  base_locators:
+    close_button: "//*[@role='document']//*[contains(text(), 'Categories')]/following-sibling::*[@type='button']"
+  multiple_locators:
+    categories: "(//*[@role='document' and .//*[contains(text(), 'Categories')]]//*[text() and ancestor::a])"

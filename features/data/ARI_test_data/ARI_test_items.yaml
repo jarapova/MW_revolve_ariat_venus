@@ -1,0 +1,16 @@
+item_1_no_color:
+  pdp_link: "CAPISTRANO_VEST_W_APP.html"
+item_1:
+  pdp_link: "CAPISTRANO_VEST_W_APP.html?dwvar_CAPISTRANO__VEST__W__APP_color=BLACK"
+item_with_size:
+  pdp_link: "TEK_POLO_K_APP.html?dwvar_TEK__POLO__K__APP_color=COOL_AQUA"
+item_with_width_and_size:
+  pdp_link: "P13374_M_FOO.html?dwvar_P13374__M__FOO_color=BRANDING_IRON_BRANGUS"
+item_with_no_size:
+  pdp_link: "ARENA_CAP_W_M_ACC.html?dwvar_ARENA__CAP__W__M__ACC_color=GREY"
+item_with_waist_and_length:
+  pdp_link: "P17042_W_APP.html?dwvar_P17042__W__APP_color=BLACK"
+item_on_sale:
+  pdp_link: "P18692_W_APP.html?dwvar_P18692__W__APP_color=WHITE"
+item_with_size_guide:
+  pdp_link: "TOMBSTONE_K_FOO.html?dwvar_TOMBSTONE__K__FOO_color=VINTAGE_BOMBER"

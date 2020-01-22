@@ -1,0 +1,56 @@
+
+account_information_page:
+  account_information_title: "//div[contains(.,'ACCOUNT INFORMATION') and contains (@class, 'title mw-was-td mw-main-title')]"
+  logout_button: "//a[text()='Log Out' and contains (@href, '/secure/login.aspx?action=logout')]"
+  first_name_field: "//div[text()='First Name*']/preceding-sibling::input[contains (@value, '')]"
+  last_name_field: "//div[text()='Last Name*']/preceding-sibling::input[contains (@value, '')]"
+  address_line_field: "//div[text()='Address*']/preceding-sibling::input[contains (@value, '')]"
+  apt_suite_field: "//div[text()='Apt/Suite']/preceding-sibling::input"
+  city_field: "//div[text()='City*']/preceding-sibling::input[contains (@value, '')]"
+  state_field: "(//*[contains(text(), 'State*')]//parent::div/following-sibling::select)[1]"
+  zip_code_field: "//div[text()='Zip Code*']/preceding-sibling::input[contains (@value, '')]"
+  country_field: "//select[contains(@id, 'country')]"
+  phone_number_field: "//div[text()='Phone*']/preceding-sibling::input[contains (@value, '')]"
+  birth_month_field: "//select[contains(@id, 'Month')]"
+  birth_year_field: "//select[contains(@id, 'Year')]"
+  sign_in_details_title: "//span[text()='SIGN IN DETAILS']"
+  email_field: "//div[text() = 'Email Address*']/preceding-sibling::input[contains (@value, '')]"
+  confirm_email_field: "//div[text() = 'Confirm Email Address*']/preceding-sibling::input[contains (@value, '')]"
+  password_field: "//div[text()='Password*']/preceding-sibling::input[contains (@value, '')]"
+  confirm_password_field: "//input[@type='password' and contains(@id, 'confirm')]"
+  update_button: "//a[text()='UPDATE']"
+  my_account_navigation_carousel: "//ul[@class='mw-navigation-bar']"
+  account_info_tab: "//ul[@class='mw-navigation-bar']//a[text()='Account Info']/parent::li"
+  order_history_tab: "//ul[@class='mw-navigation-bar']//a[text()='Order History']/parent::li"
+  wish_list_tab: "//ul[@class='mw-navigation-bar']//a[text()='Wish List']/parent::li"
+  mail_options_tab: "//ul[@class='mw-navigation-bar']//a[text()='Mail Options']/parent::li"
+
+account_tabs:
+  account_bar: "//ul[@class='mw-navigation-bar']"
+  account_info: "//ul[@class='mw-navigation-bar']//a[text()='Account Info']/parent::li"
+  order_history: "//ul[@class='mw-navigation-bar']//a[text()='Order History']/parent::li"
+  wish_list: "//ul[@class='mw-navigation-bar']//a[text()='Wish List']/parent::li"
+  mail_options: "//ul[@class='mw-navigation-bar']//a[text()='Mail Options']/parent::li"
+
+order_history_page:
+  order_history_title: "//td[contains(.,'Order History') and contains (@class, 'title mw-main-title')]"
+  shipping_updates_title: "//div[text()='Get Shipping Updates']"
+  shipping_updates_sms_icon: "(//div[@class='label customizable']/img[@class='label_img'])[1]"
+  shipping_updates_messenger_icon: "(//div[@class='label customizable']/img[@class='label_img'])[2]"
+  shipping_updates_sms_toggle: "(//div[@class='option']/div[@class='toggle_container'])[1]"
+  shipping_updates_messenger_toggle: "(//div[@class='option']/div[@class='toggle_container'])[2]"
+
+
+wish_list_page:
+  wish_list_title: "//h1[contains(text(), 'WISH LIST')]"
+  keep_your_wish_list_title: "//div[contains(text(), 'KEEP YOUR WISH LIST')]"
+  private_radio_button: "//input[@type='radio']//following-sibling::label[contains(text(), 'Private')]"
+  public_radio_button: "//input[@type='radio']//following-sibling::label[contains(text(), 'Public')]"
+  friend_email_address: "//*[contains(text(), 'NEED A GIFT')]/following-sibling::div//input[contains(@name, 'email')]"
+  submit_friend_email_button: "//a[contains(text(), 'SUBMIT')]"
+
+mail_options_page:
+  mail_options_title: "//div[contains(.,'Mail Options') and contains (@class, 'title mw-was-td mw-checkout-title')]"
+
+welcome_back_account_page_locators:
+  welcome_back_message: "//span[contains(@id, 'welcomemessage')]"

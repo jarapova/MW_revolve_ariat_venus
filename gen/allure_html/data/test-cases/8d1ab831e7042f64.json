@@ -1,0 +1,247 @@
+{
+  "uid" : "8d1ab831e7042f64",
+  "name" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count.",
+  "fullName" : "As a customer, I can see a total count of all products represented by this product listing page. This should read \"## ITEMS\" where \"##\" represents the total count.: [Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count.",
+  "historyId" : "dc2deec86d732306f441b6fa614f160f",
+  "time" : {
+    "start" : 1578863375061,
+    "stop" : 1578863381803,
+    "duration" : 6742
+  },
+  "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PLP Product Listing Page/PLP_Tot_Res.feature:48",
+  "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PLP Product Listing Page/PLP_Tot_Res.feature:48",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cucumber.rb:14",
+    "time" : {
+      "start" : 1578863375063,
+      "stop" : 1578863375063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:22",
+    "time" : {
+      "start" : 1578863375063,
+      "stop" : 1578863375063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:3",
+    "time" : {
+      "start" : 1578863375063,
+      "stop" : 1578863375063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PLP Product Listing Page/PLP_Tot_Res.feature:48",
+    "descriptionHtml" : "Location - /Users/tempuser/IdeaProjects/mw-automation-framework/features/regression/Baseline features/PLP Product Listing Page/PLP_Tot_Res.feature:48",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on home_page",
+      "time" : {
+        "start" : 1578863375063,
+        "stop" : 1578863377022,
+        "duration" : 1959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user can see main_navigation_carousel on header",
+      "time" : {
+        "start" : 1578863377022,
+        "stop" : 1578863379101,
+        "duration" : 2079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user click \"Clothing\" on main_navigation_carousel",
+      "time" : {
+        "start" : 1578863379101,
+        "stop" : 1578863379272,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user select \"Dresses\" from subcategory_filter on category_page",
+      "time" : {
+        "start" : 1578863379272,
+        "stop" : 1578863381632,
+        "duration" : 2360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see \"correct_price\" on subcategory_page",
+      "time" : {
+        "start" : 1578863381633,
+        "stop" : 1578863381669,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "hooks.rb:25",
+    "time" : {
+      "start" : 1578863381669,
+      "stop" : 1578863381670,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:7",
+    "time" : {
+      "start" : 1578863381670,
+      "stop" : 1578863381670,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cucumber.rb:10",
+    "time" : {
+      "start" : 1578863381670,
+      "stop" : 1578863381802,
+      "duration" : 132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "feature",
+    "value" : "As a customer, I can see a total count of all products represented by this product listing page. This should read \"## ITEMS\" where \"##\" represents the total count."
+  }, {
+    "name" : "package",
+    "value" : "As a customer, I can see a total count of all products represented by this product listing page. This should read \"## ITEMS\" where \"##\" represents the total count."
+  }, {
+    "name" : "suite",
+    "value" : "As a customer, I can see a total count of all products represented by this product listing page. This should read \"## ITEMS\" where \"##\" represents the total count."
+  }, {
+    "name" : "story",
+    "value" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count."
+  }, {
+    "name" : "testClass",
+    "value" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count."
+  }, {
+    "name" : "tag",
+    "value" : "proj:venus"
+  }, {
+    "name" : "tag",
+    "value" : "automated"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70335332540460"
+  }, {
+    "name" : "host",
+    "value" : "TempUsers-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "automated", "proj:venus" ]
+  },
+  "source" : "8d1ab831e7042f64.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "https://venus.com" ],
+  "name" : "Base_URL"
+}, {
+  "values" : [ "prod" ],
+  "name" : "Version"
+}, {
+  "values" : [ "emulation: iPhone X" ],
+  "name" : "Device"
+}, {
+  "values" : [ "venus" ],
+  "name" : "PWA"
+} ]

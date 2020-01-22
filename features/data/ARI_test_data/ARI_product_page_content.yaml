@@ -1,0 +1,48 @@
+base_locators:
+  item_name: "//h1"
+  item_sku: "(//h1/preceding-sibling::*[text()] | //h1/following-sibling::*[text()])"
+  item_main_image: "//*[@aria-hidden='false']/descendant-or-self::img"
+  item_image_magnify_button: "//*[@width='100' and @height='100']"
+  item_price: "//*[@data-page='Product']/descendant::*[contains(text(), '$')][1]"
+  price_vary_info: "//*[contains(text(), 'rice might')]"
+#  item_color: "//*[@data-page='Product']//*[contains(text(), 'Color')]/.."
+  item_qty_lable: "//*[contains(text(), 'QTY')]"
+  qty_subtract_button: "(//*[contains(text(), 'QTY')]/../following-sibling::*//button)[1]"
+  current_item_qty: "(//*[contains(text(), 'QTY')]/../following-sibling::*//input)"
+  qty_add_button: "(//*[contains(text(), 'QTY')]/../following-sibling::*//button)[2]"
+  add_to_bag_button: "//*[@data-page='Product']//*[contains(text(), 'Add to Ca')] | //*[@data-page='Product']//*[contains(text(), 'Select ')]"
+optional_locators:
+  price_with_sale: "//*[@data-page='Product']/descendant::*[contains(text(), '$')][2]"
+  item_description_button: "//*[@data-page='Product']//*[contains(text(), 'Description')]"
+  item_spec_button: "//*[@data-page='Product']//*[contains(text(), 'Specific')]"
+  item_description: "//*[@role='tabpanel' and @option='tab0']"
+  item_specifications: "//*[@id='product-specifications']"
+  size_selector: "(//*[contains(text(), 'Size') and following-sibling::*[contains(text(), 'elect')]]/..)"
+  waist_selector: "(//*[contains(text(), 'Waist') and following-sibling::*[contains(text(), 'elect')]]/..)"
+  length_selector: "(//*[contains(text(), 'Length') and following-sibling::*[contains(text(), 'elect')]]/..)"
+  view_bag_button: &view_bag_button "//*[@role='alertdialog']//*[contains(text(), 'View')]"
+  favorite_button: "//*[contains(text(), 'Add to Wish')]"
+  size_guide_link: "//*[contains(text(), 'Size guide')]"
+  close_size_guide_modal_button: &cl_sg_md_btn "//*[contains(text(), 'Size Chart') and not(self::script)]/following-sibling::*[not(descendant::*[text()])]"
+multiple_locators:
+  item_gallery_images: "(//*[@aria-selected]//img)"
+  color_buttons: "(//*[@data-page='Product']//*[contains(text(), 'Color')]/../following-sibling::*//img)"
+  available_width_sizes: "(//*[contains(text(), 'Width') and not(self::script)]/../following-sibling::*//*[@aria-label and not(@disabled)])"
+pop_up_locators:
+  pop_up_text: "//*[@role='alertdialog']//*[contains(text(), 'This item')]"
+  view_my_cart_link: *view_bag_button
+  close_pop_up: "(//*[@role='alertdialog']//*[@aria-label='Close'] | //*[@role='alertdialog']//*[@aria-label='close'])"
+size_guide_modal_locators:
+  header_text: "//*[contains(text(), 'Size Chart') and not(self::script)]"
+  close_modal_button: *cl_sg_md_btn
+  us_size_to_label: "//*[contains(text(), 'Size Chart') and not(self::script)]/following-sibling::*//*[contains(text(), 'US size to')]"
+  metric_selector: "//*[contains(text(), 'Size Chart') and not(self::script)]/following-sibling::*//*[@role='button']"
+size_guide_modal_multiple_locators:
+  us_sizes_locator: "(//*[contains(text(), 'Size Chart') and not(self::script)]/following-sibling::*//*[contains(text(), 'US size to')]/following-sibling::*[text()])"
+  converted_sizes_locator: "(//*[contains(text(), 'Size Chart') and not(self::script)]/following-sibling::*//*[@role='button']/../../following-sibling::*[text()])"
+recently_viewed_content:
+  recently_viewed_label: "//*[contains(text(), 'ecently') and contains(text(), 'iewed') and not(self::script)]"
+  multiple_locators:
+    items_colors: "(//*[contains(text(), 'ecently') and contains(text(), 'iewed') and not(self::script)]//following-sibling::*//*[contains(text(), 'olor')])"
+    items_names: "(//*[contains(text(), 'ecently') and contains(text(), 'iewed') and not(self::script)]//following-sibling::*//*[text() and not(contains(text(), 'olor')) and not(contains(text(), '$'))])"
+    items_prices: "(//*[contains(text(), 'ecently') and contains(text(), 'iewed') and not(self::script)]//following-sibling::*//*[contains(text(), '$')])"

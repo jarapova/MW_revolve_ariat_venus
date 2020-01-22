@@ -1,0 +1,69 @@
+hamburger_first_page:
+  shop_by_categories: 'Shop by Categories'
+  venus_card: 'Venus Card'
+  about_us: 'About Us'
+  contact_us: 'Contact Us'
+  order_status: 'Order Status'
+  customer_care: 'Customer Care'
+  request_a_catalog: 'Request A Catalog'
+  gift_cards: 'Gift Cards'
+hamburger_category_page:
+  clothing: 'Clothing'
+  swimwear: 'Swimwear'
+  lingerie: 'Lingerie'
+  plus_size: 'Plus size'
+  whats_new: "What's new"
+  trends: 'Trends'
+  preorder: 'Pre-order'
+  sale: 'Sale'
+hamburger_subcategory_pages:
+  dresses: 'Dresses'
+  tops: 'Tops'
+  jumpsuits_rompers: 'Jumpsuits & rompers'
+  shorts_skirts: 'Shorts & skirts'
+  jeans: 'Jeans'
+  pants: 'Pants'
+  sweaters: 'Sweaters'
+  jackets_coats: 'Jackets & coats'
+  loungewear: 'Loungewear'
+  pajamas: 'Pajamas'
+  wear_to_works: 'Wear to work'
+  shop_by_print_color: 'Shop by print/color'
+  shop_by_style:  'Shop by style'
+  cheeky_bottoms: 'Cheeky bottoms'
+  moderate_bottoms: 'Moderate bottoms'
+  full_bottoms: 'Full bottoms'
+  thong_bottoms: 'Thong bottoms'
+  one_piece_swimsuits_monokinis: 'One-piece swimsuits & monokinis'
+  cover_ups: 'Cover-ups'
+  versatility_by_venus: 'Versatility by venus ™'
+  beach_accessories: 'Beach accessories'
+  bras: 'Bras'
+  panties: 'Panties'
+  sexy_lingerie: 'Sexy lingerie'
+  shapewear: 'Shapewear'
+  new_swim: 'New swim'
+  тew_clothing: 'New clothing'
+  тew_shoes_accessories: 'New shoes & accessories'
+  new_lingerie: 'New lingerie'
+  trends_shop: 'Trends shop'
+  clothing_sale: 'Clothing sale'
+  clothing_clearance: 'Clothing clearance'
+  swim_sale: 'Swim sale'
+  swim_clearance: 'Swim clearance'
+  lingerie_sale: 'Lingerie sale'
+  lingerie_clearance: 'Lingerie clearance'
+  plus_size_clothing_sale: 'Plus size clothing sale'
+  plus_size_clothing_clearance: 'Plus size clothing clearance'
+  plus_size_swim_sale: 'Plus size swim sale'
+  plus_size_swim_clearance: 'Plus size swim clearance'
+first_page_buttons_locators:
+  shop_by_categories: "(//ul//div[text()='Shop by Categories'])[1]"
+  venus_card: "//div[@role='document']//*[text()='Venus Card']"
+  wishlist: "//div[@role='document']//*[text()='Wish List']"
+  about_us: "//div[@role='document']//*[text()='About Us']"
+  contact_us: "//div[@role='document']//*[text()='Contact Us']"
+  order_status: "//div[@role='document']//*[text()='Order Status']"
+  customer_care: "//div[@role='document']//*[text()='Customer Care']"
+  request_a_catalog: "//ul//*[text()='Request A Catalog']"
+  gift_cards: "//ul//*[text()='Gift Cards']"

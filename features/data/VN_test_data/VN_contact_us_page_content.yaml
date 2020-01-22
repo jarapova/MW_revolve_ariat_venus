@@ -1,0 +1,6 @@
+content_locators:
+  phone1: "//a[text()='1-904-997-4000']"
+content_text:
+  line_1: 'The Venus Customer Service team'
+  line_2: 'Account Specialists are available'
+  line_3: 'You can easily fax in your order. Please send us the following information:'

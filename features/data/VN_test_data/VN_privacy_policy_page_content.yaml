@@ -1,0 +1,4 @@
+content_locators:
+  page_title: "(//*[contains(text(),'Venus Privacy')])[1]"
+  second_title: "(//*[contains(text(),'Venus Privacy')])[last()]"
+  policy_text: "//*[contains(text(), 'Venus respects')]"

@@ -1,0 +1,52 @@
+clothing:
+    category_dropdown_text: "Clothing"
+    shop_now_buttons:
+      shop_tops: "SHOP TOPS" #GO WILD
+      american_beauty: "AMERICAN BEAUTY" #SHOP DRESSES
+      dress_sale: "DRESS SALE"
+swimwear:
+    category_dropdown_text:  "Swimwear"
+    shop_now_buttons:
+      solid_swim_sale: "SOLID SWIM SALE"
+      sport_tops: "SPORT TOPS"
+      tankini_tops: "TANKINI TOPS"
+      cover_ups: "COVER-UPS"
+      shop_now: "SHOP NOW"
+lingerie:
+    category_dropdown_text:  "Lingerie"
+    shop_now_buttons:
+      shop_bras: "SHOP BRAS"
+      strapless_and_backless: "STRAPLESS & BACKLESS"
+plus_size:
+    category_dropdown_text:  "Plus size"
+    shop_now_buttons:
+      dresses: "DRESSES"
+      tops: "TOPS"
+      jumpsuits_and_rompers: "JUMPSUITS & ROMPERS"
+      top_sale: "PLUS PUSH-UP TOP SALE"
+      plus_swim_sale: "PLUS SWIM SALE"
+whats_new:
+    category_dropdown_text:  "What's new"
+    shop_now_buttons:
+      new_clothing: "NEW CLOTHING"
+      dresses: "DRESSES"
+      tops: "TOPS"
+      new_swim: "NEW SWIM"
+      cover_ups: "COVER-UPS"
+      jumpsuits_and_rompers: "JUMPSUITS & ROMPERS"
+trends:
+    category_dropdown_text: "Trends shop"
+    shop_now_buttons:
+      shop_now: "SHOP NOW"
+pre_order:
+    shop_now_buttons:
+      shop_clothing: "SHOP CLOTHING"
+      shop_swimwear: "SHOP SWIMWEAR"
+sale:
+    category_dropdown_text:  "Sale"
+    shop_now_buttons:
+      dress_sale: "DRESS SALE"
+      tankini_tops: "TANKINI TOPS"
+      push_up_tops: "PUSH-UP TOPS"
+      one_pieces: "ONE-PIECES & MONOKINIS"
+

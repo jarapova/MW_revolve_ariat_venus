@@ -1,0 +1,6 @@
+content_locators:
+  apply_today: "//*[contains(text(),'Apply Today')]"
+  manage_my_account: "//*[contains(text(),'Manage My Account')]"
+content_text:
+  pre_approval_code: 'Do you have a pre-approval credit code?'
+  special_offer_cert: 'Special offer certificates '

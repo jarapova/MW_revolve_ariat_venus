@@ -1,0 +1,5 @@
+content_locators:
+  search_results_filter: "//div[@id='select-subcategories' and text()='All results']"
+#  search_results_title: "//div[@style='display: block;']//h1[contains(., 'Search Results for')]"
+  search_result_total_items: "//span[text()= ' total items']"
+content_text:

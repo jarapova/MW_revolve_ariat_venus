@@ -1,0 +1,18 @@
+base_locators:
+  subcategory_filter: "(//div[@data-page='Subcategory']//input[@name='subcategories'])/preceding-sibling::div"
+  total_items: "//h1//following-sibling::*[text()]"
+multiple_items_locators:
+  all_items: "(//div[contains(@id,'item-')])"
+  items_names: "(//div[contains(@id,'item-')]//h2)"
+  item_price: "(//div[contains(@id,'item-')]//*[contains(text(), '$')][1])"
+  item_image: "(//div[contains(@id,'item-')]//img[@src])"
+  view_detail_link: "(//div[contains(@id,'item-')]//*[contains(text(), 'view detai')])"
+optional_locators:
+  filter_pop_up: ""
+  show_more_button: "//*[text()='Show More']"
+plp_links:
+  jumpsuit_and_rompers: "/products.aspx?BRANCH=7~183~"
+  shoes_and_boots_sale: "/onsale.aspx?BRANCH=7~75~"
+  clothing_tops: "/products.aspx?BRANCH=7~63~"
+  dresses: "/products.aspx?BRANCH=7~72~"
+  pants: "/products.aspx?BRANCH=7~70~"

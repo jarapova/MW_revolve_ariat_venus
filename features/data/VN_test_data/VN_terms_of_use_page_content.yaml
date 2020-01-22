@@ -1,0 +1,3 @@
+content_locators:
+  page_title: "//p[contains(.,'Terms of Use') and contains (@class, 'title mw-main-title')]"
+  customer_ratings_and_reviews_terms_of_use_title: "//p[contains(.,' CUSTOMER RATINGS AND REVIEWS TERMS') and contains (@class, 'title3 mw-section-title')]"

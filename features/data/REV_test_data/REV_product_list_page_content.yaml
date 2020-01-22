@@ -1,0 +1,28 @@
+base_plp_locators:
+  main_text: "(//div[@data-page='Subcategory']/descendant::*[text()])[1]"
+  filter_button: "//button//span[contains(text(), 'Filter')]"
+  sort_button: "(//button//span[contains(text(), 'Sort')])[1]"
+  total_items: "//div[@data-page='Subcategory']//*[contains(text(), 'items')]"
+all_items_plp_locators:
+  all_items: "(//*[contains(@id, 'item')])"
+  favorites_button: "(//*[contains(@id, 'item')]//button[@aria-label='Favorites'])"
+  item_name: "(//*[contains(@id, 'item')]//p[1])"
+  item_image: "(//*[contains(@id, 'item')]//img)"
+  item_brand: "(//*[contains(@id, 'item')]//p[2])"
+  item_price: "(//*[contains(@id, 'item')]//p[4])"
+account_modal_locators:
+  main_text: "(//*[text()='SIGN IN OR CREATE AN ACCOUNT'])[last()]"
+  create_or_sign_in_button: "(//*[text()='SIGN IN OR CREATE AN ACCOUNT']/following-sibling::*//*[contains(text(), 'SIGN IN')])"
+  sign_in_text: "(//*[text()='SIGN IN OR CREATE AN ACCOUNT']/following-sibling::*[contains(text(), 'Please')])[last()]"
+  refuse_button: "(//*[text()='SIGN IN OR CREATE AN ACCOUNT']/following-sibling::button[contains(text(), 'No thanks')])[last()]"
+  close_button: "(//*[text()='SIGN IN OR CREATE AN ACCOUNT']/preceding-sibling::button[span])[last()]"
+multiple_locators:
+  filter_widget_options: "(//*[contains(@class, 'SearchWidget')]//*[@data-value])"
+  filter_options: "(//div[@role='document']//div[@aria-expanded='true' and @role='button']/following-sibling::div//label)"
+  category_dropdown_subcategories: "(((//*[@role='document'])[last()])//a[text()])"
+optional_locators:
+  show_more_pagination_button: "//*[text()='Show More']"
+  items_sale_price: "(//*[contains(@id, 'item')]//p[3])"
+  donde_filter: "//*[contains(@id, 'donde_root')]"
+filter_locators:
+  clear_button: "//*[contains(text(), 'clear') and not(self::script)] | //*[contains(text(), 'Clear') and not(self::script)]"

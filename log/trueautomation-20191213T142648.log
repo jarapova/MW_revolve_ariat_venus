@@ -1,0 +1,4 @@
+2019-12-13T12:26:49.758Z [info] 	TrueAutomation.IO Client is listening on port 9515
+2019-12-13T12:27:13.679Z [error] 	ERROR: Error: dlopen(/Users/tempuser/.trueautomation/lib/trueautomation_0.10.88.node, 1): no suitable image found.  Did find:
+	/Users/tempuser/.trueautomation/lib/trueautomation_0.10.88.node: code signature in (/Users/tempuser/.trueautomation/lib/trueautomation_0.10.88.node) not valid for use in process using Library Validation: library load disallowed by system policy
+

@@ -1,0 +1,25 @@
+base_locators:
+  hamburger_icon: "(//*[contains(@class, 'hamburger')])[1]"
+  search_icon: "(//*[contains(@aria-label, 'Search')]) | (//*[contains(@aria-label, 'search')])"
+  logo_button: "//a[contains(., 'brand logo')]"
+  cart_icon: "(//*[contains(@aria-label, 'Cart')]) | (//*[contains(@aria-label, 'cart')])"
+optional_locators:
+  cart_items_count: "((//*[contains(@aria-label, 'Cart')]) | (//*[contains(@aria-label, 'cart')]))/../following-sibling::*[text()]"
+  promotional_close_button: &prmt_cls_btn "(//*[@id='root']/*/*[@amp-bind]//*[descendant-or-self::*[text()]]/following-sibling::*[not(text())])"
+search_locators:
+  search_button: &srch_btn "//*[@role='presentation']//*[*[contains(@rel, 'search')]]"
+  clear_button: &clr_btn "//*[@role='presentation']//*[*[contains(@rel, 'clear')]]"
+  input_field: &inpt_fld "//*[@role='presentation']//input"
+  see_all_button: &sl_btn "//*[@role='presentation']//*[contains(text(), 'SEE ALL')]"
+multiple_locators:
+  search_items:
+    items_names: "(//*[@role='presentation']//*[@event and @term]//*[text() and not(contains(text(),'$'))])"
+    items_images: "(//*[@role='presentation']//*[@event and @term]//img)"
+    items_prices: "(//*[@role='presentation']//*[@event and @term]//*[text() and (contains(text(),'$'))])"
+empty_search_modal_content:
+  search_button: *srch_btn
+  clear_button: *clr_btn
+  input_field: *inpt_fld
+promotional_content:
+  promotional_text: "(//*[@id='root']/*/*[@amp-bind]//*[text()])"
+  promotional_close_button: *prmt_cls_btn

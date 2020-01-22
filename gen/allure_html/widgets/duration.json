@@ -1,0 +1,1211 @@
+[ {
+  "uid" : "486e9a4ea11bdc64",
+  "name" : "[Venus] User can change complete the look product`s color",
+  "time" : {
+    "start" : 1578860997092,
+    "stop" : 1578861043415,
+    "duration" : 46323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87549020f602605d",
+  "name" : "[Venus] User can see product details on product landing page",
+  "time" : {
+    "start" : 1578864354487,
+    "stop" : 1578864366924,
+    "duration" : 12437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "673637cf62e4f730",
+  "name" : "[Venus] User can see cost summary of added to cart items",
+  "time" : {
+    "start" : 1578863610833,
+    "stop" : 1578863673200,
+    "duration" : 62367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4ed13fa5e15fd5c",
+  "name" : "[Venus] User can start entering or editing my search query in the input field and see auto-suggest results appear after typing a single character.",
+  "time" : {
+    "start" : 1578859405000,
+    "stop" : 1578859410212,
+    "duration" : 5212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "606195b956644d23",
+  "name" : "[Venus] User can filter the product listing by size option",
+  "time" : {
+    "start" : 1578862681772,
+    "stop" : 1578862731908,
+    "duration" : 50136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8273db9f2ceebda0",
+  "name" : "[Venus] User can select Inseam size on special product landing page",
+  "time" : {
+    "start" : 1578864557868,
+    "stop" : 1578864600201,
+    "duration" : 42333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bd10d100379f5a9",
+  "name" : "[Venus] User can see \"Size Guide/Size Chart\" CTA on PDP page",
+  "time" : {
+    "start" : 1578862307753,
+    "stop" : 1578862333021,
+    "duration" : 25268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0f3f71595eb5ee0",
+  "name" : "[Venus] User can see tabs of product description on PDP",
+  "time" : {
+    "start" : 1578861142167,
+    "stop" : 1578861189463,
+    "duration" : 47296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91476e5b3a9249e3",
+  "name" : "[Venus] User opening search modal by taping search icon on header",
+  "time" : {
+    "start" : 1578859473516,
+    "stop" : 1578859477924,
+    "duration" : 4408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca943519f3899d6c",
+  "name" : "[Venus] User can navigate through the site pages by taping corresponding element on hamburger menu",
+  "time" : {
+    "start" : 1578860246009,
+    "stop" : 1578860316981,
+    "duration" : 70972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b08654d9f08b0b98",
+  "name" : "[Venus] User can change complete the look product`s size",
+  "time" : {
+    "start" : 1578861043417,
+    "stop" : 1578861088847,
+    "duration" : 45430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd9a4379f5d6492d",
+  "name" : "[Venus] User can change complete the look product`s qty",
+  "time" : {
+    "start" : 1578861088850,
+    "stop" : 1578861142164,
+    "duration" : 53314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7962994e8060807d",
+  "name" : "[Venus] User can close hamburger menu",
+  "time" : {
+    "start" : 1578860071089,
+    "stop" : 1578860086033,
+    "duration" : 14944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a995423af227a203",
+  "name" : "[Venus] User can navigate back to product from \"Size Guide/Size Chart\" spreadsheets",
+  "time" : {
+    "start" : 1578862363633,
+    "stop" : 1578862408941,
+    "duration" : 45308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcd10a3a3497198f",
+  "name" : "[Venus] User can add to product to cart after selecting product options",
+  "time" : {
+    "start" : 1578860345207,
+    "stop" : 1578860397389,
+    "duration" : 52182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e441f31b16ae991",
+  "name" : "[Venus] Logged-in user can add item to favorites by taping \"favorites\" button on PDP",
+  "time" : {
+    "start" : 1578861332852,
+    "stop" : 1578861444766,
+    "duration" : 111914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7a8fcccea2f773",
+  "name" : "[Venus] User can navigate back to cart page from checkout",
+  "time" : {
+    "start" : 1578863447669,
+    "stop" : 1578863503388,
+    "duration" : 55719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4701ac188b704280",
+  "name" : "[Venus] User can click different sub-categories under a parent product listing page to navigate to expected PLP",
+  "time" : {
+    "start" : 1578863351803,
+    "stop" : 1578863375056,
+    "duration" : 23253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f57eae7dd514efc4",
+  "name" : "[Venus] User can open hamburger menu by tapping appropriate CTA on header",
+  "time" : {
+    "start" : 1578860013363,
+    "stop" : 1578860016712,
+    "duration" : 3349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac2a7fc08c5bac30",
+  "name" : "[Venus] User can see Android and IOS app icons",
+  "time" : {
+    "start" : 1578859059248,
+    "stop" : 1578859067330,
+    "duration" : 8082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75df17af564272f2",
+  "name" : "[Venus] User can see product reviews on PDP",
+  "time" : {
+    "start" : 1578861821108,
+    "stop" : 1578861863669,
+    "duration" : 42561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b38d8921e641d",
+  "name" : "[Venus] User can tap on \"Size Guide/Size Chart\" CTA and be navigated to \"Size Guide/Size Chart\" spreadsheet",
+  "time" : {
+    "start" : 1578862333025,
+    "stop" : 1578862363630,
+    "duration" : 30605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bcf43cde2b33701",
+  "name" : "[Venus] User see additional list of unique items after tapping pagination link. Items are different then in previous list",
+  "time" : {
+    "start" : 1578862761312,
+    "stop" : 1578862832964,
+    "duration" : 71652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa22f01e92329e7",
+  "name" : "[Venus] User can see \"Recently viewed\" carousel with products recently viewed",
+  "time" : {
+    "start" : 1578861929600,
+    "stop" : 1578861976673,
+    "duration" : 47073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f5f238b5a6a989a",
+  "name" : "[Venus] Suggested results on search modal redirect to product list page",
+  "time" : {
+    "start" : 1578859790601,
+    "stop" : 1578859800497,
+    "duration" : 9896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c22d82af08fcace8",
+  "name" : "[Venus] Signed in user can click on the account icon and navigate to Wish list form modal with account navigation links",
+  "time" : {
+    "start" : 1578859327091,
+    "stop" : 1578859366224,
+    "duration" : 39133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c149132c920bbcb",
+  "name" : "[Venus] User navigates to Dresses PLP and add random product to back to check stability of PWA",
+  "time" : {
+    "start" : 1578860604306,
+    "stop" : 1578860653617,
+    "duration" : 49311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e6a9984670df60f",
+  "name" : "[Venus] User can quickly go back to the previous page sections using breadcrumbs",
+  "time" : {
+    "start" : 1578859979643,
+    "stop" : 1578860013359,
+    "duration" : 33716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "185957b6d75027c6",
+  "name" : "[Venus] User navigates to Pants PLP and add random product to back to check stability of PWA",
+  "time" : {
+    "start" : 1578860653620,
+    "stop" : 1578860712102,
+    "duration" : 58482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b9b841df99ac7ab",
+  "name" : "[Venus] User can see number of items currently in his shopping cart",
+  "time" : {
+    "start" : 1578859677813,
+    "stop" : 1578859764874,
+    "duration" : 87061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "379c8b141068cb2a",
+  "name" : "[Venus] User can select Band size on special product page",
+  "time" : {
+    "start" : 1578862193258,
+    "stop" : 1578862260558,
+    "duration" : 67300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8ff76e2c2ebc6b4",
+  "name" : "[Venus] User can see \"No results\" search results page if searching some crazy term",
+  "time" : {
+    "start" : 1578859781432,
+    "stop" : 1578859790598,
+    "duration" : 9166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b07d38c6398196c",
+  "name" : "[Venus] User can filter search result product listing by multiple available options.",
+  "time" : {
+    "start" : 1578862439006,
+    "stop" : 1578862519942,
+    "duration" : 80936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29dc688ebc3bf89c",
+  "name" : "[Venus] User can see a quick navigation bar underneath the main header which allows me to jump to relevant sections.",
+  "time" : {
+    "start" : 1578859433830,
+    "stop" : 1578859438362,
+    "duration" : 4532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb500dc086d7dceb",
+  "name" : "[Venus] User select color on product page",
+  "time" : {
+    "start" : 1578860816272,
+    "stop" : 1578860964153,
+    "duration" : 147881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb84e99fea19de8a",
+  "name" : "[Venus] User can select Waist Size on special product page",
+  "time" : {
+    "start" : 1578862084168,
+    "stop" : 1578862138349,
+    "duration" : 54181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d10cb079738841d2",
+  "name" : "[Venus] User can see a list of quick links available on the footer.",
+  "time" : {
+    "start" : 1578859067332,
+    "stop" : 1578859168511,
+    "duration" : 101179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e17668a4fb16a99",
+  "name" : "[Venus] User can see \"FS75\" promo code information on homepage (promo code is changing time to time)",
+  "time" : {
+    "start" : 1578859764877,
+    "stop" : 1578859771902,
+    "duration" : 7025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d63a3852cc4fe2cc",
+  "name" : "[Venus] User select color on product landing page",
+  "time" : {
+    "start" : 1578864279713,
+    "stop" : 1578864354479,
+    "duration" : 74766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f86cf88a4ebe532f",
+  "name" : "[Venus] User can see availability message after selecting required options of product on product landing page",
+  "time" : {
+    "start" : 1578864449238,
+    "stop" : 1578864463430,
+    "duration" : 14192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33b078275ccf658b",
+  "name" : "[Venus] User can search items up to 10 times by typing product SKU in search query",
+  "time" : {
+    "start" : 1578859800501,
+    "stop" : 1578859876708,
+    "duration" : 76207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f8fd47ca8c0a7ff",
+  "name" : "[Venus] User can switch between product description tabs and see description information",
+  "time" : {
+    "start" : 1578861189467,
+    "stop" : 1578861252950,
+    "duration" : 63483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a30e475d8b840cf",
+  "name" : "[Venus] User can navigate to full PDP by click on \"View More Details\" CTA on product landing page",
+  "time" : {
+    "start" : 1578864644790,
+    "stop" : 1578864690576,
+    "duration" : 45786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed1c1450282e12f",
+  "name" : "[Venus] User navigated to homepage by clicking logo in header",
+  "time" : {
+    "start" : 1578859410214,
+    "stop" : 1578859433814,
+    "duration" : 23600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b722d118fcab6e2e",
+  "name" : "[Venus] User can see large image view by taping + icon on product landing page",
+  "time" : {
+    "start" : 1578864398305,
+    "stop" : 1578864449234,
+    "duration" : 50929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c568a9641772226",
+  "name" : "[Venus] User can add item to cart from \"Complete the look\" section on PDP after selecting required product options",
+  "time" : {
+    "start" : 1578860712107,
+    "stop" : 1578860792917,
+    "duration" : 80810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf9c8972a6005f03",
+  "name" : "[Venus] As user I want see Product price with/without sale",
+  "time" : {
+    "start" : 1578861290747,
+    "stop" : 1578861332850,
+    "duration" : 42103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85db6121a2b28a1",
+  "name" : "[Venus] Signed in user can click on the account icon and see modal with account navigation links",
+  "time" : {
+    "start" : 1578859168514,
+    "stop" : 1578859204697,
+    "duration" : 36183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f1caa8a60595540",
+  "name" : "[Venus] User can see custom header or footer call to actions in the hamburger menu above the main menu items",
+  "time" : {
+    "start" : 1578860125480,
+    "stop" : 1578860149197,
+    "duration" : 23717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc705a81054d1dff",
+  "name" : "[Venus] User navigating to PLP search result page after submitting search query",
+  "time" : {
+    "start" : 1578859771904,
+    "stop" : 1578859781428,
+    "duration" : 9524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b85b7b92466ceec6",
+  "name" : "[Venus] User can see products with correct info in \"Related products\" section on product landing page",
+  "time" : {
+    "start" : 1578864690580,
+    "stop" : 1578864712470,
+    "duration" : 21890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee6d8de7058ded47",
+  "name" : "[Venus] User can see availability message after selecting required options of product",
+  "time" : {
+    "start" : 1578861782600,
+    "stop" : 1578861821104,
+    "duration" : 38504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93d6588160174af0",
+  "name" : "[Venus] User can select Waist Size on special product landing page",
+  "time" : {
+    "start" : 1578864513548,
+    "stop" : 1578864557864,
+    "duration" : 44316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74a35d17cd5d39da",
+  "name" : "[Venus] User can click \"Recently Viewed\" tab and navigate to product page",
+  "time" : {
+    "start" : 1578861976678,
+    "stop" : 1578862052921,
+    "duration" : 76243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b53d4a1233a2b1d3",
+  "name" : "[Venus] User navigates to Clothing Tops PLP and add random product to back to check stability of PWA",
+  "time" : {
+    "start" : 1578860550337,
+    "stop" : 1578860604289,
+    "duration" : 53952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b79a66690fb4670",
+  "name" : "[Venus] User can remove any products from cart by taping \"remove\" CTA",
+  "time" : {
+    "start" : 1578864154888,
+    "stop" : 1578864210876,
+    "duration" : 55988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e2e73555561b60",
+  "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart from product landing page, and user can navigate to cart page to see added product",
+  "time" : {
+    "start" : 1578864248704,
+    "stop" : 1578864264545,
+    "duration" : 15841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be1fbf29056d2f57",
+  "name" : "[Venus] User navigates to PDP from \"Recommended for you\" section up to 10 times to check stability of PWA",
+  "time" : {
+    "start" : 1578861596858,
+    "stop" : 1578861782593,
+    "duration" : 185735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c348d5e259e4aaec",
+  "name" : "[Venus] User can see all corresponding menu items in hamburger menu",
+  "time" : {
+    "start" : 1578860016715,
+    "stop" : 1578860071086,
+    "duration" : 54371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d6d6b1009b08e3",
+  "name" : "[Venus] User can proceed to checkout with item in cart by taping appropriate CTA button",
+  "time" : {
+    "start" : 1578863381820,
+    "stop" : 1578863447664,
+    "duration" : 65844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "985fe34280bc44a9",
+  "name" : "[Venus] User can see \"Complete The Look\" section with list of related products",
+  "time" : {
+    "start" : 1578860964157,
+    "stop" : 1578860997089,
+    "duration" : 32932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14e3239ec8a667b9",
+  "name" : "[Venus] User can see product images carousel and can swipe images",
+  "time" : {
+    "start" : 1578860792921,
+    "stop" : 1578860816268,
+    "duration" : 23347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17acb8ceba85e9ef",
+  "name" : "[Venus] User can see summary cost is changing if user change items quantity or removing items from cart",
+  "time" : {
+    "start" : 1578863673205,
+    "stop" : 1578863800289,
+    "duration" : 127084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ab7fa39e9f86f8",
+  "name" : "[Venus] User can see number of added to cart items near shopping bag icon on header",
+  "time" : {
+    "start" : 1578859609838,
+    "stop" : 1578859665241,
+    "duration" : 55403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb562c1ab709a7b2",
+  "name" : "[Venus] Signed in user can click on the account icon and navigate to Order history form modal with account navigation links",
+  "time" : {
+    "start" : 1578859252757,
+    "stop" : 1578859291025,
+    "duration" : 38268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6963914f9f2d0d7",
+  "name" : "[Venus] User can subscribe to receive special offers",
+  "time" : {
+    "start" : 1578859041908,
+    "stop" : 1578859059246,
+    "duration" : 17338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9862d72e725553f6",
+  "name" : "[Venus] Guest user suggested to sign-in after taping account icon in header",
+  "time" : {
+    "start" : 1578859204700,
+    "stop" : 1578859212984,
+    "duration" : 8284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "999cb1d8e0c5ca18",
+  "name" : "[Venus] User can see product details content",
+  "time" : {
+    "start" : 1578861252966,
+    "stop" : 1578861283596,
+    "duration" : 30630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8ff70b33b80802",
+  "name" : "[Venus] User can see login status on header",
+  "time" : {
+    "start" : 1578860175646,
+    "stop" : 1578860211606,
+    "duration" : 35960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3647ba17fa10ce5",
+  "name" : "[Venus] User choose new PLP and then navigates to PDP up to 10 times to check stability of PWA",
+  "time" : {
+    "start" : 1578863091439,
+    "stop" : 1578863314819,
+    "duration" : 223380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5978816221b598d1",
+  "name" : "[Venus] User can see current page location based on the navigation hierarchy",
+  "time" : {
+    "start" : 1578859958311,
+    "stop" : 1578859979639,
+    "duration" : 21328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0cbfca57345a750",
+  "name" : "[Venus] User navigated to cart page by clicking shopping bag icon on header",
+  "time" : {
+    "start" : 1578859521444,
+    "stop" : 1578859609835,
+    "duration" : 88391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb722087b427beda",
+  "name" : "[Venus] User can close search modal",
+  "time" : {
+    "start" : 1578859503169,
+    "stop" : 1578859521441,
+    "duration" : 18272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d794c050110b47",
+  "name" : "[Venus] Logged in user navigated to \"Delivery\" checkout page by taping appropriate CTA button on cart page",
+  "time" : {
+    "start" : 1578863503393,
+    "stop" : 1578863610828,
+    "duration" : 107435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b4b305907e01097",
+  "name" : "[Venus] User can navigate to expected PLP from Shop by Style page",
+  "time" : {
+    "start" : 1578864834806,
+    "stop" : 1578864863738,
+    "duration" : 28932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3161940caf0401f3",
+  "name" : "[Venus] User navigates to Boots sale PLP and add random product to back to check stability of PWA",
+  "time" : {
+    "start" : 1578860496228,
+    "stop" : 1578860550333,
+    "duration" : 54105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "478ac740eda3c5fb",
+  "name" : "[Venus] User can select product size on product landing page",
+  "time" : {
+    "start" : 1578864503444,
+    "stop" : 1578864513545,
+    "duration" : 10101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e7b66b4b8ec33eb",
+  "name" : "[Venus] User can select product size on product page",
+  "time" : {
+    "start" : 1578862052926,
+    "stop" : 1578862084165,
+    "duration" : 31239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35ef03e463d17553",
+  "name" : "[Venus] Signed in user can click on the account icon and make logout form modal with account navigation links",
+  "time" : {
+    "start" : 1578859366228,
+    "stop" : 1578859404996,
+    "duration" : 38768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2679ca47ed2d8bf3",
+  "name" : "[Venus] User can navigate through the total product results through pagination links",
+  "time" : {
+    "start" : 1578862731912,
+    "stop" : 1578862761306,
+    "duration" : 29394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "444eda2f51be342b",
+  "name" : "[Venus] User can see hero images and CTAs on home page",
+  "time" : {
+    "start" : 1578859876713,
+    "stop" : 1578859894251,
+    "duration" : 17538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "782842ffe4741e09",
+  "name" : "[Venus] User can navigate through the site pages by taping corresponding element on quick navigation panel",
+  "time" : {
+    "start" : 1578860316985,
+    "stop" : 1578860345201,
+    "duration" : 28216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "857eb7613d8718c9",
+  "name" : "[Venus] User can navigate to product list page",
+  "time" : {
+    "start" : 1578860086036,
+    "stop" : 1578860125477,
+    "duration" : 39441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf30ec84490d3b9",
+  "name" : "[Venus] User can select Inseam size on special product page",
+  "time" : {
+    "start" : 1578862138353,
+    "stop" : 1578862193254,
+    "duration" : 54901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f9e92710cae0524",
+  "name" : "[Venus] Signed in user can click on the account icon and navigate to Account info form modal with account navigation links",
+  "time" : {
+    "start" : 1578859212986,
+    "stop" : 1578859252749,
+    "duration" : 39763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcecd63aa47ae229",
+  "name" : "[Venus] Subcategory filter navigates to expected PLP",
+  "time" : {
+    "start" : 1578864863743,
+    "stop" : 1578864889658,
+    "duration" : 25915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "503be9e3598a43b5",
+  "name" : "[Venus] Signed in user can click on the account icon and navigate to Mail options form modal with account navigation links",
+  "time" : {
+    "start" : 1578859291028,
+    "stop" : 1578859327087,
+    "duration" : 36059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d755b33e856cbc56",
+  "name" : "[Venus] User can select select qty of the product",
+  "time" : {
+    "start" : 1578861863672,
+    "stop" : 1578861929595,
+    "duration" : 65923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b5d86acaed290fd",
+  "name" : "[Venus] Clicking on any of the products should bring me to the destination screen extremely fast.",
+  "time" : {
+    "start" : 1578863058734,
+    "stop" : 1578863091433,
+    "duration" : 32699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0a59ef55b6719b6",
+  "name" : "[Venus] User can navigate to expected PDP by click on item from \"Related products\" section on product landing page",
+  "time" : {
+    "start" : 1578864712476,
+    "stop" : 1578864757750,
+    "duration" : 45274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5da5cd151edc71a9",
+  "name" : "[Venus] User can change quantity of a product from 1 to 10",
+  "time" : {
+    "start" : 1578864082147,
+    "stop" : 1578864154882,
+    "duration" : 72735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fff47f5ec978c851",
+  "name" : "[Venus] User can filter search result product listing by size option",
+  "time" : {
+    "start" : 1578862519948,
+    "stop" : 1578862599209,
+    "duration" : 79261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "717893a4655b7055",
+  "name" : "[Venus] User can navigate through the site pages by taping corresponding element on category selection pop-up",
+  "time" : {
+    "start" : 1578860211610,
+    "stop" : 1578860246005,
+    "duration" : 34395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c42c17fb98fb73a",
+  "name" : "[Venus] User navigates to Jumpsuit and Rompers PLP and add random product to back to check stability of PWA",
+  "time" : {
+    "start" : 1578860431893,
+    "stop" : 1578860496225,
+    "duration" : 64332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "458c85ea3d82f4a3",
+  "name" : "[Venus] User can click each item in quick navigation bar underneath the main header to be navigated to appropriate page",
+  "time" : {
+    "start" : 1578859438364,
+    "stop" : 1578859473508,
+    "duration" : 35144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1444cbe5b2621ab7",
+  "name" : "[Venus] Guest user is suggested to sign-in after taping on \"favorites\" button on PDP page",
+  "time" : {
+    "start" : 1578862260573,
+    "stop" : 1578862307747,
+    "duration" : 47174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "449a6b5cd3b6cee9",
+  "name" : "[Venus] User can filter the product listing by multiple available options.",
+  "time" : {
+    "start" : 1578862599216,
+    "stop" : 1578862681767,
+    "duration" : 82551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c39c816c1efcb72",
+  "name" : "[Venus] User can see list of added to cart products with corresponding information",
+  "time" : {
+    "start" : 1578863916523,
+    "stop" : 1578864012065,
+    "duration" : 95542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e80f65d1f22173",
+  "name" : "[Venus] User can see different sub-categories under a parent product listing page as applicable",
+  "time" : {
+    "start" : 1578863321119,
+    "stop" : 1578863351797,
+    "duration" : 30678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dfa61fe5303bde8",
+  "name" : "[Venus] User can see large image view by taping + icon on product image",
+  "time" : {
+    "start" : 1578861444770,
+    "stop" : 1578861504853,
+    "duration" : 60083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e2cf2e58e2784b9",
+  "name" : "[Venus] User navigating to empty cart page by taping empty shopping bag icon on header",
+  "time" : {
+    "start" : 1578859665245,
+    "stop" : 1578859675337,
+    "duration" : 10092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c404ce0d48801b1c",
+  "name" : "[Venus] User can navigate to each appropriate page by clicking on custom header or footer call to actions in the hamburger menu above the main menu items",
+  "time" : {
+    "start" : 1578860149199,
+    "stop" : 1578860175642,
+    "duration" : 26443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b27b19be4c3778b",
+  "name" : "[Venus] User can add to product to cart after selecting product options on product landing page",
+  "time" : {
+    "start" : 1578864210882,
+    "stop" : 1578864248699,
+    "duration" : 37817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49a36d9767835ff1",
+  "name" : "[Venus] User can see \"Recommended for you\" product carousel",
+  "time" : {
+    "start" : 1578861504858,
+    "stop" : 1578861544135,
+    "duration" : 39277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38071a07a2b3a763",
+  "name" : "[Venus] User can see product details on PDP",
+  "time" : {
+    "start" : 1578861283599,
+    "stop" : 1578861290745,
+    "duration" : 7146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cd59813a8e91a4b",
+  "name" : "[Venus] User can see appropriate content on empty cart page",
+  "time" : {
+    "start" : 1578863800294,
+    "stop" : 1578863822505,
+    "duration" : 22211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "904d01159ed5e1af",
+  "name" : "[Venus] \"Continue shopping\" button navigates to home page",
+  "time" : {
+    "start" : 1578863822508,
+    "stop" : 1578863847605,
+    "duration" : 25097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "691f2d0455b4385d",
+  "name" : "[Venus] User can see \"go to cart\" pop up when adding product to cart, and user can navigate to cart page to see added product",
+  "time" : {
+    "start" : 1578860397392,
+    "stop" : 1578860431888,
+    "duration" : 34496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b21e735c5d71ed",
+  "name" : "[Venus] User see additional list of unique items after tapping pagination link on search result PLP. Items are different then in previous list",
+  "time" : {
+    "start" : 1578862832968,
+    "stop" : 1578863058728,
+    "duration" : 225760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "400841c8b61109c",
+  "name" : "[Venus] User can swipe \"Recommended for you\" product carousel and be navigated to related PDP by taping on product image",
+  "time" : {
+    "start" : 1578861544152,
+    "stop" : 1578861596854,
+    "duration" : 52702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5254114e2f715746",
+  "name" : "[Venus] User can click on color image to navigate to expected PLP",
+  "time" : {
+    "start" : 1578864808550,
+    "stop" : 1578864834801,
+    "duration" : 26251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b545b577c25cdb0",
+  "name" : "[Venus] User does not see number of items near shopping cart in header if cart is empty",
+  "time" : {
+    "start" : 1578859675339,
+    "stop" : 1578859677810,
+    "duration" : 2471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58a1b058abdb4a1d",
+  "name" : "[Venus] User see 6 instagram images, and want to see 9 more by clicking + button",
+  "time" : {
+    "start" : 1578859894254,
+    "stop" : 1578859958308,
+    "duration" : 64054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9aca399cef87bb4",
+  "name" : "[Venus] As user I want see Product price with/without sale on product landing page",
+  "time" : {
+    "start" : 1578864366928,
+    "stop" : 1578864398300,
+    "duration" : 31372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d1ab831e7042f64",
+  "name" : "[Venus] User see a total count of all products represented by this product listing page. This should read \"## TOTAL ITEMS\" where \"##\" represents the total count.",
+  "time" : {
+    "start" : 1578863375061,
+    "stop" : 1578863381803,
+    "duration" : 6742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "649cacb96c9e5fa4",
+  "name" : "[Venus] User can see product images carousel and can swipe images on product landing page",
+  "time" : {
+    "start" : 1578864264549,
+    "stop" : 1578864279707,
+    "duration" : 15158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b2e515522fb6bbb",
+  "name" : "[Venus] User can see a list of product with related information",
+  "time" : {
+    "start" : 1578863314829,
+    "stop" : 1578863321114,
+    "duration" : 6285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec697ff741807ca6",
+  "name" : "[Venus] User can select select qty of the product on product landing page",
+  "time" : {
+    "start" : 1578864463434,
+    "stop" : 1578864503439,
+    "duration" : 40005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb1e52c614807dee",
+  "name" : "[Venus] User click on item image to navigate to item PDP",
+  "time" : {
+    "start" : 1578863847611,
+    "stop" : 1578863916518,
+    "duration" : 68907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19bd3f35eaaf9762",
+  "name" : "[Venus] ’Show all...’ Button redirects to correct PLP",
+  "time" : {
+    "start" : 1578864757755,
+    "stop" : 1578864808545,
+    "duration" : 50790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b0129be1d9a728",
+  "name" : "[Venus] User can select Band size on special product landing page",
+  "time" : {
+    "start" : 1578864600219,
+    "stop" : 1578864644786,
+    "duration" : 44567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

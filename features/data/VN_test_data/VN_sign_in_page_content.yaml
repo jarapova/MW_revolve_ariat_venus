@@ -1,0 +1,12 @@
+content_locators:
+  returning_customers_title: "//*[contains(text(),'Returning Customers')]"
+  welcome_back_text: "//div[contains(.,'Welcome back to VENUS') and contains (@class, 'mw-was-td mw-instructions')]"
+  email_field: "//input[@type='email']"
+  password_field: "//input[@type='password']"
+  forgot_password_link: "//*[text()='Forget your password?']/following::a[text()='Click Here']"
+  sign_in_button: "//a[text()='Secure Sign In']"
+  create_account_button: "//a[text()='Create Account']"
+forgot_password_modal_locators:
+  email_input: "//span[contains(text(), 'Please enter')]//following-sibling::div//input[@placeholder='Email Address']"
+  lookup_password_button: "//input[@value='Lookup Password']"
+  cancel_button: "//input[@value='Cancel']"

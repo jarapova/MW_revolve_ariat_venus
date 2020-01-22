@@ -1,0 +1,61 @@
+base_locators:
+  selected_slide_image: "(//div[@data-page='Home']//*[@data-swipeable and @aria-hidden='false'])"
+  hot_list_header: "//*[text()='Hot List']"
+  hot_list_text: "//*[text()='Hot List']//following-sibling::span[text()]"
+  hot_list_shop_now_button: "//*[text()='Hot List']//following-sibling::a[text()]"
+  product_recomendations_header: "//*[contains(text(), 'Recommend')] | //*[contains(text(), 'BEST SELLERS') and not(self::script) and not(self::noscript)]"
+multiple_locators:
+  slide_images: "(//div[@data-page='Home']//*[@data-swipeable and @aria-hidden]//img)"
+  slide_dot_buttons: "(//*[contains(@class,'react-swipeable-view-container')]/../following-sibling::*/button)"
+  hot_list_images: "(//*[text()='Hot List']//following-sibling::*//a[@data-moov-link='on'])"
+  product_recommendations_names: "(//*[contains(text(), 'Recommend')]//following-sibling::div/a/*[text()][1])"
+  product_recommendations_images: "(//*[contains(text(), 'Recommend')]//following-sibling::div/a//img[@src and @alt])"
+  product_recommendations_prices: "(//*[contains(text(), 'Recommend')]//following-sibling::div/a/*[text()][4])"
+  hot_list_looks: "(//div[contains(@class, 'lookbook_landing--post')])"
+  hot_list_looks_texts: "((//div[contains(@class, 'lookbook_landing--post')])//*[text()])"
+  hot_list_looks_images: "((//div[contains(@class, 'lookbook_landing--post')])//img[@src])"
+recently_viewed_locators:
+  recently_viewed_header: "//*[contains(text(), 'Recently ')] | //*[contains(text(), 'RECENTLY ')]"
+recently_viewed_multiple_locators:
+  recently_viewed_products_names: "((//*[contains(text(), 'Recently ')] | //*[contains(text(), 'RECENTLY ')])[1]//following-sibling::div//a//*[text()][1])"
+  recently_viewed_products_images: "(((//*[contains(text(), 'Recently ')] | //*[contains(text(), 'RECENTLY ')])[1])//following-sibling::div//a//img[@src and @alt])"
+  recently_viewed_products_brands: "((//*[contains(text(), 'Recently ')] | //*[contains(text(), 'RECENTLY ')])[1]//following-sibling::div//a//*[text()][2])"
+  recently_viewed_products_prices: "((//*[contains(text(), 'Recently ')] | //*[contains(text(), 'RECENTLY ')])[1]//following-sibling::div//a//*[text()][last()])"
+hot_list_locators:
+  hot_list_main_text: "//*[text()='Hot List' and not(self::a)]"
+  hot_list_text: "//*[contains(text(),'The most-coveted')]"
+email_subscription:
+  home_page_locator:
+    email_discount_banner: "//*[contains(text(), 'GET 10% OFF TODAY')]"
+  subscription_pop_up_locators:
+    pop_up_text_1: "//div[@role='document']//*[contains(text(), 'Get')]"
+    pop_up_text_2: "//div[@role='document']//*[contains(text(), '10%')]"
+    pop_up_text_3: "//div[@role='document']//*[contains(text(), 'when you')]"
+    privacy_policy_link: "//div[@role='document']//a[contains(text(), 'privacy')] | //div[@role='document']//a[contains(text(), 'Privacy')]"
+    email_label: "//div[@role='document']//*[contains(text(), 'email ')]"
+    email_field: "//div[@role='document']//*[contains(text(), 'email ')]//following::input"
+    sign_up_button: "//div[@role='document']//*[text()= 'Sign Up']"
+    pop_up_close_button: "//div[@role='document']/button"
+  successful_offer_code_locators:
+    email_text: "//div[@role='document']//*[contains(text(), '@')]"
+    text_1: "//div[@role='document']//*[contains(text(), 'Yay, ')]"
+    text_2: "//div[@role='document']//*[text()='10% OFF']"
+    text_3: "//div[@role='document']//*[contains(text(), 'Use pro')]"
+    promo_code: "(//div[@role='document']//*[contains(text(), 'Use pro')]/../following-sibling::*/*[text()])[1]"
+    personalize_my_profile_button: "//div[@role='document']//*[contains(text(), 'Persona')]"
+    text_offer_valid: "//div[@role='document']//*[contains(text(), 'Offer valid')]"
+    other_exclusions_text: "//div[@role='document']//*[contains(text(), 'Other exclusions may apply.')]"
+    revovle_reserves_text: "//div[@role='document']//*[contains(text(), 'REVOLVE')]"
+    pop_up_close_button: "//div[@role='document']/button"
+categoy_navigation_panel_text:
+  featured_shops_tab: "Featured Shops"
+  clothing: "Clothing"
+  dresses: "Dresses"
+  shoes: "Shoes"
+  beauty: "Beauty"
+  jewelry_and_accessories: "Jewelry & Accessories"
+  bags: "Bags"
+best_sellers_multiple_locators:
+  best_sellers_names: "(//*[contains(text(), 'BEST S') and not(self::script)]//following-sibling::div/a/*[text()][1])"
+  best_sellers_images: "(//*[contains(text(), 'BEST S') and not(self::script)]//following-sibling::div/a//img[@src and @alt])"
+  best_sellers_prices: "(//*[contains(text(), 'BEST S') and not(self::script)]//following-sibling::div/a/*[text()][4])"

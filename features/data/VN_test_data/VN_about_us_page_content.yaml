@@ -1,0 +1,5 @@
+content_locators:
+  main_image: "//img[@title='About Venus']"
+content_text:
+  line_1: 'ABOUT US'
+  line_2: 'We make it easy for you to '

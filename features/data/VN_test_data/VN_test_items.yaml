@@ -1,0 +1,27 @@
+item_1:
+  pdp_link: "/viewproduct.aspx?BRANCH=7~71~&ProductDisplayID=67473&sale=1"
+  item_name: "CUT OFF JEAN SHORTS"
+  item_style: "Z8228"
+  item_price: "$29.00"
+#  item_price_sale: "$19.99"
+  item_color: "OLIVE MULTI(OLMU)"
+#  item_image_1: "https://photo.venus.com/im/19058760.jpg?preset=product"
+#  item_image_2: "https://photo.venus.com/im/19058743.jpg?preset=productalt"
+#  item_image_6: "https://photo.venus.com/im/19018585.jpg?preset=productalt"
+item_2:
+  pdp_link: "/viewproduct.aspx?BRANCH=7~71~2056~&ProductDisplayID=21629"
+  item_name: "BELTED CUFFED SHORTS"
+  item_style: "Z41002"
+  item_price: "$34.00"
+  item_price_sale: "$24.99"
+  item_color: "KHAKI(KH)"
+
+Color_skinny_jeans:
+  pdp_link: "/viewproduct.aspx?BRANCH=7~2999~&ProductDisplayID=42502"
+
+item_with_band_size:
+  pdp_link: "/viewproduct.aspx?BRANCH=129~5334~&ProductDisplayID=42859&CLR=NU"
+landing_item:
+  pdp_link: "/productlanding.aspx?BRANCH=7~72~5826~&ProductDisplayID=63771"
+multiple_color_landing_item:
+  pdp_link: "/productlanding.aspx?BRANCH=7~71~&ProductDisplayID=38529&CLR=BK"

@@ -1,0 +1,6 @@
+content_locators:
+  faq: "//a[text()='FAQ']"
+  track_my_order: "//a[text()='Track My Order']"
+  order_status: "//a[text()='Order Status']"
+  contact_us: "//a[text()='Contact Us']"
+  banner: "//*[@id='cs_banner']"

@@ -1,0 +1,162 @@
+page_locators:
+  #Uniq elements
+  item_color: "//div[@data-page='Product']/div[1]//p[text()='Color: ']"
+  size_chart_link: "//span[text()='size chart']"
+  add_to_wish_list: "//span[text()='+ wish list']"
+  is_in_stock_text: "//div[@data-page='Product']/div[1]/descendant::*[text()='In Stock']"
+
+  # Main Product Description
+  product_description_btn: "//span[text()='Description']/ancestor::button[@role='tab']"
+  product_more_details_btn: "//span[text()='More Details']/ancestor::button[@role='tab']"
+  product_get_social_btn: "//span[text()='Get Social']/ancestor::button[@role='tab']"
+  product_description_info: "//div[@role='tabpanel' and @option='tab0']//p"
+  product_more_details_info: "//div[@role='tabpanel' and @option='tab1']/span/ul/li[1]"
+  product_get_social_info: "(//div[@role='tabpanel' and @option='tab2']//p)[1]"
+
+  #Main Product Size buttons
+  size_button_2: "//div[@data-page='Product']/div[1]//span[text()='2']/ancestor::button"
+  size_button_4: "//div[@data-page='Product']/div[1]//span[text()='4']/ancestor::button"
+  size_button_6: "//div[@data-page='Product']/div[1]//span[text()='6']/ancestor::button"
+  size_button_8: "//div[@data-page='Product']/div[1]//span[text()='8']/ancestor::button"
+  size_button_10: "//div[@data-page='Product']/div[1]//span[text()='10']/ancestor::button"
+  size_button_12: "//div[@data-page='Product']/div[1]//span[text()='12']/ancestor::button"
+  size_button_14: "//div[@data-page='Product']/div[1]//span[text()='14']/ancestor::button"
+  size_button_16: "//div[@data-page='Product']/div[1]//span[text()='16']/ancestor::button"
+  size_button_18: "//div[@data-page='Product']/div[1]//span[text()='18']/ancestor::button"
+  size_button_20: "//div[@data-page='Product']/div[1]//span[text()='20']/ancestor::button"
+  size_button_22: "//div[@data-page='Product']/div[1]//span[text()='22']/ancestor::button"
+  size_button_24: "//div[@data-page='Product']/div[1]//span[text()='24']/ancestor::button"
+
+
+  waist_size_button_2: "//div[@data-page='Product']/div[1]//span[text()='2']/ancestor::button"
+  waist_size_button_4: "//div[@data-page='Product']/div[1]//span[text()='4']/ancestor::button"
+  waist_size_button_6: "//div[@data-page='Product']/div[1]//span[text()='6']/ancestor::button"
+  waist_size_button_8: "//div[@data-page='Product']/div[1]//span[text()='8']/ancestor::button"
+  waist_size_button_10: "//div[@data-page='Product']/div[1]//span[text()='10']/ancestor::button"
+  waist_size_button_12: "//div[@data-page='Product']/div[1]//span[text()='12']/ancestor::button"
+  waist_size_button_14: "//div[@data-page='Product']/div[1]//span[text()='14']/ancestor::button"
+  waist_ size_button_16: "//div[@data-page='Product']/div[1]//span[text()='16']/ancestor::button"
+  waist_size_button_18: "//div[@data-page='Product']/div[1]//span[text()='18']/ancestor::button"
+  waist_size_button_20: "//div[@data-page='Product']/div[1]//span[text()='20']/ancestor::button"
+  waist_size_button_22: "//div[@data-page='Product']/div[1]//span[text()='22']/ancestor::button"
+  waist_size_button_24: "//div[@data-page='Product']/div[1]//span[text()='24']/ancestor::button"
+
+
+  inseam_size_button_regular: "//div[@data-page='Product']/div[1]//span[text()='REGULAR']/ancestor::button"
+  inseam_size_button_short: "//div[@data-page='Product']/div[1]//span[text()='SHORT']/ancestor::button"
+  inseam_size_button_long: "//div[@data-page='Product']/div[1]//span[text()='LONG']/ancestor::button"
+
+  #Main Product Color buttons
+  color_button_2: "(//div[@data-page='Product']/div[1]//img[contains(@src,'color')])[2]"
+  color_button_bright: "//div[@data-page='Product']/div[1]//img[contains(@alt,'BRTW')]" # WHITE(WH)
+  color_button_white: "//div[@data-page='Product']/div[1]//img[contains(@alt,'WH')]" # WHITE(WH)
+  color_button_black: "//div[@data-page='Product']/div[1]//img[contains(@alt,'BK')]" # BLACK(BK)
+  color_button_olmu: "//div[@data-page='Product']/div[1]//img[contains(@alt,'OLMU')]" # OLIVE MULTI(OLMU)
+  color_button_dark_wash: "//div[@data-page='Product']/div[1]//img[contains(@alt,'DW')]" # DARK WASH(DW)
+  color_button_light_wash: "//div[@data-page='Product']/div[1]//img[contains(@alt,'LW')]" # LIGHT WASH(LW)
+  color_button_medium_wash: "//div[@data-page='Product']/div[1]//img[contains(@alt,'MW')]" # MEDIUM WASH(MW)
+
+
+  #Complete the look first Product Size buttons
+#  complete_the_look_size_button_8: "//h1[text()='Complete the Look']/../div[1]//span[text()='8']/.."
+#  complete_the_look_size_button_xl: "//h1[text()='Complete the Look']/../div[1]//span[text()='XL']/.."
+#  complete_the_look_size_button_xs: "//h1[text()='Complete the Look']/../div[1]//span[text()='XS']/.."
+
+
+
+  #Complete the look first Product uniq elements
+#  complete_the_look_div: "//h1[text()='Complete the Look']/../div[1]"
+#  complete_the_look_product_name: "(//h1[text()='Complete the Look']/../div[1]//h2)[1]"
+#  complete_the_look_add_to_bag_button: "//h1[text()='Complete the Look']/../div[1]//span[text()='Add to Bag']/.."
+#  complete_the_look_size_selected: "//h1[text()='Complete the Look']/../div[1]//h3[contains(.,'Size')]"
+#  complete_the_look_color_selected: "//h1[text()='Complete the Look']/../div[1]//h3[contains(.,'Color')]"
+#  complete_the_look_sku: "//h1[text()='Complete the Look']/../div[1]//p[contains(.,'Style')]"
+#  complete_the_look_qty: "//h1[text()='Complete the Look']/../div[1]//div[@tabindex='0']"
+
+
+  # Recently viewed elements
+  recently_viewed_btn: "//span[text()='Recently Viewed']/ancestor::button"
+  recently_viewed_item_name: "(//div[contains(.,'Recently Viewed')]//div[@option='tab1']//a[text()])[1]"
+  recently_viewed_item_image: "(//div[contains(.,'Recently Viewed')]//div[@option='tab1']//a[text()])[1]/ancestor::button"
+
+  # YAL section  elements
+
+
+
+  you_also_like_btn: "//div[@data-page='Product']//button[contains(.,'ll Also Love')]"
+  you_also_like_item_1: "(//div[@option='tab0']//a[text()])[1]"
+  you_also_like_item_2: "(//div[@option='tab0']//a[text()])[2]"
+  you_also_like_item_3: "(//div[@option='tab0']//a[text()])[3]"
+  you_also_like_item_4: "(//div[@option='tab0']//a[text()])[4]"
+  you_also_like_item_5: "(//div[@option='tab0']//a[text()])[5]"
+  you_also_like_item_6: "(//div[@option='tab0']//a[text()])[6]"
+# appropriate yaml usage
+base_pdp_locators:
+  review_snippet: "//div[contains(@id, 'Review')]"
+  add_to_bag_button: "//span[contains(., 'Add To Bag')]"
+  wishlist_button: "//span[contains(., 'Add To Bag')]//ancestor::button//following-sibling::button//span[text()='+ wish list']"
+  you_also_like_button: "//div[@data-page='Product']/div//button[contains(.,'ll Also Love')]"
+item_parameters_locators:
+  product_name: "(//div[@data-page='Product']//h1)[1]"
+  product_price: "(//div[contains(@data-page, 'Product')]//span[contains(., '$')])[1]"
+  product_color: "(//div[@data-page='Product']/div[1]//p[contains(.,'Color: ')])[1]"
+  product_qty: "//div[text()='Qty:']/following-sibling::div"
+  product_style: "(//div[@data-page='Product']//h1)[1]//following-sibling::p[text()]"
+hidden_item_parameters_locators:
+  product_id: "//input[@name = 'ProductID']"
+  product_sku: "//input[@name = 'SKU']"
+  product_color_id: "//input[@name = 'ProductColorID']"
+  product_size_id: "//input[@name = 'ProductSizeID']"
+item_description_locators:
+  product_more_details_btn: "//span[text()='More Details']/ancestor::button[@role='tab']"
+  product_more_details_info: "//div[@role='tabpanel' and @option='tab1']/span/ul/li[1]"
+  product_description_button: "//span[text()='Description']/ancestor::button[@role='tab']"
+  product_description_info: "//div[@role='tabpanel' and @option='tab0']//p"
+  product_get_social_button: "//span[text()='Get Social']/ancestor::button[@role='tab']"
+  product_get_social_info: "//div[@role='tabpanel']//p//following-sibling::div[contains(., 'Share')]/preceding-sibling::h6"
+  rating_and_reviews_button: "//span[text()='Ratings & Reviews']/ancestor::button[@role='tab']"
+  rating_info: "//section[@class='pr-review-snapshot-block-container']"
+complete_the_look_first_item_locators:
+  complete_the_look_div: "//h1[text()='Complete the Look']/../div[1]"
+  complete_the_look_product_name: "(//h1[text()='Complete the Look']/../div[1]//h2)[1]"
+  complete_the_look_add_to_bag_button: "//h1[text()='Complete the Look']/../div[1]//span[text()='Add to Bag']/.."
+  complete_the_look_size_selected: "//h1[text()='Complete the Look']/../div[1]//h2[contains(.,'Size')]"
+  complete_the_look_color_selected: "//h1[text()='Complete the Look']/../div[1]//p[contains(.,'Color')]"
+  complete_the_look_sku: "//h1[text()='Complete the Look']/../div[1]//p[contains(.,'Style')]"
+  complete_the_look_qty: "//h1[text()='Complete the Look']/../div[1]//div[@tabindex='0']"
+  complete_the_look_available_sizes: "(//h1[text()='Complete the Look']/../div[1]//h2[text()='Size: ']//parent::div//parent::div//button[not(@disabled) and not(contains(., 'size chart'))])"
+multiple_options_locators:
+  available_waist_sizes: "((//*[contains(text(), 'waist') and not(self::script)])//following-sibling::*//*[@type='button'])"
+  available_sizes: "(//div[@data-page='Product']/div[1]//h2[contains(text(), 'Size: ')]//parent::div//parent::div//button[not(@disabled) and not(contains(., 'size chart'))])"
+  available_colors: "//div[@data-page='Product']/div[1]//img[contains(@src,'color')]/ancestor::button[@tabindex=0]"
+  yal_items: "(//div[@option='tab0']//a[text()])"
+modal_buttons_locators:
+  view_bag_button: "//div[@role='alertdialog']//div[text()='View Bag']"
+optional_locators:
+  sale_price: "(//*[contains(text(), 'ON SALE')]/following-sibling::*[text()])[1]"
+  in_stock_message: "//*[contains(text(),'In Stock')] | //*[contains(text(),'IN STOCK')]"
+  size_chart_back_button: "//*[contains(text(), 'BACK')]"
+product_reviews_multiple_locators:
+  comment_header: "(//*[@class = 'pr-rd-review-headline'])"
+  comment_submitted_time: "(//article//time)"
+  author_by_label: "(//*[@class='pr-rd-bold' and contains(text(), 'By')])"
+  comment_description_text: "(//*[@class = 'pr-rd-description-text'])"
+you_also_like_items_multiple_locators:
+  yal_images: "((//*[contains(text(), 'You') and contains(text(), 'll')]/../../../../../../../following-sibling::*[@role='tabpanel' and @option='tab0'])[1]//button[not(@tabindex='-1')]//img[@src])"
+  yal_names: "((//*[contains(text(), 'You') and contains(text(), 'll')]/../../../../../../../following-sibling::*[@role='tabpanel' and @option='tab0'])[1]//button[not(@tabindex='-1')]//*[text()])"
+product_landing_page:
+  multiple_locators:
+    available_size_locator: "(//*[@data-page='ProductLanding']//*[contains(text(),'Size') and not(self::script)]/../following-sibling::*//button[not(@disabled)])"
+  specific_locators:
+    item_name: "//h1"
+    item_style: "//h1//following-sibling::p[contains(text(), 'Style #')]"
+    item_price: "(//h1//following-sibling::*//*[contains(text(), '$')])[1]"
+    color_text: "//*[text()='Color: ']"
+    size_label: "//*[@data-page='ProductLanding']//*[contains(text(),'Size') and not(self::script)]"
+    item_qty: "//*[contains(text(), 'Qty')]"
+    item_qty_selector: "//*[contains(text(), 'Qty')]//following-sibling::*"
+    view_details_link: "//*[contains(text(), 'View More')]"
+  optional_locators:
+    item_details: "//h1//following-sibling::p[not(contains(text(), 'Style #'))]"
+    price_with_sale: "(//h1//following-sibling::*//*[contains(text(), '$')])[2]"
+    in_stock_message: "//*[contains(@data-page, 'ProductLanding')]//*[text()='In Stock']"

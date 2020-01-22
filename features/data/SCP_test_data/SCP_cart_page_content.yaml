@@ -1,0 +1,3 @@
+empty_cart_page_locators:
+  empty_bag_text: "//*[contains(text(), 'Your Shopping Cart is Empty')]"
+  continue_shopping_link: "//*[contains(text(), 'Continue Shopping')]"

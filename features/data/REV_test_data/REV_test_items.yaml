@@ -1,0 +1,23 @@
+item_1:
+  pdp_link: "janine-dress-tularosa/dp/TULA-WD563/?d=Womens&srcType=dp_recs_ymal_m2"
+  content_to_check:
+    main_text: "Janine Dress in Ivory"
+    brand_name: "Tularosa"
+    default_price: "$188"
+    default_color: "Ivory"
+item_on_sale:
+  pdp_link: "free-people-stay-with-you-top/dp/FREE-WS2266/?d=Womens"
+item_with_size_measurement:
+  pdp_link: "levis-wedgie-icon-fit/dp/LEIV-WJ116/?d=Womens"
+item_without_brand:
+  pdp_link: "supergoop-everyday-sunscreen-spf-30-24-fl-oz/dp/SOOR-WU53/?d=Womens"
+item_with_complete_the_look:
+  pdp_link: "yummie-kinsley-bodysuit/dp/YUMM-WI192/?d=Womens"
+preorder_item:
+  pdp_link: "cmeo-longevity-blouse/dp/CAME-WS189/?d=Womens"
+test_item:
+  pdp_link: "nbd-aldon-mini-dress/dp/NBDR-WD1788/?d=Womens"
+test_item_2:
+  pdp_link: "lovers-friends-violet-midi/dp/LOVF-WD1257/?d=Womens"
+item_with_size_conversion:
+  pdp_link: "bb-dakota-jack-by-bb-dakota-on-a-curve-sweater/dp/BBDA-WK299/?d=Womens"

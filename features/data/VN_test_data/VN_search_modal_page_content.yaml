@@ -1,0 +1,6 @@
+content_locators:
+  cancel_button: "//div[@id='search-popup--moovweb']/button/span[not(text())]"
+  search_field: "//div[@id='search-popup--moovweb']//input[@placeholder='Search keyword or item #']"
+  search_button: "//div[@id='search-popup--moovweb']//button[@variant='contained']"
+content_text:
+  cancel_button_text: 'Cancel'

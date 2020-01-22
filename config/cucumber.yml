@@ -1,0 +1,1 @@
+default: --format Allure::CucumberFormatter --out gen/allure-results --format pretty

@@ -1,0 +1,43 @@
+email_offers_content:
+  join_us_label: "//*[contains(text(), 'Join our')]"
+  email_input: "//input[contains(@placeholder, 'mail')]"
+  subscribe_button: "//*[contains(text(), 'ubscribe')]"
+footer_accordions:
+  support:
+    accordion_name: "SUPPORT"
+    accordion_links:
+      - "Order Status"
+      - "Returns"
+      - "Track your Order"
+      - "Shipping"
+      - "FAQs"
+      - "Size Charts"
+      - "Product Registration"
+      - "Shop By Country"
+  contact:
+    accordion_name: "CONTACT"
+    accordion_links:
+      - "Find a Retailer"
+      - "Brand Shop"
+      - "Contact Us"
+      - "Email Signup"
+      - "International"
+  about_ariat:
+    accordion_name: "ABOUT ARIAT"
+    accordion_links:
+      - "About Us"
+      - "Careers"
+      - "Sustainability"
+#      - "Press Room"
+#      - "Giving"
+#      - "Privacy"
+#      - "CA Notice"
+#      - "Gift Cards"
+#  accounts:
+#    accordion_name: "ACCOUNTS"
+#    accordion_links:
+#      - "My Accounts"
+#      - "Ariat Prosite Login"
+#      - "Wish List"
+#      - "Work"
+#      - "Shop By Style"

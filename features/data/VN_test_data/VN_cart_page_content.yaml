@@ -1,0 +1,32 @@
+cart_page_locators:
+  shopping_bag_title: "//div[@class='dttl mw-checkout-title' and starts-with(text(),'SHOPPING BAG')]"
+  checkout_btn_1: "(//div[@class='mw-submit-btn' and text()='Checkout'])[1]"
+  checkout_btn_2: "(//div[@class='mw-submit-btn' and text()='Checkout'])[2]"
+  cart_subtotal: "//div[@id='tdSubTotal']"
+  cart_total: "//span[@id='ctl00_Body1_lblTotal']"
+  offer_code_field: "//div[@class='mw-applied-offer-info']/following-sibling::input"
+  apply_button: "//input[@value='Apply']"
+# cart_shippingamount_oroginal: "//div[@id='checkout_shippingamount_original']"
+# cart_shippingamount_now: "//span[@class='checkout_shippingamount_now']"
+# cart_tax: "//span[@id='ctl00_Body1_lblTax']"
+
+empty_cart_page_locators:
+  shopping_bag_title: "//div[@class='dttl mw-checkout-title' and starts-with(text(),'SHOPPING BAG (0)')]"
+  empty_shopping_bag_text: "//div[text()='YOUR SHOPPING BAG IS CURRENTLY EMPTY']"
+  continue_shopping_button: "//input[@value='Continue Shopping']"
+
+items_multiple_locators:
+  remove_button: "(//input[@type='submit' and contains(@value,'emove')])"
+  image: "(//img[@src and contains(@id, 'imgProduct')])"
+
+item_1_locators:
+  item_1_in_bag_container: "(//div[@class='itemContainer mw-pl-item'])[1]"
+  item_1_qty_selector: "(//select[@id='ctl00_Body1_rptCart_ctl00_ddlQuantity'])[1]"
+  item_1_qty: "(//select[@id='ctl00_Body1_rptCart_ctl00_ddlQuantity'])[1]//option[@selected='selected']"
+  item_1_price: "(//div[@class='checkout_itemprice'])[1]"
+  item_1_availability: "(//div[@class='checkout_itemavailability'])[1]"
+  item_1_in_stock: "(//div[@class='checkout_itemavailability'])[1]//span[text()='IN STOCK']"
+  item_1_color: "(//div[@class='checkout_itemcolor'])[1]"
+  item_1_size: "(//span[@id='ctl00_Body1_rptCart_ctl00_lblProductSize'])[1]"
+  item_1_sku: "(//div[@class='checkout_itemsku'])[1]"
+  item_1_name: "(//div[@class='checkout_itemname mw-checkout-subtitle'])[1]"

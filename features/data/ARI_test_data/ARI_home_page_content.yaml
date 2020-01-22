@@ -1,0 +1,17 @@
+base_locators:
+  new_arrivals_text: "//*[contains(text(), 'New Arrivals')]"
+multiple_locators:
+  banners: "(//*[@data-page='Home'] | //*[@data-page='home'])//img[not(../../../../preceding-sibling::*[contains(text(),'New Arrivals')])]"
+  categories: "(//*[@data-page='Home'] | //*[@data-page='home'])//h4[not(contains(text(),'New Arrivals'))]"
+  shop_categories_buttons: "(//*[@data-page='Home'] | //*[@data-page='home'])//h4[not(contains(text(),'New Arrivals'))]/../..//*[contains(text(), 'SHOP')]"
+  new_arrivals:
+    items_prices: "(//*[contains(text(), 'New Arrivals')]/following-sibling::*//*[contains(text(),'$')])"
+    items_names: "(//*[contains(text(), 'New Arrivals')]/following-sibling::*//*[text() and not(contains(text(),'$'))])"
+    items_images: "(//*[contains(text(), 'New Arrivals')]/following-sibling::*//img)"
+social_section_locators:
+  hash_tag_header: "//*[@id='header_wrapper']"
+#  description: "description_holder"
+  add_photo_button: "//*[@id='widget']//*[contains(@aria-label, 'Add')]"
+  view_gallery_button: "//*[@id='widget']//*[contains(@id, 'view_gallery')]"
+optional_locators:
+  back_to_top_button: "//*[@title='back to top']"

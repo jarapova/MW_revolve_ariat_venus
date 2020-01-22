@@ -1,0 +1,23 @@
+page_links:
+  shop_by_color: "/shopbyfabric.aspx"
+  clearance_shop_by_color: "/clearance_swim_shopbyfabric.aspx"
+  swim: "/swim/default.aspx"
+  sportswear: "/sportswear.aspx"
+  clerance: "/clearance_clothing_plus-size_shopbystyle.aspx"
+  sale_clothing: "/sale_clothing_shopbystyle.aspx"
+  clearance: "/clearance_clothing_shopbystyle.aspx"
+  sale_swim: "/sale_swim_shopbystyle.aspx"
+  clearance_swim: "/clearance_swim_shopbystyle.aspx"
+  sale_lingerie: "/sale_lingerie_shopbystyle.aspx"
+  clearance_lingerie: "/clearance_lingerie_shopbystyle.aspx"
+  sale_clothing_plus_size: "/sale_clothing_plus-size_shopbystyle.aspx"
+  clearance_swim_plus_size: "/clearance_swim_plus-size_shopbystyle.aspx"
+  clearance_clothing_plus_size: "/clearance_clothing_plus-size_shopbystyle.aspx"
+  sale_swim_plus_size: "/sale_swim_plus-size_shopbystyle.aspx"
+shop_by_color_locators:
+  show_all_button: "//*[contains(text(), 'SHOW ALL')]"
+shop_by_color_multiple_locators:
+  color_links: "( //*[@aria-expanded='true']//following-sibling::*//a[@data-moov-link='on' and ( *[text()]) and not(contains(.,'SHOW ALL') )] )"
+shop_by_style_multiple_locators:
+  category_images: "(//*[@data-page='ShopByStyle']//a[@data-moov-link='on' and @data-moov-rel='prefetch']//img)"
+  category_names: "(//*[@data-page='ShopByStyle']//a[@data-moov-link='on' and @data-moov-rel='prefetch']//*[text()][1])"

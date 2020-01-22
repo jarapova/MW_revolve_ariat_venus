@@ -1,0 +1,114 @@
+{
+  "total" : 53,
+  "items" : [ {
+    "uid" : "5737c214673fc16f19ccbfdbc5536dd9",
+    "name" : "As user I want to see product landing page and interact with elements on this page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "5099aed97a2e2d33bca4555c46160751",
+    "name" : "As a customer, I can click on the account icon on header to see account navigation links",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "a18b14cf176258e0716ff96902404c37",
+    "name" : "As a customer, after I've selected my product options (eg. color and size), I can click on \"Add to Bag\" to add the product to my bag/cart.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "fde18d816a5f8e04cf6995bd1c615655",
+    "name" : "As a customer, I can submit a search query in the input field and be taken to a search results page.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "637a2b224ddf70aa5d758498b82d70a4",
+    "name" : "As a customer, I can click on the hamburger menu to open up the mobile navigation.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "3ce30415976bbbc56e21ee1c1248cef1",
+    "name" : "As a customer, I should be able to view \"Complete The Look\" section of a product as a carousel",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "d69f23dd9fe0049b26346ad902543846",
+    "name" : "As a customer, I can select the size and width of the product.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "f1b82317217b915db6619b1e5ea70166",
+    "name" : "As a customer, I can filter search result product listing by all available options.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "665c908a49e566fe6a5f6616b804c094",
+    "name" : "As a customer, I can click on the shopping bag icon and be taken to the shopping bag page.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0dc38d31bceb41536cadb8aa45efc78c",
+    "name" : "As a customer, I can view the product details and description content.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

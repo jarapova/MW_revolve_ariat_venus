@@ -1,0 +1,14 @@
+content_locators:
+  first_name: "//input[@id='ctl00_Body1_txtBillingFirstName']"
+  last_name: "//input[@id='ctl00_Body1_txtBillingLastName']"
+  address: "//input[@id='ctl00_Body1_txtBillingAddress1']"
+  apt: "//input[@id='ctl00_Body1_txtBillingAddress2']"
+  city: "//input[@id='ctl00_Body1_txtBillingCity']"
+  state: "//select[@id='ctl00_Body1_ddlbillingstate']"
+  zip: "//input[@id='ctl00_Body1_txtBillingZip']"
+  country: "//select[@id='ctl00_Body1_ddlBillingCountry']"
+  email: "//input[@id='ctl00_Body1_txtEmail']"
+  submit: "//input[@id='ctl00_Body1_btnSubmitCatalogRequest']"
+content_text:
+  line_1: 'Complete this form'
+  line_2: '* Required'

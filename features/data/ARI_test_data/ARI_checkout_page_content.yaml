@@ -1,0 +1,6 @@
+base_locators:
+  contact_information_label: "//*[contains(text(), 'Contact Information')]"
+  email_address_label: "//*[contains(text(), 'Email ad')]"
+  email_input: "(//input[@type='email'])[1]"
+  order_summary: "//*[contains(text(), 'ORDER SUMMARY')]"
+  next_button: "//*[contains(text(), 'Next')]"

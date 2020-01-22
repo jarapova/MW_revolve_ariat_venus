@@ -1,0 +1,9 @@
+base_locators:
+  main_header: "//h1[contains(text(), 'My Account Login')]"
+  returning_customers: "//*[contains(text(), 'Returning C')]"
+  credentials_text: "//*[contains(text(), 'If you are')]"
+  email_label: "//*[contains(text(), 'Email Address') and not(self::script)]"
+  email_input: "//*[contains(text(), 'Email Address') and not(self::script)]/../..//input"
+  password_label: "//*[text()='Password']"
+  password_input: "//*[text()='Password']/../..//input"
+  login_button: "//button[contains(text(), 'Login')]"

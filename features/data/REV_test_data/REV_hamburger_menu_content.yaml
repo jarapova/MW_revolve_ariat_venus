@@ -1,0 +1,10 @@
+guest_first_page_content:
+  womens: "Womens"
+  mens: "Mens"
+  beauty: "Beauty"
+  gift_revolve: "Gift Revolve"
+  customer_care: "Customer Care"
+optional_categories:
+  my_revolve: "My Revolve"
+hamburger_locators:
+  sign_in_button: "//div[@role='document']//a[contains(text(),'Sign in')]"

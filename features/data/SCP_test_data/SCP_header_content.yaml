@@ -1,0 +1,36 @@
+base_locators:
+  hamburger_icon: "//*[@class='rsf-hamburger']"
+  search_icon: "//*[@aria-label='Search'] | //*[@aria-label='search']"
+  account_icon: "//*[@aria-label='account']"
+  cart_icon: "//*[@aria-label='Cart'] | //*[@aria-label='cart']"
+  logo_button: "//a[*[text()='Shoe Carnival']]"
+count_locators:
+  cart_items_count: "//*[@aria-label='Cart']//*[text()] | //*[@aria-label='cart']//*[text()]"
+closest_stores_multiple_locators:
+  store_name: "(//*[contains(text(), 'Stores near')]//following-sibling::ul/*/div/div//span[text()])"
+  store_address: "(//*[contains(text(), 'Stores near')]//following-sibling::ul/*/div/div//p[text()])"
+  store_distance: "(//*[contains(text(), 'Stores near')]//following-sibling::ul/*/div/span)"
+  more_info_button: "(//*[contains(text(), 'Stores near')]//following-sibling::ul/*//*[contains(text(), 'More info')])"
+closest_store:
+  closest_store_label: "//header//*[contains(text(), 'Closes')]"
+  closest_store_value: "(//header//*[contains(text(), 'Closes')]//following-sibling::*//*[text()])[1]"
+  change_store_link: "(//header//*[contains(text(), 'Closes')]//following-sibling::*//*[text()])[2]"
+search_modal_content:
+  search_field_input: "(//*[@role='presentation']//input)"
+  brand_suggestions_label: "//*[contains(text(), 'Looking for these')]"
+  brand_list: "//*[contains(text(), 'Looking for these')]//following-sibling::ul[li]"
+  categories_suggestions_label: "//*[contains(text(), 'Categories')]"
+  categories_list: "//*[contains(text(), 'Categories')]//following-sibling::ul[li]"
+  pages_suggestions_label: "//*[contains(text(), 'Pages that')]"
+  pages_list: "//*[contains(text(), 'Pages that')]//following-sibling::ul[li]"
+  clear_term_button: "//*[@role='presentation']//button//*[@rel='clear']"
+  find_button: "//*[@role='presentation']//button[@type='submit']"
+  close_modal_button: "(//*[@role='presentation']//button[ancestor::form])[1]"
+search_modal_multiple_locators:
+  items_names: "(((//*[@role='presentation']//*[contains(text(), 'Looking for these')]/../following-sibling::*//ul)[last()])/li//*[text()])"
+  items_images: "(((//*[@role='presentation']//*[contains(text(), 'Looking for these')]/../following-sibling::*//ul)[last()])/li//img)"
+text_for_promotional_banner:
+  guest:
+    message_1: "Earn rewards for shopping."
+    message_2: "FREE Standard Shippin"
+    message_3: "FREE In-Store Pickup + FREE In-Store Returns"

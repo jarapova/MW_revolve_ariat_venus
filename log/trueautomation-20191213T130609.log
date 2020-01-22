@@ -1,0 +1,87 @@
+2019-12-13T11:06:10.640Z [info] 	TrueAutomation.IO Client is listening on port 9515
+2019-12-13T11:06:11.738Z [info] 	Starting TrueAutomation.IO client
+2019-12-13T11:06:11.738Z [info] 	API key: 33426fca-8197-44eb-918f-356cc72ba53f
+2019-12-13T11:06:11.738Z [info] 	Project name: mw-trueautomation
+2019-12-13T11:06:11.738Z [info] 	Cloud server: https://app.trueautomation.io
+2019-12-13T11:06:11.738Z [info] 	Starting chromeDriver /Users/tempuser/.trueautomation/chromedriver/chromedriver_mac64_78.0.3904.105 on port 9516...
+2019-12-13T11:06:16.676Z [info] 	1 Create session response: {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"79.0.3945.79","chrome":{"chromedriverVersion":"78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877})","userDataDir":"/var/folders/72/sz7nwm191gddft3cvjk557h40000gn/T/.com.google.Chrome.Yk752C"},"goog:chromeOptions":{"debuggerAddress":"localhost:63181"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"mac os x","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"},"sessionId":"f9479ef46980fe4581c3cf48170ad098"}}
+2019-12-13T11:06:16.695Z [info] 	1 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/url:  {"url":"https://ariat-dev.moovweb.cloud/"}
+2019-12-13T11:06:18.033Z [info] 	3 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"(//*[contains(@class, 'hamburger')])[1]__ta__ariat:header:hamburger_icon__ta__"}
+2019-12-13T11:06:18.870Z [info] 	3 Element locator: {"value":"/*[1]/*[2]/*[3]/*[1]/*[2]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]","using":"xpath","fromTa":true}
+2019-12-13T11:06:19.133Z [info] 	Element response: {"value":[]}
+2019-12-13T11:06:19.152Z [info] 	4 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"(//*[contains(@class, 'hamburger')])[1]__ta__ariat:header:hamburger_icon__ta__"}
+2019-12-13T11:06:19.743Z [info] 	4 Element locator: {"value":"/*[1]/*[2]/*[2]/*[1]/*[2]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]/*[1]","using":"xpath","fromTa":true}
+2019-12-13T11:06:19.756Z [info] 	Element response: {"value":[{"element-6066-11e4-a52e-4f735466cecf":"4294aa03-677d-4e25-876d-30066f369d6d"}]}
+2019-12-13T11:06:19.759Z [info] 	4 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/execute/sync:  {"script":"return ((function(){function d(t,e,n){function r(t){var e=x(t);if(0<e.height&&0<e.width)return!0;if(\"PATH\"==t.tagName.toUpperCase()&&(0<e.height||0<e.width)){var n=window.getComputedStyle(t)[\"stroke-width\"];return!!n&&0<parseInt(n,10)}return\"hidden\"!=window.getComputedStyle(t).overflow&&Array.prototype.slice.call(t.childNodes).some(function(t){return t.nodeType==Node.TEXT_NODE||t.nodeType==Node.ELEMENT_NODE&&r(t)})}function i(t){return C(t)==T.HIDDEN&&Array.prototype.slice.call(t.childNodes).every(function(t){return t.nodeType!=Node.ELEMENT_NODE||i(t)||!r(t)})}var o=t.tagName.toUpperCase();if(\"BODY\"==o)return!0;if(\"OPTION\"==o||\"OPTGROUP\"==o){var a=c(t,function(t){return\"SELECT\"==t.tagName.toUpperCase()});return!!a&&d(a,!0,n)}var u=s(t);if(u)return!!u.image&&0<u.rect.width&&0<u.rect.height&&d(u.image,e,n);if(\"INPUT\"==o&&\"hidden\"==t.type.toLowerCase())return!1;if(\"NOSCRIPT\"==o)return!1;var l=window.getComputedStyle(t).visibility;return\"collapse\"!=l&&\"hidden\"!=l&&(!!n(t)&&(!(!e&&0==f(t))&&(!!r(t)&&!i(t))))}function E(t){var e=x(t);return{left:e.left,right:e.left+e.width,top:e.top,bottom:e.top+e.height}}function D(t){return t.parentElement}function C(t){function e(t){function e(t){if(t==u)return!0;var e=window.getComputedStyle(t),n=e.display;return 0!=n.indexOf(\"inline\")&&\"contents\"!=n&&(\"absolute\"!=r||\"static\"!=e.position)}var r=window.getComputedStyle(t).position;if(\"fixed\"==r)return i=!0,t==u?null:u;for(var n=D(t);n&&!e(n);)n=D(n);return n}function n(t){var e=t;if(\"visible\"==d)if(t==u&&l)e=l;else if(t==l)return{x:\"visible\",y:\"visible\"};var n=window.getComputedStyle(e),r={x:n[\"overflow-x\"],y:n[\"overflow-y\"]};return t==u&&(r.x=\"visible\"==r.x?\"auto\":r.x,r.y=\"visible\"==r.y?\"auto\":r.y),r}function r(t){return t==u?{x:window.scrollX,y:window.scrollY}:{x:t.scrollLeft,y:t.scrollTop}}for(var i,o=E(t),a=t.ownerDocument,u=a.documentElement,l=a.body,d=window.getComputedStyle(u).overflow,f=e(t);f;f=e(f)){var h=n(f);if(\"visible\"!=h.x||\"visible\"!=h.y){var s=x(f);if(0==s.width||0==s.height)return T.HIDDEN;var p=o.right<s.left,c=o.bottom<s.top;if(p&&\"hidden\"==h.x||c&&\"hidden\"==h.y)return T.HIDDEN;if(p&&\"visible\"!=h.x||c&&\"visible\"!=h.y){var v=r(f),g=o.right<s.left-v.x,w=o.bottom<s.top-v.y;return g&&\"visible\"!=h.x||w&&\"visible\"!=h.x?T.HIDDEN:C(f)==T.HIDDEN?T.HIDDEN:T.SCROLL}var N=o.left>=s.left+s.width,m=o.top>=s.top+s.height;if(N&&\"hidden\"==h.x||m&&\"hidden\"==h.y)return T.HIDDEN;if(N&&\"visible\"!=h.x||m&&\"visible\"!=h.y){if(i){var y=r(f);if(o.left>=u.scrollWidth-y.x||o.right>=u.scrollHeight-y.y)return T.HIDDEN}return C(f)==T.HIDDEN?T.HIDDEN:T.SCROLL}}}return T.NONE}function o(t){var e=t.document.documentElement;return{width:e.clientWidth,height:e.clientHeight}}function p(t,e,n,r){return{left:t,top:e,width:n,height:r}}function x(t){var e,n=s(t);if(n)return n.rect;if(\"HTML\"==t.tagName.toUpperCase()){t.ownerDocument;var r=o(window);return p(0,0,r.width,r.height)}try{e=t.getBoundingClientRect()}catch(i){return p(0,0,0,0)}return p(e.left,e.top,e.right-e.left,e.bottom-e.top)}function f(t){var e=1,n=window.getComputedStyle(t).opacity;n&&(e=Number(n));var r=D(t);return r&&r.nodeType==Node.ELEMENT_NODE&&(e*=f(r)),e}function h(t){var e=t.shape.toLowerCase(),n=t.coords.split(\",\");if(\"rect\"==e&&4==n.length){var r=n[0],i=n[1];return p(r,i,n[2]-r,n[3]-i)}if(\"circle\"==e&&3==n.length){var o=n[0],a=n[1],u=n[2];return p(o-u,a-u,2*u,2*u)}if(\"poly\"==e&&2<n.length){for(var l=n[0],d=n[1],f=l,h=d,s=2;s+1<n.length;s+=2)l=Math.min(l,n[s]),f=Math.max(f,n[s]),d=Math.min(d,n[s+1]),h=Math.max(h,n[s+1]);return p(l,d,f-l,h-d)}return p(0,0,0,0)}function s(t){var e=t.tagName.toUpperCase(),n=\"MAP\"==e;if(!n&&\"AREA\"!=e)return null;var r=n?t:\"MAP\"==D(t).tagName.toUpperCase()?D(t):null,i=null,o=null;if(r&&r.name&&((i=r.ownerDocument.querySelector(\"*[usemap='#\"+r.name+\"']\"))&&(o=x(i),!n&&\"default\"!=t.shape.toLowerCase()))){var a=h(t),u=Math.min(Math.max(a.left,0),o.width),l=Math.min(Math.max(a.top,0),o.height),d=Math.min(a.width,o.width-u),f=Math.min(a.height,o.height-l);o=p(u+o.left,l+o.top,d,f)}return{image:i,rect:o||p(0,0,0,0)}}function c(t,e){for(t&&(t=D(t));t;){if(e(t))return t;t=D(t)}return null}function r(t){var e=t.parentNode;if(e&&e.shadowRoot&&t.assignedSlot!==undefined)return t.assignedSlot?t.assignedSlot.parentNode:null;if(t.getDestinationInsertionPoints){var n=t.getDestinationInsertionPoints();if(0<n.length)return n[n.length-1]}return e}var T={NONE:\"none\",HIDDEN:\"hidden\",SCROLL:\"scroll\"};return function i(t,e){function n(t){if(\"none\"==window.getComputedStyle(t).display)return!1;var e=r(t);if(\"function\"==typeof ShadowRoot&&e instanceof ShadowRoot){if(e.host.shadowRoot!==e)return!1;e=e.host}return!(!e||e.nodeType!=Node.DOCUMENT_NODE&&e.nodeType!=Node.DOCUMENT_FRAGMENT_NODE)||!(e&&e.tagName&&\"DETAILS\"==e.tagName.toUpperCase()&&!e.open&&\"SUMMARY\"!=t.tagName)&&(e&&n(e))}return d(t,!!e,n)}})()).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"4294aa03-677d-4e25-876d-30066f369d6d"}]}
+2019-12-13T11:06:19.767Z [info] 	5 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/element/4294aa03-677d-4e25-876d-30066f369d6d/click:  {}
+2019-12-13T11:06:20.887Z [info] 	7 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:21.496Z [info] 	7 Element not found
+2019-12-13T11:06:21.497Z [info] 	7 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:21.513Z [info] 	8 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:22.023Z [info] 	8 Element not found
+2019-12-13T11:06:22.023Z [info] 	8 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:22.040Z [info] 	9 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:22.585Z [info] 	9 Element not found
+2019-12-13T11:06:22.585Z [info] 	9 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:22.601Z [info] 	10 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:23.153Z [info] 	10 Element not found
+2019-12-13T11:06:23.153Z [info] 	10 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:23.171Z [info] 	11 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:23.725Z [info] 	11 Element not found
+2019-12-13T11:06:23.725Z [info] 	11 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:23.747Z [info] 	12 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:24.231Z [info] 	12 Element not found
+2019-12-13T11:06:24.231Z [info] 	12 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:24.248Z [info] 	13 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:24.765Z [info] 	13 Element not found
+2019-12-13T11:06:24.765Z [info] 	13 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:24.784Z [info] 	14 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:25.368Z [info] 	14 Element not found
+2019-12-13T11:06:25.368Z [info] 	14 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:25.387Z [info] 	15 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:26.610Z [info] 	15 Element not found
+2019-12-13T11:06:26.611Z [info] 	15 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:26.640Z [info] 	16 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:27.332Z [info] 	16 Element not found
+2019-12-13T11:06:27.332Z [info] 	16 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:27.347Z [info] 	17 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:27.933Z [info] 	17 Element not found
+2019-12-13T11:06:27.934Z [info] 	17 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:27.950Z [info] 	18 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:28.510Z [info] 	18 Element not found
+2019-12-13T11:06:28.510Z [info] 	18 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:28.528Z [info] 	19 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:29.072Z [info] 	19 Element not found
+2019-12-13T11:06:29.072Z [info] 	19 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:29.090Z [info] 	20 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:29.667Z [info] 	20 Element not found
+2019-12-13T11:06:29.667Z [info] 	20 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:29.683Z [info] 	21 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:30.252Z [info] 	21 Element not found
+2019-12-13T11:06:30.252Z [info] 	21 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:30.269Z [info] 	22 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:30.878Z [info] 	22 Element not found
+2019-12-13T11:06:30.878Z [info] 	22 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:30.894Z [info] 	23 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:31.408Z [info] 	23 Element not found
+2019-12-13T11:06:31.408Z [info] 	23 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:31.429Z [info] 	24 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:31.956Z [info] 	24 Element not found
+2019-12-13T11:06:31.956Z [info] 	24 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:31.971Z [info] 	25 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:32.509Z [info] 	25 Element not found
+2019-12-13T11:06:32.509Z [info] 	25 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:32.527Z [info] 	26 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"//*[@role='document']//*[contains(text(),'Men')]__ta__ariat:hamburger_menu:categories:men__ta__"}
+2019-12-13T11:06:33.056Z [info] 	26 Element not found
+2019-12-13T11:06:33.056Z [info] 	26 Element locator: {"error":"NOT_FOUND"}
+2019-12-13T11:06:33.059Z [info] 	26 Sending GET request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/window/handles:  {}
+2019-12-13T11:06:33.067Z [info] 	27 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/window:  {"handle":"CDwindow-A8E7FCB98DEBAB1CD52135B8CBA8679A"}
+2019-12-13T11:06:33.072Z [info] 	28 Sending GET request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/window/handles:  {}
+2019-12-13T11:06:33.076Z [info] 	29 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/url:  {"url":"about:blank"}
+2019-12-13T11:06:33.139Z [info] 	31 Sending element request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098:  {"using":"xpath","value":"/html/body/*"}
+2019-12-13T11:06:33.140Z [info] 	31 Element locator: {"value":"/html/body/*","using":"xpath","fromTa":false}
+2019-12-13T11:06:33.390Z [info] 	Element response: {"value":[]}
+2019-12-13T11:06:33.390Z [info] 	31 Element locator: {"value":"/html/body/*","using":"xpath","fromTa":false}
+2019-12-13T11:06:33.642Z [info] 	Element response: {"value":[]}
+2019-12-13T11:06:33.645Z [info] 	31 Sending POST request to http://localhost:9516/session/f9479ef46980fe4581c3cf48170ad098/goog/cdp/execute:  {"cmd":"Storage.clearDataForOrigin","params":{"origin":"*","storageTypes":"cookies,local_storage"}}
+2019-12-13T11:06:33.683Z [info] 	Sync elements
